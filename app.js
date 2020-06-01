@@ -5,10 +5,11 @@ const app = express()
 
 //Routes
 const itemListRouter = require('./routes/itemList');
-const itemDetailRouter = require('./routes/itemDetail');
+const itemInfoRouter = require('./routes/itemInfo');
 
 app.use('/ItemList', itemListRouter)
-app.use('/ItemDetail', itemDetailRouter)
+app.use('/ItemInfo', itemInfoRouter)
+app.use('/ItemPricing', itemPricingRouter)
 
 
 const PORT = process.env.PORT || '3000'
