@@ -6,7 +6,7 @@ router.get('/:category/:categoryNumber', (req, res, next) => {
     const categoryNumber = req.params.categoryNumber
 
     res.send(
-        `You Made a ItemList Request:
+        `You Made a ItemList Request for
         
         Category: ${category} 
         CategoryNumber: ${categoryNumber}`

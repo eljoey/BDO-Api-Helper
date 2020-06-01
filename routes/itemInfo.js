@@ -5,7 +5,7 @@ router.get('/:itemKey', (req, res, next) => {
     const itemKey = req.params.itemKey
 
     res.send(
-        `You Requested Item Detail for
+        `You Made a Item Detail Request for
         
         ItemKey: ${itemKey}`
     )
