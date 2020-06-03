@@ -1,10 +1,11 @@
 const express = require('express')
-const mongoose = require('mongoose')
+const config = require('./helpers/config')
 
 const app = express()
 
 //Routes
     // TODO: Change over all routes to post req and send info in body.
+    // TODO: Implement Caching
 const itemListRouter = require('./routes/itemList');
 const itemInfoRouter = require('./routes/itemInfo');
 const itemPricingRouter = require('./routes/itemPricing');
@@ -16,5 +17,5 @@ app.use('/ItemPricing', itemPricingRouter)
 app.use('/ItemSearch', itemSearchRouter)
 
 
-const PORT = process.env.PORT || '3000'
+const PORT = config.PORT || '3000'
 app.listen(PORT, console.log(`Listening on port ${PORT}`))
