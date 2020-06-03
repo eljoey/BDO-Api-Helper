@@ -29,16 +29,55 @@ const ItemList = (mainCategory, subCategory) => {
   return options
 }
 
-const ItemInfo = () => {
+const ItemInfo = (itemKey) => {
   const endRoute = 'GetWorldMarketSubList'
+
+  const options = {
+    method: 'POST',
+    url: `${baseURL}/${endRoute}`,
+    headers,
+    formData: {
+      __RequestVerificationToken: config.BDO_TOKEN,
+      itemKey,
+    },
+  }
+
+  return options
 }
 
-const ItemPricing = () => {
+const ItemPricing = (mainKey, subKey) => {
   const endRoute = 'GetItemSellBuyInfo'
+
+  const options = {
+    method: 'POST',
+    url: `${baseURL}/${endRoute}`,
+    headers,
+    formData: {
+      __RequestVerificationToken: config.BDO_TOKEN,
+      keyType: 0,
+      mainKey,
+      subKey,
+      isUp: true,
+    },
+  }
+
+  return options
 }
 
-const ItemSearch = () => {
+const ItemSearch = (searchText) => {
   const endRoute = 'GetWorldMarketSearchList'
+
+  const options = {
+    method: 'POST',
+    url: `${baseURL}/${endRoute}`,
+    headers,
+    formData: {
+      __RequestVerificationToken: config.BDO_TOKEN,
+      searchText,
+    },
+  }
+
+  return options
 }
 
 module.exports = {
