@@ -8,9 +8,9 @@ router.get('/:category/:categoryNumber', async (req, res, next) => {
   const category = req.params.category
   const categoryNumber = req.params.categoryNumber
 
-  let options = getApiConfig.ItemList(category, categoryNumber)
+  let config = getApiConfig.ItemList(category, categoryNumber)
 
-  request(options, function (err, response) {
+  request(config, function (err, response) {
     if (err) throw new Error(err)
     res.send(JSON.parse(response.body))
   })

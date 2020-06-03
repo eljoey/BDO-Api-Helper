@@ -29,7 +29,7 @@ const ItemList = (mainCategory, subCategory) => {
   return options
 }
 
-const ItemInfo = (itemKey) => {
+const ItemInfo = (mainKey) => {
   const endRoute = 'GetWorldMarketSubList'
 
   const options = {
@@ -38,7 +38,7 @@ const ItemInfo = (itemKey) => {
     headers,
     formData: {
       __RequestVerificationToken: config.BDO_TOKEN,
-      itemKey,
+      mainKey,
     },
   }
 
