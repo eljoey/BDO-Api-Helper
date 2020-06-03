@@ -54,10 +54,10 @@ const ItemPricing = (mainKey, subKey) => {
     headers,
     formData: {
       __RequestVerificationToken: config.BDO_TOKEN,
-      keyType: 0,
+      keyType: '0',
       mainKey,
       subKey,
-      isUp: true,
+      isUp: 'true',
     },
   }
 
