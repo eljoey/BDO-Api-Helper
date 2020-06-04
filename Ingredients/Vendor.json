@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ancient Cron Spice",
+    "vendorPrice": 50000
+  },
+  {
+    "name": "Base Sauce",
+    "vendorPrice": 40
+  },
+  {
+    "name": "Cooking Wine",
+    "vendorPrice": 40
+  },
+  {
+    "name": "Deep Frying Oil",
+    "vendorPrice": 40
+  },
+  {
+    "name": "Leavining Agent",
+    "vendorPrice": 20
+  },
+  {
+    "name": "Mineral Water",
+    "vendorPrice": 30
+  },
+  {
+    "name": "Olive Oil",
+    "vendorPrice": 40
+  },
+  {
+    "name": "Salt",
+    "vendorPrice": 20
+  },
+  {
+    "name": "Sugar",
+    "vendorPrice": 20
+  }
+]

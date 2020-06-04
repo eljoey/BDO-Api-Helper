@@ -1,0 +1,572 @@
+[
+  {
+    "name": "Dried Mudskipper",
+    "id": 8501,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Tuna",
+    "id": 8502,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Beltfish",
+    "id": 8503,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Flounder",
+    "id": 8504,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Salmon",
+    "id": 8505,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Amberjack",
+    "id": 8506,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Porgy",
+    "id": 8507,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Swellfish",
+    "id": 8508,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Saurel",
+    "id": 8509,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Rockfish",
+    "id": 8510,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Squid",
+    "id": 8511,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Octopus",
+    "id": 8512,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Crab",
+    "id": 8513,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Jellyfish",
+    "id": 8514,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Shellfish",
+    "id": 8515,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Carp",
+    "id": 8516,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Crucian Carp",
+    "id": 8517,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Trout",
+    "id": 8518,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Catfish",
+    "id": 8519,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Freshwater Eel",
+    "id": 8520,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Snakehead",
+    "id": 8521,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Cherry Salmon",
+    "id": 8522,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Cuvier",
+    "id": 8523,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sunfish",
+    "id": 8524,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sea Bass",
+    "id": 8525,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Angler",
+    "id": 8526,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Swordfish",
+    "id": 8527,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Mackerel",
+    "id": 8528,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Flying Fish",
+    "id": 8529,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Skipjack",
+    "id": 8530,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Ray",
+    "id": 8531,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Seahorse",
+    "id": 8532,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Starfish",
+    "id": 8533,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Filefish",
+    "id": 8534,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Scorpion Fish",
+    "id": 8535,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Mullet",
+    "id": 8536,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Swiri",
+    "id": 8537,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sturgeon",
+    "id": 8538,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Piranha",
+    "id": 8539,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Mandarin Fish",
+    "id": 8540,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Lenok",
+    "id": 8541,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Arowana",
+    "id": 8542,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sweetfish",
+    "id": 8543,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Terrapin",
+    "id": 8544,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bass",
+    "id": 8545,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Crawfish",
+    "id": 8546,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Dace",
+    "id": 8547,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bluegill",
+    "id": 8548,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Perch",
+    "id": 8549,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Notch Jaw",
+    "id": 8550,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Mudfish",
+    "id": 8551,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Goby Minnow",
+    "id": 8552,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bitterling",
+    "id": 8553,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bleeker",
+    "id": 8554,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Yellowfin Sculpin",
+    "id": 8555,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Cero",
+    "id": 8556,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sea Eel",
+    "id": 8557,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Croaker",
+    "id": 8558,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Greenling",
+    "id": 8559,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Flatfish",
+    "id": 8560,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Grunt",
+    "id": 8561,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Herring",
+    "id": 8562,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sardine",
+    "id": 8563,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Round Herring",
+    "id": 8564,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Silver Stripe Round Herring",
+    "id": 8565,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Whiting",
+    "id": 8566,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Dolphinfish",
+    "id": 8567,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Striped Catfish",
+    "id": 8568,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Gunnel",
+    "id": 8569,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Golden-Thread",
+    "id": 8570,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Nibbler",
+    "id": 8571,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Siganid",
+    "id": 8572,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bluefish",
+    "id": 8573,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Surfperch",
+    "id": 8574,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Blackfin Sweeper",
+    "id": 8575,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Smokey Chromis",
+    "id": 8576,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Maomao",
+    "id": 8577,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Pintado",
+    "id": 8578,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Gurnard",
+    "id": 8579,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried John Dory",
+    "id": 8581,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sandfish",
+    "id": 8582,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Rosefish",
+    "id": 8583,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Grouper",
+    "id": 8584,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bigeye",
+    "id": 8585,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Fourfinger Threadfin",
+    "id": 8586,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Leather Carp",
+    "id": 8587,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Striped Shiner",
+    "id": 8588,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Barbel Steed",
+    "id": 8589,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Soho Bitterling",
+    "id": 8590,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Bubble Eye",
+    "id": 8591,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Pacu",
+    "id": 8592,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Yellow-Head Catfish",
+    "id": 8593,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Smelt",
+    "id": 8594,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Rosy Bitterling",
+    "id": 8595,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Roundtail Paradisefish",
+    "id": 8506,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Grayling",
+    "id": 8597,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Tapertail Anchovy",
+    "id": 8598,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Kuhlia Marginata",
+    "id": 8599,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Rock Hind",
+    "id": 8600,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Butterflyfish",
+    "id": 8601,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Clownfish",
+    "id": 8602,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Blue Tang",
+    "id": 8603,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Checkerboard Wrasse",
+    "id": 8604,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Pomfret",
+    "id": 8605,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Moray",
+    "id": 8629,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Tilefish",
+    "id": 8630,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Porcupine Fish",
+    "id": 8631,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Tongue Sole",
+    "id": 8632,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Atka Mackerel",
+    "id": 8633,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Cuttlefish",
+    "id": 8634,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Mackerel Pike",
+    "id": 8635,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Horn Fish",
+    "id": 8636,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Dollarfish",
+    "id": 8637,
+    "group": "Dried Fish"
+  },
+  {
+    "name": "Dried Sandeel",
+    "id": 8638,
+    "group": "Dried Fish"
+  }
+]
