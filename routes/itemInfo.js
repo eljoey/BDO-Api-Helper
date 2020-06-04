@@ -1,14 +1,15 @@
 const express = require('express')
 const request = require('request')
-const getApiConfig = require('../helpers/getApiConifg')
+const apiConfig = require('../helpers/apiConifg')
 
 const router = express.Router()
 
 router.get('/:itemKey', (req, res, next) => {
-  const itemKey = req.params.itemKey
+  const mainKey = req.params.itemKey
 
-  const config = getApiConfig.ItemInfo(itemKey)
+  const config = apiConfig.createConfig('ItemInfo', { mainKey })
 
+  console.log(config)
   request(config, function (err, response) {
     if (err) throw new Error(err)
     res.send(JSON.parse(response.body))
