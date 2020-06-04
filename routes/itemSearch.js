@@ -5,7 +5,7 @@ const apiConfig = require('../helpers/apiConifg')
 const router = express.Router()
 
 router.get('/:searchText', (req, res, next) => {
-  const searchText = req.params.searchText
+  const searchText = req.params.searchText.replace('+', ' ')
 
   const config = apiConfig.createConfig('ItemSearch', { searchText })
 
