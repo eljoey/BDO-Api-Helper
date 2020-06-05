@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/eljoey/BDO-Api-Helper#readme",
   "dependencies": {
+    "async": "^3.2.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.16",
     "nodemon": "^2.0.4",
     "request": "^2.88.2"
   }

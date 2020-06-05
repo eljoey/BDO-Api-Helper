@@ -1,6 +1,5 @@
 const express = require('express')
-const request = require('request')
-const apiConfig = require('../helpers/apiConifg')
+const apiConfig = require('../utils/apiConifg')
 
 const router = express.Router()
 
@@ -13,12 +12,13 @@ router.get('/:mainKey/:subKey', (req, res, next) => {
     isUp: 'True',
   }
 
-  const config = apiConfig.createConfig('ItemPricing', formData)
-
-  request(config, function (err, response) {
+  const handleData = (err, data) => {
     if (err) throw new Error(err)
-    res.send(JSON.parse(response.body))
-  })
+
+    res.send(data)
+  }
+
+  apiConfig.bdoApiCall('ItemPricing', formData, handleData)
 })
 
 module.exports = router

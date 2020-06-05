@@ -1,4 +1,7 @@
 const config = require('./config')
+const request = require('request')
+
+let BDOApiConfig
 
 const getUrl = (route) => {
   const baseURL = 'https://marketweb-na.blackdesertonline.com/Home'
@@ -10,7 +13,6 @@ const getUrl = (route) => {
   }
 
   const url = `${baseURL}/${routeEndpoint[route]}`
-
   return url
 }
 
@@ -27,11 +29,20 @@ const createConfig = (route, dataObj) => {
       __RequestVerificationToken: config.BDO_TOKEN,
       ...dataObj,
     },
+    json: true,
   }
 
-  return apiConfig
+  BDOApiConfig = apiConfig
+}
+
+const bdoApiCall = (route, dataObj, callback) => {
+  createConfig(route, dataObj)
+
+  request(BDOApiConfig, (err, res) => {
+    callback(err, res.body)
+  })
 }
 
 module.exports = {
-  createConfig,
+  bdoApiCall,
 }
