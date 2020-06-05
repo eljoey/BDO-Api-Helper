@@ -4,6 +4,7 @@ const config = require('./utils/config')
 const app = express()
 
 //Routes
+// TODO: Alch mat prices
 // TODO: Change over all routes to post req and send info in body.
 // TODO: Implement Caching
 const itemListRouter = require('./routes/itemList')
