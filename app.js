@@ -1,5 +1,6 @@
 const express = require('express')
 const config = require('./utils/config')
+const middleware = require('./utils/middleware')
 
 const app = express()
 
@@ -19,8 +20,8 @@ app.use('/ItemList', itemListRouter)
 app.use('/ItemInfo', itemInfoRouter)
 app.use('/ItemPricing', itemPricingRouter)
 app.use('/ItemSearch', itemSearchRouter)
-app.use('/CookMatPrices', cookMatPricesRouter)
-app.use('/AlchMatPrices', alchMatPricesRouter)
+app.use('/CookMatPrices', middleware.cache(300), cookMatPricesRouter)
+app.use('/AlchMatPrices', middleware.cache(300), alchMatPricesRouter)
 
 const PORT = config.PORT || '3000'
 app.listen(PORT, console.log(`Listening on port ${PORT}`))

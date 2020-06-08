@@ -1,6 +1,5 @@
 const express = require('express')
 const apiConfig = require('../utils/apiConifg')
-const request = require('request')
 
 const router = express.Router()
 
