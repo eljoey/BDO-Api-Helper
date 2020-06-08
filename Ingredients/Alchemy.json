@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Amanitia Mushroom",
+    "id": 5419,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Ancient Mushroom",
+    "id": 5418,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Arrow Mushroom",
+    "id": 5408,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Ash Sap",
+    "id": 5001,
+    "group": "Saps"
+  },
+  {
+    "name": "Worm Blood",
+    "id": 6209,
+    "group": "Blood 5"
+  },
+  {
+    "name": "Lizard Blood",
+    "id": 6208,
+    "group": "Blood 5"
+  },
+  {
+    "name": "Bat Blood",
+    "id": 6219,
+    "group": "Blood 5"
+  },
+  {
+    "name": "Kuku Bird Blood",
+    "id": 6217,
+    "group": "Blood 5"
+  },
+  {
+    "name": "Cobra Blood",
+    "id": 6222,
+    "group": "Blood 5"
+  },
+  {
+    "name": "Troll Blood",
+    "id": 6220,
+    "group": "Blood 4"
+  },
+  {
+    "name": "Bear Blood",
+    "id": 6213,
+    "group": "Blood 4"
+  },
+  {
+    "name": "Ogre Blood",
+    "id": 6221,
+    "group": "Blood 4"
+  },
+  {
+    "name": "Birch Sap",
+    "id": 5004,
+    "group": "Saps"
+  },
+  {
+    "name": "Black Stone Powder",
+    "id": 4901,
+    "group": ""
+  },
+  {
+    "name": "Bloody Tree Knot",
+    "id": 5005,
+    "group": ""
+  },
+  {
+    "name": "Blue Umbrella Mushroom",
+    "id": 5516,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Blue Whale Oil",
+    "id": 9727,
+    "group": ""
+  },
+  {
+    "name": "Blue Whale Tendon",
+    "id": 9729,
+    "group": ""
+  },
+  {
+    "name": "Bluffer Mushroom",
+    "id": 5417,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Cedar Sap",
+    "id": 5010,
+    "group": "Saps"
+  },
+  {
+    "name": "Clear Liquid Reagent",
+    "id": 5301,
+    "group": ""
+  },
+  {
+    "name": "Cloud Mushroom",
+    "id": 5410,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Clown's Blood",
+    "id": 6353,
+    "group": "Tier 2 Blood"
+  },
+  {
+    "name": "Dead Tree Essence",
+    "id": 5019,
+    "group": ""
+  },
+  {
+    "name": "Dry Mane Grass",
+    "id": 5404,
+    "group": "Herbs"
+  },
+  {
+    "name": "Dwarf Mushroom",
+    "id": 5409,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Emperor Mushroom",
+    "id": 5413,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Everlasting Herb",
+    "id": 5406,
+    "group": "Herbs"
+  },
+  {
+    "name": "Fir Sap",
+    "id": 5009,
+    "group": "Saps"
+  },
+  {
+    "name": "Fire Flake Flower",
+    "id": 5403,
+    "group": "Herbs"
+  },
+  {
+    "name": "Fog Mushroom",
+    "id": 5415,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Fortune Teller Mushroom",
+    "id": 5407,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Weasel Blood",
+    "id": 6212,
+    "group": "Blood 3"
+  },
+  {
+    "name": "Fox Blood",
+    "id": 6203,
+    "group": "Blood 3"
+  },
+  {
+    "name": "Raccoon Blood",
+    "id": 6210,
+    "group": "Blood 3"
+  },
+  {
+    "name": "Fruit of Abundance",
+    "id": 5203,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Crimson Flame",
+    "id": 5201,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Destruction",
+    "id": 5215,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Enchantment",
+    "id": 5209,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Magic Power",
+    "id": 5211,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Nature",
+    "id": 5205,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of Perfection",
+    "id": 5213,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fruit of the Sun",
+    "id": 5207,
+    "group": "Alchemy Fruit"
+  },
+  {
+    "name": "Fugitive Khalk's Skin",
+    "id": 9736,
+    "group": ""
+  },
+  {
+    "name": "Ghost Mushroom",
+    "id": 5414,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Griffon Claw",
+    "id": 9741,
+    "group": ""
+  },
+  {
+    "name": "Herbal Gunpowder",
+    "id": 5604,
+    "group": ""
+  },
+  {
+    "name": "Hump Mushroom",
+    "id": 5416,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Insectivore Plant Powder",
+    "id": 5601,
+    "group": ""
+  },
+  {
+    "name": "Insectivore Plant Sap",
+    "id": 5602,
+    "group": ""
+  },
+  {
+    "name": "Legendary Beast's Blood",
+    "id": 6351,
+    "group": "Tier 2 Blood"
+  },
+  {
+    "name": "Loopy Tree Sap",
+    "id": 5018,
+    "group": "Saps"
+  },
+  {
+    "name": "Maple Sap",
+    "id": 5002,
+    "group": "Saps"
+  },
+  {
+    "name": "Monk's Branch",
+    "id": 5007,
+    "group": ""
+  },
+  {
+    "name": "Moss Tree Sap",
+    "id": 5017,
+    "group": "Saps"
+  },
+  {
+    "name": "Oil of Corruption",
+    "id": 6604,
+    "group": "Oils"
+  },
+  {
+    "name": "Oil of Fortitude",
+    "id": 6603,
+    "group": "Oils"
+  },
+  {
+    "name": "Oil of Regeneration",
+    "id": 6601,
+    "group": "Oils"
+  },
+  {
+    "name": "Oil of Storms",
+    "id": 6602,
+    "group": "Oils"
+  },
+  {
+    "name": "Oil of the Abyss",
+    "id": 6606,
+    "group": "Oils"
+  },
+  {
+    "name": "Oil of Tranquility",
+    "id": 6605,
+    "group": "Oils"
+  },
+  {
+    "name": "Old Tree Bark",
+    "id": 5008,
+    "group": ""
+  },
+  {
+    "name": "Pine Sap",
+    "id": 5003,
+    "group": "Saps"
+  },
+  {
+    "name": "Powder of Crevice",
+    "id": 4803,
+    "group": "Powder"
+  },
+  {
+    "name": "Powder of Darkness",
+    "id": 4801,
+    "group": "Powder"
+  },
+  {
+    "name": "Powder of Earth",
+    "id": 4804,
+    "group": "Powder"
+  },
+  {
+    "name": "Powder of Flame",
+    "id": 4802,
+    "group": "Powder"
+  },
+  {
+    "name": "Powder of Time",
+    "id": 4805,
+    "group": "Powder"
+  },
+  {
+    "name": "Pure Powder Reagen",
+    "id": 5302,
+    "group": ""
+  },
+  {
+    "name": "Purified Water",
+    "id": 6656,
+    "group": ""
+  },
+  {
+    "name": "Red Tree Lump",
+    "id": 5011,
+    "group": ""
+  },
+  {
+    "name": "Rough Stone",
+    "id": 4006,
+    "group": ""
+  },
+  {
+    "name": "Silk Honey Grass",
+    "id": 5405,
+    "group": "Herbs"
+  },
+  {
+    "name": "Silver Azalea",
+    "id": 5402,
+    "group": "Herbs"
+  },
+  {
+    "name": "Sinner's Blood",
+    "id": 6354,
+    "group": "Tier 2 Blood"
+  },
+  {
+    "name": "Sky Blue Flower",
+    "id": 5525,
+    "group": "Herbs"
+  },
+  {
+    "name": "Sky Mushroom",
+    "id": 5411,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Spirit's Leaf",
+    "id": 5006,
+    "group": ""
+  },
+  {
+    "name": "Sticky Liquid",
+    "id": 44084,
+    "group": ""
+  },
+  {
+    "name": "Sunrise Herb",
+    "id": 5401,
+    "group": "Herbs"
+  },
+  {
+    "name": "Thuja Sap",
+    "id": 5020,
+    "group": "Saps"
+  },
+  {
+    "name": "Tiger Mushroom",
+    "id": 5412,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Trace of Ascension",
+    "id": 5955,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Battle",
+    "id": 5958,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Chaos",
+    "id": 5951,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Death",
+    "id": 5962,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Forest",
+    "id": 5960,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Hunting",
+    "id": 5959,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Memory",
+    "id": 5963,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Origin",
+    "id": 5957,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Savagery",
+    "id": 5956,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of the Earth",
+    "id": 5954,
+    "group": "Traces"
+  },
+  {
+    "name": "Trace of Violence",
+    "id": 5961,
+    "group": "Traces"
+  },
+  {
+    "name": "Truffle Mushroom",
+    "id": 5420,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "Tyrant's Blood",
+    "id": 6352,
+    "group": "Tier 2 Blood"
+  },
+  {
+    "name": "Violet Flower",
+    "id": 5526,
+    "group": "Herbs"
+  },
+  {
+    "name": "Volcanic Umbrella Mushroom",
+    "id": 5517,
+    "group": "Mushrooms"
+  },
+  {
+    "name": "White Cedar Sap",
+    "id": 5012,
+    "group": "Saps"
+  },
+  {
+    "name": "Wild Grass",
+    "id": 5439,
+    "group": "Herbs"
+  },
+  {
+    "name": "Wise Man's Blood",
+    "id": 6355,
+    "group": "Tier 2 Blood"
+  },
+  {
+    "name": "Wolf Blood",
+    "id": 6214,
+    "group": "Blood 1"
+  },
+  {
+    "name": "Flamingo Blood",
+    "id": 6218,
+    "group": "Blood 1"
+  },
+  {
+    "name": "Rhino Blood",
+    "id": 6204,
+    "group": "Blood 1"
+  },
+  {
+    "name": "Cheetah Dragon Blood",
+    "id": 6216,
+    "group": "Blood 1"
+  }
+]
