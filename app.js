@@ -4,20 +4,23 @@ const config = require('./utils/config')
 const app = express()
 
 //Routes
-// TODO: Alch mat prices
 // TODO: Change over all routes to post req and send info in body.
 // TODO: Implement Caching
+// TODO: Sort Ingredients into groups and add ability to grab prices for groups
+// TODO: Learn how to make queries work
 const itemListRouter = require('./routes/itemList')
 const itemInfoRouter = require('./routes/itemInfo')
 const itemPricingRouter = require('./routes/itemPricing')
 const itemSearchRouter = require('./routes/itemSearch')
 const cookMatPricesRouter = require('./routes/cookMatPrices')
+const alchMatPricesRouter = require('./routes/alchMatPrices')
 
 app.use('/ItemList', itemListRouter)
 app.use('/ItemInfo', itemInfoRouter)
 app.use('/ItemPricing', itemPricingRouter)
 app.use('/ItemSearch', itemSearchRouter)
 app.use('/CookMatPrices', cookMatPricesRouter)
+app.use('/AlchMatPrices', alchMatPricesRouter)
 
 const PORT = config.PORT || '3000'
 app.listen(PORT, console.log(`Listening on port ${PORT}`))
