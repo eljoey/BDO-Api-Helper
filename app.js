@@ -25,7 +25,7 @@ app.use('/ItemPricing', itemPricingRouter)
 app.use('/ItemSearch', itemSearchRouter)
 app.use('/CookMatPrices', middleware.cache(300), cookMatPricesRouter)
 app.use('/AlchMatPrices', middleware.cache(300), alchMatPricesRouter)
-app.use('./CustomSearch', customSearchRouter)
+app.use('/CustomSearch', customSearchRouter)
 
 const PORT = config.PORT || '3000'
 app.listen(PORT, console.log(`Listening on port ${PORT}`))

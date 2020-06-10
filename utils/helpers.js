@@ -20,12 +20,12 @@ const formatData = (data) => {
         name: dataObj.name,
         price: dataObj.pricePerOne,
         count: dataObj.count,
+        enhanceGrade: dataObj.subKey,
       }
 
       dataHolder.push(formatedData)
     }
   }
-
   return dataHolder
 }
 
