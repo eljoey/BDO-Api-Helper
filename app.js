@@ -8,7 +8,6 @@ app.use(bodyparser.json())
 
 //Routes
 // TODO: Sort Ingredients into groups and add ability to grab prices for groups
-// TODO: Implement caching (https://medium.com/@brianhague/caching-api-queries-in-node-d6910538225e)
 const apiRouter = require('./routes/api')
 const mpCloneRouter = require('./routes/mpClone')
 
