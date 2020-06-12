@@ -174,19 +174,19 @@ Returns json in the following format
 
 - **marketConditionList -** array of price values and buy/sell orders.
 
-  - **sellCount -** current ammount up for sale
-  - **buyCount -** current ammount of buy orders up
-  - **pricePerOne -** price to buy/sell at
+  - **sellCount -** current ammount up for sale.
+  - **buyCount -** current ammount of buy orders up.
+  - **pricePerOne -** price to buy/sell at.
 
 - **basePrice -** average price.
 
-- **enchantGroup -** min enhantment level for the group (ex. when you go to base Kzarka the enchantment group will be 0-7 thus min will be 0 ).
+- **enchantGroup -** min enhantment level for the group (ex. when you go to base Kzarka the enchantment group will be 0-7 thus min will be 0).
 
-- **enchantMaxGroup -** max enhantment level for the group (ex. when you go to base Kzarka the enchantment group will be 0-7 thus max will be 7 ).
+- **enchantMaxGroup -** max enhantment level for the group (ex. when you go to base Kzarka the enchantment group will be 0-7 thus max will be 7).
 
-- **enchantMaterialKey -** the itemId of the material used to enhance the current item (if there is none it will be 0)
+- **enchantMaterialKey -** the itemId of the material used to enhance the current item (if there is none it will be 0).
 
-- **enchantMaterialPrice -** the average marketplace price of the material used to enhance the current item (if there is none it will be 0)
+- **enchantMaterialPrice -** the average marketplace price of the material used to enhance the current item (if there is none it will be 0).
 
 - **enchantNeedCount -** unsure what this is for.
 

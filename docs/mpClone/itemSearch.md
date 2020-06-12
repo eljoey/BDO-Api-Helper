@@ -16,7 +16,7 @@ Get the details of a marketplace search
 
 **Content examples**
 
-Returns json in the following format
+Returns json in the following format.
 
 ```json
 {
@@ -38,10 +38,10 @@ Returns json in the following format
 
 - **List -** is the list of items containing the search text.
 
-  - **name -** name of the item
-  - **mainKey -** itemId of the item
-  - **sumCount -** total items up on market of the item
-  - **totalSumCount -** total sales of the item
+  - **name -** name of the item.
+  - **mainKey -** itemId of the item.
+  - **sumCount -** total items up on market of the item.
+  - **totalSumCount -** average price of base item.
   - **grade -** is the rarity:
     | Grade | Rarity |
     | ----- | ----- |
@@ -50,3 +50,5 @@ Returns json in the following format
     |2 | Blue |
     |3 | Yellow |
     |4 | Red |
+
+    - I have no idea what resultCode and resultMsg are for.

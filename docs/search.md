@@ -30,7 +30,7 @@ Get the details of the marketplace info for the list of items sent in the body o
 
 **Content examples**
 
-Returns a list of items in the following format
+Returns a list of items in the following format.
 
 ```json
 {

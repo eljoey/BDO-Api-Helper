@@ -4,7 +4,7 @@ Api wrapper to grab marketplace data from BDO's NA marketplace
 
 ## Routes
 
-- Base Url `www.wee.com`
+- Base Url `www.iwillprobablyforgettoupdatethis.com`
 
 ### Prices
 

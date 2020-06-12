@@ -1,10 +1,10 @@
 # Item-Info Marketplace Clone
 
-Get the detailed marketplace info of an item
+Get the detailed marketplace info of an item.
 
 **URL** : `/api/marketplace-clone/item-list/:mainKey`
 
-**URL Parameters** : `mainKey=[integer]` where `mainKey` is the itemId
+**URL Parameters** : `mainKey=[integer]` where `mainKey` is the itemId.
 
 **Method** : `GET`
 
@@ -16,7 +16,7 @@ Get the detailed marketplace info of an item
 
 **Content examples**
 
-Returns a list of item/s in the following format
+Returns a list of item/s in the following format.
 
 ```json
 {
@@ -67,3 +67,5 @@ Returns a list of item/s in the following format
 - **mainCategory && subCategory -** are the tabs where the item was found in the marketplace. Can ignore this information.
 
 - **chooseKey -** I have no idea what this is for, but it looks like it might also be for the enhancement level.
+
+- I have no idea what resultCode and resultMsg are for.

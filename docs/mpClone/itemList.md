@@ -1,6 +1,6 @@
 # Item-List Marketplace Clone
 
-Is a clone of the marketplaces broad list of a type of item (ex. main weapon mainCategory and longsword subCategory)
+Is a clone of the marketplaces broad list of a type of item (ex. main weapon mainCategory and longsword subCategory).
 
 **URL** : `/api/marketplace-clone/item-list/:mainCategory/:subCategory`
 
@@ -41,7 +41,7 @@ For some reason BDO makes it go as following:
 
 **Content examples**
 
-Returns a json in the following format
+Returns a json in the following format.
 
 ```json
 {
