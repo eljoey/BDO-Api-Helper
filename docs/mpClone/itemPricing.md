@@ -164,7 +164,7 @@ Returns json in the following format
   "sellMaxCount": 0,
   "buyMaxCount": 0,
   "resultCode": 0,
-  "resultMsg": (A whole bunch of dates and prices for the data graph here)
+  "resultMsg": "Data will be here. I removed it from this example."
 }
 ```
 

@@ -16,7 +16,7 @@ Get the details of a marketplace search
 
 **Content examples**
 
-Returns a list of item/s in the following format
+Returns json in the following format
 
 ```json
 {
@@ -28,7 +28,6 @@ Returns a list of item/s in the following format
       "name": "Caphras Stone",
       "grade": 2
     }
-    (rest of items that match will go here)
   ],
   "resultCode": 0,
   "resultMsg": ""

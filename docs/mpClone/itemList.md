@@ -41,7 +41,7 @@ For some reason BDO makes it go as following:
 
 **Content examples**
 
-Returns a list of items in the following format
+Returns a json in the following format
 
 ```json
 {
@@ -54,7 +54,6 @@ Returns a list of items in the following format
       "grade": 1,
       "minPrice": 17500
     }
-    ...
   ],
   "resultCode": 0,
   "resultMsg": ""

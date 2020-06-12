@@ -34,7 +34,6 @@ Returns a list of item/s in the following format
       "subCategory": 1,
       "chooseKey": 0
     }
-    // Items that are able to be enhanced will show up here
   ],
 
   "resultCode": 0,
