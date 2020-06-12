@@ -22,149 +22,149 @@ Returns json in the following format
 
 ```json
 {
-    "priceList": [
-        14900000000,
-        15000000000,
-        15100000000,
-        15200000000,
-        15300000000,
-        15400000000,
-        15500000000,
-        15600000000,
-        15700000000,
-        15800000000,
-        15900000000,
-        16000000000
-    ],
-    "marketConditionList": [
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 13800000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 13900000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14000000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14100000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 1,
-            "pricePerOne": 14200000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14300000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14400000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14500000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14600000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14700000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14800000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 14900000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15000000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15100000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15200000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15300000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15400000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15500000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15600000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 15700000000
-        },
-        {
-            "sellCount": 1,
-            "buyCount": 0,
-            "pricePerOne": 15800000000
-        },
-        {
-            "sellCount": 1,
-            "buyCount": 0,
-            "pricePerOne": 15900000000
-        },
-        {
-            "sellCount": 0,
-            "buyCount": 0,
-            "pricePerOne": 16000000000
-        }
-    ],
-    "basePrice": 14900000000,
-    "enchantGroup": 20,
-    "enchantMaxGroup": 20,
-    "enchantMaterialKey": 0,
-    "enchantMaterialPrice": 0,
-    "enchantNeedCount": 0,
-    "maxRegisterForWorldMarket": 5,
-    "countValue": 0,
-    "sellMaxCount": 0,
-    "buyMaxCount": 0,
-    "resultCode": 0,
-    "resultMsg": // A whole buncha dates and prices for the data graph here
+  "priceList": [
+    14900000000,
+    15000000000,
+    15100000000,
+    15200000000,
+    15300000000,
+    15400000000,
+    15500000000,
+    15600000000,
+    15700000000,
+    15800000000,
+    15900000000,
+    16000000000
+  ],
+  "marketConditionList": [
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 13800000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 13900000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14000000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14100000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 1,
+      "pricePerOne": 14200000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14300000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14400000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14500000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14600000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14700000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14800000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 14900000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15000000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15100000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15200000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15300000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15400000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15500000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15600000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 15700000000
+    },
+    {
+      "sellCount": 1,
+      "buyCount": 0,
+      "pricePerOne": 15800000000
+    },
+    {
+      "sellCount": 1,
+      "buyCount": 0,
+      "pricePerOne": 15900000000
+    },
+    {
+      "sellCount": 0,
+      "buyCount": 0,
+      "pricePerOne": 16000000000
+    }
+  ],
+  "basePrice": 14900000000,
+  "enchantGroup": 20,
+  "enchantMaxGroup": 20,
+  "enchantMaterialKey": 0,
+  "enchantMaterialPrice": 0,
+  "enchantNeedCount": 0,
+  "maxRegisterForWorldMarket": 5,
+  "countValue": 0,
+  "sellMaxCount": 0,
+  "buyMaxCount": 0,
+  "resultCode": 0,
+  "resultMsg": (A whole bunch of dates and prices for the data graph here)
 }
 ```
 

@@ -28,7 +28,7 @@ Returns a list of item/s in the following format
       "name": "Caphras Stone",
       "grade": 2
     }
-    // Rest of items matching search text will be here
+    (rest of items that match will go here)
   ],
   "resultCode": 0,
   "resultMsg": ""

@@ -5,6 +5,7 @@ Is a clone of the marketplaces broad list of a type of item (ex. main weapon mai
 **URL** : `/api/marketplace-clone/item-list/:mainCategory/:subCategory`
 
 **URL Parameters** : `mainCategory=[integer]` where `mainCategory` is the number of the main tab (Main Weapon, Sub Weapon, etc.)
+
 **URL Parameters** : `subCategory=[integer]` where `subCategory` is the number of the sub tab (with Main Weapon as the mainCategory. It will have subs such as longsword, longbow, etc.)
 server.
 
@@ -53,7 +54,7 @@ Returns a list of items in the following format
       "grade": 1,
       "minPrice": 17500
     }
-    // Rest of items here
+    ...
   ],
   "resultCode": 0,
   "resultMsg": ""
