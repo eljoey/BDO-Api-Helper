@@ -8,7 +8,7 @@ Api wrapper to grab marketplace data from BDO's NA marketplace
 
 ### Prices
 
-Grabs the current marketplace info for desired items.
+Grabs the current marketplace info for desired items. Routes are cached for 5min but if you are the first to request in the last 5 minutes then it will take a few seconds to get the info and respond.
 
 - [Alchemy](docs/prices/alchemy.md) `GET /api/prices/alchemy`
 - [Cooking](docs/prices/cooking.md) `GET /api/prices/cooking`
@@ -16,11 +16,15 @@ Grabs the current marketplace info for desired items.
 
 ### Custom Search
 
-- [DriedFish](docs/search.md) `GET /api/search`
+Allows you to create a custom search for items if you have all the item ids. Response time will grow with increased items requested.
+
+- [Search](docs/search.md) `GET /api/search`
 
 ### Marketplace Clone
 
-- [Item Info](docs/mpClone/item-info) `GET /marketplace-clone/item-info`
+Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.
+
 - [Item List](docs/mpClone/item-list) `GET /marketplace-clone/item-list`
+- [Item Info](docs/mpClone/item-info) `GET /marketplace-clone/item-info`
 - [Item Pricing](docs/mpClone/item-pricing) `GET /marketplace-clone/item-pricing`
 - [Item Search](docs/mpClone/item-Search) `GET /marketplace-clone/item-search`
