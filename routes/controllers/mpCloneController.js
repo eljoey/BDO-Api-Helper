@@ -27,7 +27,6 @@ exports.itemList_get = async (req, res, next) => {
 
 exports.itemPricing_get = (req, res, next) => {
   // I am assuming that keyType and isUp NEVER change. If they end up changing because of something I cant detect, add them
-  console.log(req.params.mainKey)
   const formData = {
     mainKey: req.params.mainKey,
     subKey: req.params.subKey,
