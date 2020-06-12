@@ -24,7 +24,7 @@ Allows you to create a custom search for items if you have all the item ids. Res
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.
 
-- [Item List](docs/mpClone/item-list) `GET /marketplace-clone/item-list`
-- [Item Info](docs/mpClone/item-info) `GET /marketplace-clone/item-info`
-- [Item Pricing](docs/mpClone/item-pricing) `GET /marketplace-clone/item-pricing`
-- [Item Search](docs/mpClone/item-Search) `GET /marketplace-clone/item-search`
+- [Item List](docs/mpClone/itemList) `GET /marketplace-clone/item-list`
+- [Item Info](docs/mpClone/itemInfo) `GET /marketplace-clone/item-info`
+- [Item Pricing](docs/mpClone/itemPricing) `GET /marketplace-clone/item-pricing`
+- [Item Search](docs/mpClone/itemSearch) `GET /marketplace-clone/item-search`
