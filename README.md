@@ -4,7 +4,7 @@ Api wrapper to grab marketplace data from BDO's NA marketplace
 
 ## Routes
 
-- Base Url `www.iwillprobablyforgettoupdatethis.com`
+- Base Url `https://bdo-api-helper.herokuapp.com`
 
 ### Prices
 
