@@ -29,7 +29,7 @@ Mocks the api calls for the bdo marketplace. Best to use this if you want to clo
 - [Item Pricing](docs/mpClone/itemPricing.md) `GET /marketplace-clone/item-pricing`
 - [Item Search](docs/mpClone/itemSearch.md) `GET /marketplace-clone/item-search`
 
-### Misc
+## Misc
 
 If you would like to use this for EU you will need an account that you are willing to use. Follow these steps to configure it.
 
@@ -37,7 +37,7 @@ If you would like to use this for EU you will need an account that you are willi
 
   - Hit F12 and go to the network tab.
   - On the main page click on any item and hit 'see details'
-  - In the network tab you will see 'GetItemSellBuyInfo'
+  - In the network tab you will see 'GetItemSellBuyInfo'. Click on it.
     - In the request headers section there will be a line that says 'Cookie:' copy and paste that into notepad.
     - In the form data section there will be a line that says '\_RequestVerificationToken:' copy and paste that into notepad on a new line.
 
@@ -54,3 +54,7 @@ If you would like to use this for EU you will need an account that you are willi
 - Then to run on your own.
   - `npm install`
   - `npm run dev` and then your base url will be `localhost:3000` or whatever you set the port to be
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
