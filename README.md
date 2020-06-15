@@ -28,3 +28,29 @@ Mocks the api calls for the bdo marketplace. Best to use this if you want to clo
 - [Item Info](docs/mpClone/itemInfo.md) `GET /marketplace-clone/item-info`
 - [Item Pricing](docs/mpClone/itemPricing.md) `GET /marketplace-clone/item-pricing`
 - [Item Search](docs/mpClone/itemSearch.md) `GET /marketplace-clone/item-search`
+
+### Misc
+
+If you would like to use this for EU you will need an account that you are willing to use. Follow these steps to configure it.
+
+- Go to bdo market site [here](https://market.blackdesertonline.com/) choose your region and log in.
+
+  - Hit F12 and go to the network tab.
+  - On the main page click on any item and hit 'see details'
+  - In the network tab you will see 'GetItemSellBuyInfo'
+    - In the request headers section there will be a line that says 'Cookie:' copy and paste that into notepad.
+    - In the form data section there will be a line that says '\_RequestVerificationToken:' copy and paste that into notepad on a new line.
+
+- Clone this project
+  `git checkout https://github.com/eljoey/BDO-Api-Helper.git`
+
+- In the project directory create a file called '.env'
+
+  - Open the .env file and type each of the following on a new line.
+    - `PORT=3000` (Can change this if it conflicts with anything)
+    - `BDO_COOKIE=` and paste the info from 'Cookie:'
+    - `BDO_TOKEN=` and paste the info from '\_RequestVerificationToken:'
+
+- Then to run on your own.
+  - `npm install`
+  - `npm run dev` and then your base url will be `localhost:3000` or whatever you set the port to be
