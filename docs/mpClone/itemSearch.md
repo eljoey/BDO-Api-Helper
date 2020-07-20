@@ -2,13 +2,13 @@
 
 Get the details of a marketplace search
 
-**URL** : `/api/marketplace-clone/item-search/:searchText`
+**URL** : `/api/marketplace-clone/item-search/:searchText?region=YOURREGION`
 
 **URL Parameters** : `searchText=[integer]` where `searchText` is the text searched for. Use '+' to replicate spaces (ex. 'Caphras Stone' would end up as 'Caphras+Stone'). Is not case sensitive.
 
-**Method** : `GET`
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
-**Auth required** : None
+**Method** : `GET`
 
 ## Success Response
 

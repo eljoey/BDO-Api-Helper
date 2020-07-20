@@ -2,15 +2,15 @@
 
 Get the detailed marketplace info of an item
 
-**URL** : `/api/marketplace-clone/item-pricing/:mainKey/subKey`
+**URL** : `/api/marketplace-clone/item-pricing/:mainKey/subKey?region=YOURREGION`
 
 **URL Parameters** : `mainKey=[integer]` where `mainKey` is the itemId
 
 **URL Parameters** : `subKey=[integer]` where `subKey` is the enhacement level (0 for base and up to 20 for PEN)
 
-**Method** : `GET`
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
-**Auth required** : None
+**Method** : `GET`
 
 ## Success Response
 

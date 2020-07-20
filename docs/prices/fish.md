@@ -1,12 +1,12 @@
 # Dried Fish Marketplace Prices
 
-Get the details of the marketplace info for the list of fish items found [here](../../Ingredients/fish.json).
+Get the details of the marketplace info for the list of fish items found [here](../../Ingredients/DriedFish.json).
 
-**URL** : `/api/prices/fish`
+**URL** : `/api/prices/fish?region=YOURREGION`
+
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
 **Method** : `GET`
-
-**Auth required** : None
 
 ## Success Response
 

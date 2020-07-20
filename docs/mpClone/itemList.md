@@ -2,12 +2,14 @@
 
 Is a clone of the marketplaces broad list of a type of item (ex. main weapon mainCategory and longsword subCategory).
 
-**URL** : `/api/marketplace-clone/item-list/:mainCategory/:subCategory`
+**URL** : `/api/marketplace-clone/item-list/:mainCategory/:subCategory?region=YOURREGION`
 
 **URL Parameters** : `mainCategory=[integer]` where `mainCategory` is the number of the main tab (Main Weapon, Sub Weapon, etc.)
 
 **URL Parameters** : `subCategory=[integer]` where `subCategory` is the number of the sub tab (with Main Weapon as the mainCategory. It will have subs such as longsword, longbow, etc.)
 server.
+
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
 For some reason BDO makes it go as following:
 
@@ -32,8 +34,6 @@ For some reason BDO makes it go as following:
 | Furniture           | 80   | (1 - 9)  |
 
 **Method** : `GET`
-
-**Auth required** : None
 
 ## Success Response
 

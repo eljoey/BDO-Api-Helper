@@ -1,9 +1,9 @@
 const apiConfig = require('./apiConifg')
 
-const parallelSetup = (idArr) => {
+const parallelSetup = (idArr, region) => {
   const parallelCalls = idArr.map((id) => {
     return (callback) =>
-      apiConfig.bdoApiCall('ItemInfo', { mainKey: id }, callback)
+      apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, callback)
   })
 
   return parallelCalls

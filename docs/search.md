@@ -2,11 +2,11 @@
 
 Get the details of the marketplace info for the list of items sent in the body of the request.
 
-**URL** : `/api/prices/fish`
+**URL** : `/api/search?region=YOURREGION`
+
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
 **Method** : `GET`
-
-**Auth required** : None
 
 **Data constraints**
 

@@ -2,11 +2,11 @@
 
 Get the details of the marketplace info for the list of cooking items found [here](../../Ingredients/Cooking.json).
 
-**URL** : `/api/prices/cooking`
+**URL** : `/api/prices/cooking?region=YOURREGION`
+
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
 **Method** : `GET`
-
-**Auth required** : None
 
 ## Success Response
 

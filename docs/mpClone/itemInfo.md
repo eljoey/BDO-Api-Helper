@@ -2,13 +2,13 @@
 
 Get the detailed marketplace info of an item.
 
-**URL** : `/api/marketplace-clone/item-list/:mainKey`
+**URL** : `/api/marketplace-clone/item-info/:mainKey?region=YOURREGION`
 
 **URL Parameters** : `mainKey=[integer]` where `mainKey` is the itemId.
 
-**Method** : `GET`
+**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
-**Auth required** : None
+**Method** : `GET`
 
 ## Success Response
 
