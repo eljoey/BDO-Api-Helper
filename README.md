@@ -29,11 +29,11 @@ Mocks the api calls for the bdo marketplace. Best to use this if you want to clo
 - [Item Pricing](docs/mpClone/itemPricing.md) `GET /marketplace-clone/item-pricing`
 - [Item Search](docs/mpClone/itemSearch.md) `GET /marketplace-clone/item-search`
 
-## Misc
+## Warning
 
-To choose a region add `?region=YOURREGIONHERE` `na` for North America and `eu` for Europe region at the end of each call.
+You must choose a region. Add `?region=YOURREGIONHERE` `na` for North America and `eu` for Europe region at the end of each call.
 
-ex. `https://bdo-api-helper.herokuapp.com/api/prices/cooking?region=na` will return a the prices for the cooking mat prices ([found here](/Ingredients/Cooking.json)) for the North American server
+ex. `https://bdo-api-helper.herokuapp.com/api/prices/cooking?region=na` will return a the prices for the cooking mat prices for the North American server
 
 ## License
 
