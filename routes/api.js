@@ -4,7 +4,11 @@ const middleware = require('../utils/middleware')
 
 const router = express.Router()
 
-router.get('/prices/:category', middleware.cache(300), apiController.prices_get)
+router.get(
+  '/prices/:category/',
+  middleware.cache(300),
+  apiController.prices_get
+)
 
 router.get('/search', apiController.search_get)
 

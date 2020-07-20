@@ -26,7 +26,6 @@ exports.itemList_get = async (req, res, next) => {
   const mainCategory = req.params.mainCategory
   const subCategory = req.params.subCategory
 
-  console.log('---- region ----', region)
   const validRegions = ['na', 'eu']
 
   if (!validRegions.includes(region)) {

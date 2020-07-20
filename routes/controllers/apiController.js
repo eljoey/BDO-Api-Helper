@@ -27,11 +27,11 @@ exports.prices_get = async (req, res, next) => {
     })
   }
 
+  // Split into two searches because EU doesnt work after 100 calls.
   let ids = matInfo[category].map((item) => item.id)
 
   const parallelApiCalls = helpers.parallelSetup(ids, region)
-
-  async.parallel(parallelApiCalls, (err, results) => {
+  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
     if (err) {
       console.log(err)
     }
@@ -49,7 +49,7 @@ exports.search_get = (req, res, next) => {
   const validRegions = ['na', 'eu']
 
   if (!ids) {
-    res.status(400).json({
+    return res.status(400).json({
       error: 'No Ids given',
     })
   }
@@ -61,7 +61,7 @@ exports.search_get = (req, res, next) => {
 
   const parallelApiCalls = helpers.parallelSetup(ids, region)
 
-  async.parallel(parallelApiCalls, (err, results) => {
+  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
     if (err) {
       console.log(err)
     }
