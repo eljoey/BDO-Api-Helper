@@ -2,7 +2,7 @@
 
 Get the details of a marketplace search
 
-**URL** : `/api/marketplace-clone/item-search/:searchText?region=YOURREGION`
+**URL** : `/marketplace-clone/item-search/:searchText?region=YOURREGION`
 
 **URL Parameters** : `searchText=[integer]` where `searchText` is the text searched for. Use '+' to replicate spaces (ex. 'Caphras Stone' would end up as 'Caphras+Stone'). Is not case sensitive.
 

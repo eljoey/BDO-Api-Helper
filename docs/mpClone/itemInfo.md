@@ -2,7 +2,7 @@
 
 Get the detailed marketplace info of an item.
 
-**URL** : `/api/marketplace-clone/item-info/:mainKey?region=YOURREGION`
+**URL** : `/marketplace-clone/item-info/:mainKey?region=YOURREGION`
 
 **URL Parameters** : `mainKey=[integer]` where `mainKey` is the itemId.
 

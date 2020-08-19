@@ -2,7 +2,7 @@
 
 Is a clone of the marketplaces broad list of a type of item (ex. main weapon mainCategory and longsword subCategory).
 
-**URL** : `/api/marketplace-clone/item-list/:mainCategory/:subCategory?region=YOURREGION`
+**URL** : `/marketplace-clone/item-list/:mainCategory/:subCategory?region=YOURREGION`
 
 **URL Parameters** : `mainCategory=[integer]` where `mainCategory` is the number of the main tab (Main Weapon, Sub Weapon, etc.)
 
