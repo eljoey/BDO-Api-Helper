@@ -1,0 +1,2588 @@
+{
+  "tri": {
+    "BossMH": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 20
+      },
+      {
+        "level": 2,
+        "required": 31
+      },
+      {
+        "level": 3,
+        "required": 41
+      },
+      {
+        "level": 4,
+        "required": 51
+      },
+      {
+        "level": 5,
+        "required": 85
+      },
+      {
+        "level": 6,
+        "required": 87
+      },
+      {
+        "level": 7,
+        "required": 88
+      },
+      {
+        "level": 8,
+        "required": 89
+      },
+      {
+        "level": 9,
+        "required": 90
+      },
+      {
+        "level": 10,
+        "required": 91
+      },
+      {
+        "level": 11,
+        "required": 85
+      },
+      {
+        "level": 12,
+        "required": 86
+      },
+      {
+        "level": 13,
+        "required": 87
+      },
+      {
+        "level": 14,
+        "required": 88
+      },
+      {
+        "level": 15,
+        "required": 89
+      },
+      {
+        "level": 16,
+        "required": 90
+      },
+      {
+        "level": 17,
+        "required": 91
+      },
+      {
+        "level": 18,
+        "required": 92
+      },
+      {
+        "level": 19,
+        "required": 93
+      },
+      {
+        "level": 20,
+        "required": 105
+      }
+    ],
+    "BossAwak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 24
+      },
+      {
+        "level": 2,
+        "required": 36
+      },
+      {
+        "level": 3,
+        "required": 48
+      },
+      {
+        "level": 4,
+        "required": 72
+      },
+      {
+        "level": 5,
+        "required": 98
+      },
+      {
+        "level": 6,
+        "required": 99
+      },
+      {
+        "level": 7,
+        "required": 100
+      },
+      {
+        "level": 8,
+        "required": 102
+      },
+      {
+        "level": 9,
+        "required": 103
+      },
+      {
+        "level": 10,
+        "required": 104
+      },
+      {
+        "level": 11,
+        "required": 97
+      },
+      {
+        "level": 12,
+        "required": 98
+      },
+      {
+        "level": 13,
+        "required": 99
+      },
+      {
+        "level": 14,
+        "required": 100
+      },
+      {
+        "level": 15,
+        "required": 101
+      },
+      {
+        "level": 16,
+        "required": 102
+      },
+      {
+        "level": 17,
+        "required": 103
+      },
+      {
+        "level": 18,
+        "required": 104
+      },
+      {
+        "level": 19,
+        "required": 105
+      },
+      {
+        "level": 20,
+        "required": 128
+      }
+    ],
+    "BlueMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 16
+      },
+      {
+        "level": 2,
+        "required": 19
+      },
+      {
+        "level": 3,
+        "required": 25
+      },
+      {
+        "level": 4,
+        "required": 38
+      },
+      {
+        "level": 5,
+        "required": 53
+      },
+      {
+        "level": 6,
+        "required": 54
+      },
+      {
+        "level": 7,
+        "required": 55
+      },
+      {
+        "level": 8,
+        "required": 56
+      },
+      {
+        "level": 9,
+        "required": 58
+      },
+      {
+        "level": 10,
+        "required": 59
+      },
+      {
+        "level": 11,
+        "required": 56
+      },
+      {
+        "level": 12,
+        "required": 58
+      },
+      {
+        "level": 13,
+        "required": 60
+      },
+      {
+        "level": 14,
+        "required": 62
+      },
+      {
+        "level": 15,
+        "required": 64
+      },
+      {
+        "level": 16,
+        "required": 66
+      },
+      {
+        "level": 17,
+        "required": 68
+      },
+      {
+        "level": 18,
+        "required": 70
+      },
+      {
+        "level": 19,
+        "required": 72
+      },
+      {
+        "level": 20,
+        "required": 114
+      }
+    ],
+    "GreenMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 4
+      },
+      {
+        "level": 2,
+        "required": 7
+      },
+      {
+        "level": 3,
+        "required": 9
+      },
+      {
+        "level": 4,
+        "required": 14
+      },
+      {
+        "level": 5,
+        "required": 20
+      },
+      {
+        "level": 6,
+        "required": 22
+      },
+      {
+        "level": 7,
+        "required": 23
+      },
+      {
+        "level": 8,
+        "required": 24
+      },
+      {
+        "level": 9,
+        "required": 25
+      },
+      {
+        "level": 10,
+        "required": 26
+      },
+      {
+        "level": 11,
+        "required": 25
+      },
+      {
+        "level": 12,
+        "required": 26
+      },
+      {
+        "level": 13,
+        "required": 27
+      },
+      {
+        "level": 14,
+        "required": 28
+      },
+      {
+        "level": 15,
+        "required": 29
+      },
+      {
+        "level": 16,
+        "required": 30
+      },
+      {
+        "level": 17,
+        "required": 31
+      },
+      {
+        "level": 18,
+        "required": 32
+      },
+      {
+        "level": 19,
+        "required": 33
+      },
+      {
+        "level": 20,
+        "required": 59
+      }
+    ],
+    "BossOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 20
+      },
+      {
+        "level": 2,
+        "required": 31
+      },
+      {
+        "level": 3,
+        "required": 41
+      },
+      {
+        "level": 4,
+        "required": 62
+      },
+      {
+        "level": 5,
+        "required": 85
+      },
+      {
+        "level": 6,
+        "required": 87
+      },
+      {
+        "level": 7,
+        "required": 88
+      },
+      {
+        "level": 8,
+        "required": 89
+      },
+      {
+        "level": 9,
+        "required": 90
+      },
+      {
+        "level": 10,
+        "required": 91
+      },
+      {
+        "level": 11,
+        "required": 85
+      },
+      {
+        "level": 12,
+        "required": 86
+      },
+      {
+        "level": 13,
+        "required": 87
+      },
+      {
+        "level": 14,
+        "required": 88
+      },
+      {
+        "level": 15,
+        "required": 89
+      },
+      {
+        "level": 16,
+        "required": 90
+      },
+      {
+        "level": 17,
+        "required": 91
+      },
+      {
+        "level": 18,
+        "required": 92
+      },
+      {
+        "level": 19,
+        "required": 93
+      },
+      {
+        "level": 20,
+        "required": 105
+      }
+    ],
+    "GreenOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 4
+      },
+      {
+        "level": 2,
+        "required": 7
+      },
+      {
+        "level": 3,
+        "required": 9
+      },
+      {
+        "level": 4,
+        "required": 14
+      },
+      {
+        "level": 5,
+        "required": 20
+      },
+      {
+        "level": 6,
+        "required": 22
+      },
+      {
+        "level": 7,
+        "required": 23
+      },
+      {
+        "level": 8,
+        "required": 24
+      },
+      {
+        "level": 9,
+        "required": 25
+      },
+      {
+        "level": 10,
+        "required": 26
+      },
+      {
+        "level": 11,
+        "required": 25
+      },
+      {
+        "level": 12,
+        "required": 26
+      },
+      {
+        "level": 13,
+        "required": 27
+      },
+      {
+        "level": 14,
+        "required": 28
+      },
+      {
+        "level": 15,
+        "required": 29
+      },
+      {
+        "level": 16,
+        "required": 30
+      },
+      {
+        "level": 17,
+        "required": 31
+      },
+      {
+        "level": 18,
+        "required": 32
+      },
+      {
+        "level": 19,
+        "required": 33
+      },
+      {
+        "level": 20,
+        "required": 59
+      }
+    ],
+    "BossArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 19
+      },
+      {
+        "level": 2,
+        "required": 28
+      },
+      {
+        "level": 3,
+        "required": 38
+      },
+      {
+        "level": 4,
+        "required": 57
+      },
+      {
+        "level": 5,
+        "required": 79
+      },
+      {
+        "level": 6,
+        "required": 80
+      },
+      {
+        "level": 7,
+        "required": 81
+      },
+      {
+        "level": 8,
+        "required": 82
+      },
+      {
+        "level": 9,
+        "required": 84
+      },
+      {
+        "level": 10,
+        "required": 85
+      },
+      {
+        "level": 11,
+        "required": 79
+      },
+      {
+        "level": 12,
+        "required": 80
+      },
+      {
+        "level": 13,
+        "required": 81
+      },
+      {
+        "level": 14,
+        "required": 82
+      },
+      {
+        "level": 15,
+        "required": 83
+      },
+      {
+        "level": 16,
+        "required": 84
+      },
+      {
+        "level": 17,
+        "required": 85
+      },
+      {
+        "level": 18,
+        "required": 86
+      },
+      {
+        "level": 19,
+        "required": 87
+      },
+      {
+        "level": 20,
+        "required": 103
+      }
+    ],
+    "DimTree": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 22
+      },
+      {
+        "level": 2,
+        "required": 33
+      },
+      {
+        "level": 3,
+        "required": 44
+      },
+      {
+        "level": 4,
+        "required": 67
+      },
+      {
+        "level": 5,
+        "required": 92
+      },
+      {
+        "level": 6,
+        "required": 93
+      },
+      {
+        "level": 7,
+        "required": 94
+      },
+      {
+        "level": 8,
+        "required": 95
+      },
+      {
+        "level": 9,
+        "required": 97
+      },
+      {
+        "level": 10,
+        "required": 98
+      },
+      {
+        "level": 11,
+        "required": 91
+      },
+      {
+        "level": 12,
+        "required": 92
+      },
+      {
+        "level": 13,
+        "required": 93
+      },
+      {
+        "level": 14,
+        "required": 94
+      },
+      {
+        "level": 15,
+        "required": 95
+      },
+      {
+        "level": 16,
+        "required": 96
+      },
+      {
+        "level": 17,
+        "required": 97
+      },
+      {
+        "level": 18,
+        "required": 98
+      },
+      {
+        "level": 19,
+        "required": 99
+      },
+      {
+        "level": 20,
+        "required": 116
+      }
+    ],
+    "BlueArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 6
+      },
+      {
+        "level": 2,
+        "required": 9
+      },
+      {
+        "level": 3,
+        "required": 12
+      },
+      {
+        "level": 4,
+        "required": 19
+      },
+      {
+        "level": 5,
+        "required": 27
+      },
+      {
+        "level": 6,
+        "required": 28
+      },
+      {
+        "level": 7,
+        "required": 29
+      },
+      {
+        "level": 8,
+        "required": 30
+      },
+      {
+        "level": 9,
+        "required": 32
+      },
+      {
+        "level": 10,
+        "required": 33
+      },
+      {
+        "level": 11,
+        "required": 31
+      },
+      {
+        "level": 12,
+        "required": 32
+      },
+      {
+        "level": 13,
+        "required": 33
+      },
+      {
+        "level": 14,
+        "required": 34
+      },
+      {
+        "level": 15,
+        "required": 35
+      },
+      {
+        "level": 16,
+        "required": 36
+      },
+      {
+        "level": 17,
+        "required": 37
+      },
+      {
+        "level": 18,
+        "required": 38
+      },
+      {
+        "level": 19,
+        "required": 39
+      },
+      {
+        "level": 20,
+        "required": 40
+      }
+    ],
+    "GreenArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 3
+      },
+      {
+        "level": 2,
+        "required": 4
+      },
+      {
+        "level": 3,
+        "required": 6
+      },
+      {
+        "level": 4,
+        "required": 9
+      },
+      {
+        "level": 5,
+        "required": 14
+      },
+      {
+        "level": 6,
+        "required": 15
+      },
+      {
+        "level": 7,
+        "required": 16
+      },
+      {
+        "level": 8,
+        "required": 17
+      },
+      {
+        "level": 9,
+        "required": 19
+      },
+      {
+        "level": 10,
+        "required": 20
+      },
+      {
+        "level": 11,
+        "required": 19
+      },
+      {
+        "level": 12,
+        "required": 20
+      },
+      {
+        "level": 13,
+        "required": 21
+      },
+      {
+        "level": 14,
+        "required": 22
+      },
+      {
+        "level": 15,
+        "required": 23
+      },
+      {
+        "level": 16,
+        "required": 24
+      },
+      {
+        "level": 17,
+        "required": 25
+      },
+      {
+        "level": 18,
+        "required": 26
+      },
+      {
+        "level": 19,
+        "required": 27
+      },
+      {
+        "level": 20,
+        "required": 30
+      }
+    ]
+  },
+  "tet": {
+    "BossMH": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 124
+      },
+      {
+        "level": 2,
+        "required": 208
+      },
+      {
+        "level": 3,
+        "required": 332
+      },
+      {
+        "level": 4,
+        "required": 582
+      },
+      {
+        "level": 5,
+        "required": 795
+      },
+      {
+        "level": 6,
+        "required": 810
+      },
+      {
+        "level": 7,
+        "required": 825
+      },
+      {
+        "level": 8,
+        "required": 840
+      },
+      {
+        "level": 9,
+        "required": 856
+      },
+      {
+        "level": 10,
+        "required": 871
+      },
+      {
+        "level": 11,
+        "required": 833
+      },
+      {
+        "level": 12,
+        "required": 848
+      },
+      {
+        "level": 13,
+        "required": 863
+      },
+      {
+        "level": 14,
+        "required": 878
+      },
+      {
+        "level": 15,
+        "required": 893
+      },
+      {
+        "level": 16,
+        "required": 908
+      },
+      {
+        "level": 17,
+        "required": 923
+      },
+      {
+        "level": 18,
+        "required": 938
+      },
+      {
+        "level": 19,
+        "required": 953
+      },
+      {
+        "level": 20,
+        "required": 1098
+      }
+    ],
+    "BossAwak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 144
+      },
+      {
+        "level": 2,
+        "required": 240
+      },
+      {
+        "level": 3,
+        "required": 384
+      },
+      {
+        "level": 4,
+        "required": 672
+      },
+      {
+        "level": 5,
+        "required": 917
+      },
+      {
+        "level": 6,
+        "required": 934
+      },
+      {
+        "level": 7,
+        "required": 951
+      },
+      {
+        "level": 8,
+        "required": 968
+      },
+      {
+        "level": 9,
+        "required": 985
+      },
+      {
+        "level": 10,
+        "required": 1002
+      },
+      {
+        "level": 11,
+        "required": 959
+      },
+      {
+        "level": 12,
+        "required": 976
+      },
+      {
+        "level": 13,
+        "required": 993
+      },
+      {
+        "level": 14,
+        "required": 1010
+      },
+      {
+        "level": 15,
+        "required": 1027
+      },
+      {
+        "level": 16,
+        "required": 1044
+      },
+      {
+        "level": 17,
+        "required": 1061
+      },
+      {
+        "level": 18,
+        "required": 1078
+      },
+      {
+        "level": 19,
+        "required": 1095
+      },
+      {
+        "level": 20,
+        "required": 1249
+      }
+    ],
+    "BlueMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 79
+      },
+      {
+        "level": 2,
+        "required": 132
+      },
+      {
+        "level": 3,
+        "required": 211
+      },
+      {
+        "level": 4,
+        "required": 369
+      },
+      {
+        "level": 5,
+        "required": 512
+      },
+      {
+        "level": 6,
+        "required": 529
+      },
+      {
+        "level": 7,
+        "required": 546
+      },
+      {
+        "level": 8,
+        "required": 563
+      },
+      {
+        "level": 9,
+        "required": 580
+      },
+      {
+        "level": 10,
+        "required": 598
+      },
+      {
+        "level": 11,
+        "required": 581
+      },
+      {
+        "level": 12,
+        "required": 598
+      },
+      {
+        "level": 13,
+        "required": 615
+      },
+      {
+        "level": 14,
+        "required": 632
+      },
+      {
+        "level": 15,
+        "required": 649
+      },
+      {
+        "level": 16,
+        "required": 666
+      },
+      {
+        "level": 17,
+        "required": 683
+      },
+      {
+        "level": 18,
+        "required": 700
+      },
+      {
+        "level": 19,
+        "required": 717
+      },
+      {
+        "level": 20,
+        "required": 803
+      }
+    ],
+    "GreenMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 36
+      },
+      {
+        "level": 2,
+        "required": 60
+      },
+      {
+        "level": 3,
+        "required": 96
+      },
+      {
+        "level": 4,
+        "required": 168
+      },
+      {
+        "level": 5,
+        "required": 226
+      },
+      {
+        "level": 6,
+        "required": 227
+      },
+      {
+        "level": 7,
+        "required": 228
+      },
+      {
+        "level": 8,
+        "required": 229
+      },
+      {
+        "level": 9,
+        "required": 230
+      },
+      {
+        "level": 10,
+        "required": 231
+      },
+      {
+        "level": 11,
+        "required": 217
+      },
+      {
+        "level": 12,
+        "required": 218
+      },
+      {
+        "level": 13,
+        "required": 219
+      },
+      {
+        "level": 14,
+        "required": 220
+      },
+      {
+        "level": 15,
+        "required": 221
+      },
+      {
+        "level": 16,
+        "required": 222
+      },
+      {
+        "level": 17,
+        "required": 223
+      },
+      {
+        "level": 18,
+        "required": 224
+      },
+      {
+        "level": 19,
+        "required": 225
+      },
+      {
+        "level": 20,
+        "required": 270
+      }
+    ],
+    "BossOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 124
+      },
+      {
+        "level": 2,
+        "required": 208
+      },
+      {
+        "level": 3,
+        "required": 332
+      },
+      {
+        "level": 4,
+        "required": 582
+      },
+      {
+        "level": 5,
+        "required": 795
+      },
+      {
+        "level": 6,
+        "required": 810
+      },
+      {
+        "level": 7,
+        "required": 825
+      },
+      {
+        "level": 8,
+        "required": 840
+      },
+      {
+        "level": 9,
+        "required": 856
+      },
+      {
+        "level": 10,
+        "required": 871
+      },
+      {
+        "level": 11,
+        "required": 833
+      },
+      {
+        "level": 12,
+        "required": 848
+      },
+      {
+        "level": 13,
+        "required": 863
+      },
+      {
+        "level": 14,
+        "required": 878
+      },
+      {
+        "level": 15,
+        "required": 893
+      },
+      {
+        "level": 16,
+        "required": 908
+      },
+      {
+        "level": 17,
+        "required": 923
+      },
+      {
+        "level": 18,
+        "required": 938
+      },
+      {
+        "level": 19,
+        "required": 953
+      },
+      {
+        "level": 20,
+        "required": 960
+      }
+    ],
+    "GreenOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 36
+      },
+      {
+        "level": 2,
+        "required": 60
+      },
+      {
+        "level": 3,
+        "required": 96
+      },
+      {
+        "level": 4,
+        "required": 168
+      },
+      {
+        "level": 5,
+        "required": 226
+      },
+      {
+        "level": 6,
+        "required": 227
+      },
+      {
+        "level": 7,
+        "required": 228
+      },
+      {
+        "level": 8,
+        "required": 229
+      },
+      {
+        "level": 9,
+        "required": 230
+      },
+      {
+        "level": 10,
+        "required": 231
+      },
+      {
+        "level": 11,
+        "required": 217
+      },
+      {
+        "level": 12,
+        "required": 218
+      },
+      {
+        "level": 13,
+        "required": 219
+      },
+      {
+        "level": 14,
+        "required": 220
+      },
+      {
+        "level": 15,
+        "required": 221
+      },
+      {
+        "level": 16,
+        "required": 222
+      },
+      {
+        "level": 17,
+        "required": 223
+      },
+      {
+        "level": 18,
+        "required": 224
+      },
+      {
+        "level": 19,
+        "required": 225
+      },
+      {
+        "level": 20,
+        "required": 270
+      }
+    ],
+    "BossArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 76
+      },
+      {
+        "level": 2,
+        "required": 128
+      },
+      {
+        "level": 3,
+        "required": 204
+      },
+      {
+        "level": 4,
+        "required": 358
+      },
+      {
+        "level": 5,
+        "required": 491
+      },
+      {
+        "level": 6,
+        "required": 502
+      },
+      {
+        "level": 7,
+        "required": 513
+      },
+      {
+        "level": 8,
+        "required": 524
+      },
+      {
+        "level": 9,
+        "required": 536
+      },
+      {
+        "level": 10,
+        "required": 547
+      },
+      {
+        "level": 11,
+        "required": 525
+      },
+      {
+        "level": 12,
+        "required": 536
+      },
+      {
+        "level": 13,
+        "required": 547
+      },
+      {
+        "level": 14,
+        "required": 558
+      },
+      {
+        "level": 15,
+        "required": 569
+      },
+      {
+        "level": 16,
+        "required": 580
+      },
+      {
+        "level": 17,
+        "required": 591
+      },
+      {
+        "level": 18,
+        "required": 602
+      },
+      {
+        "level": 19,
+        "required": 613
+      },
+      {
+        "level": 20,
+        "required": 729
+      }
+    ],
+    "DimTree": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 88
+      },
+      {
+        "level": 2,
+        "required": 148
+      },
+      {
+        "level": 3,
+        "required": 236
+      },
+      {
+        "level": 4,
+        "required": 414
+      },
+      {
+        "level": 5,
+        "required": 567
+      },
+      {
+        "level": 6,
+        "required": 579
+      },
+      {
+        "level": 7,
+        "required": 591
+      },
+      {
+        "level": 8,
+        "required": 603
+      },
+      {
+        "level": 9,
+        "required": 616
+      },
+      {
+        "level": 10,
+        "required": 628
+      },
+      {
+        "level": 11,
+        "required": 602
+      },
+      {
+        "level": 12,
+        "required": 614
+      },
+      {
+        "level": 13,
+        "required": 626
+      },
+      {
+        "level": 14,
+        "required": 638
+      },
+      {
+        "level": 15,
+        "required": 650
+      },
+      {
+        "level": 16,
+        "required": 662
+      },
+      {
+        "level": 17,
+        "required": 674
+      },
+      {
+        "level": 18,
+        "required": 686
+      },
+      {
+        "level": 19,
+        "required": 698
+      },
+      {
+        "level": 20,
+        "required": 869
+      }
+    ],
+    "BlueArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 31
+      },
+      {
+        "level": 2,
+        "required": 52
+      },
+      {
+        "level": 3,
+        "required": 83
+      },
+      {
+        "level": 4,
+        "required": 145
+      },
+      {
+        "level": 5,
+        "required": 197
+      },
+      {
+        "level": 6,
+        "required": 199
+      },
+      {
+        "level": 7,
+        "required": 201
+      },
+      {
+        "level": 8,
+        "required": 203
+      },
+      {
+        "level": 9,
+        "required": 205
+      },
+      {
+        "level": 10,
+        "required": 208
+      },
+      {
+        "level": 11,
+        "required": 196
+      },
+      {
+        "level": 12,
+        "required": 198
+      },
+      {
+        "level": 13,
+        "required": 200
+      },
+      {
+        "level": 14,
+        "required": 202
+      },
+      {
+        "level": 15,
+        "required": 204
+      },
+      {
+        "level": 16,
+        "required": 206
+      },
+      {
+        "level": 17,
+        "required": 208
+      },
+      {
+        "level": 18,
+        "required": 210
+      },
+      {
+        "level": 19,
+        "required": 212
+      },
+      {
+        "level": 20,
+        "required": 270
+      }
+    ],
+    "GreenArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 14
+      },
+      {
+        "level": 2,
+        "required": 24
+      },
+      {
+        "level": 3,
+        "required": 38
+      },
+      {
+        "level": 4,
+        "required": 67
+      },
+      {
+        "level": 5,
+        "required": 93
+      },
+      {
+        "level": 6,
+        "required": 96
+      },
+      {
+        "level": 7,
+        "required": 99
+      },
+      {
+        "level": 8,
+        "required": 102
+      },
+      {
+        "level": 9,
+        "required": 105
+      },
+      {
+        "level": 10,
+        "required": 109
+      },
+      {
+        "level": 11,
+        "required": 105
+      },
+      {
+        "level": 12,
+        "required": 108
+      },
+      {
+        "level": 13,
+        "required": 111
+      },
+      {
+        "level": 14,
+        "required": 114
+      },
+      {
+        "level": 15,
+        "required": 117
+      },
+      {
+        "level": 16,
+        "required": 120
+      },
+      {
+        "level": 17,
+        "required": 123
+      },
+      {
+        "level": 18,
+        "required": 126
+      },
+      {
+        "level": 19,
+        "required": 129
+      },
+      {
+        "level": 20,
+        "required": 150
+      }
+    ]
+  },
+  "pen": {
+    "BossMH": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 297
+      },
+      {
+        "level": 2,
+        "required": 389
+      },
+      {
+        "level": 3,
+        "required": 481
+      },
+      {
+        "level": 4,
+        "required": 573
+      },
+      {
+        "level": 5,
+        "required": 905
+      },
+      {
+        "level": 6,
+        "required": 1020
+      },
+      {
+        "level": 7,
+        "required": 1135
+      },
+      {
+        "level": 8,
+        "required": 1250
+      },
+      {
+        "level": 9,
+        "required": 1365
+      },
+      {
+        "level": 10,
+        "required": 1480
+      },
+      {
+        "level": 11,
+        "required": 1522
+      },
+      {
+        "level": 12,
+        "required": 1637
+      },
+      {
+        "level": 13,
+        "required": 1752
+      },
+      {
+        "level": 14,
+        "required": 1867
+      },
+      {
+        "level": 15,
+        "required": 1982
+      },
+      {
+        "level": 16,
+        "required": 2097
+      },
+      {
+        "level": 17,
+        "required": 2212
+      },
+      {
+        "level": 18,
+        "required": 2327
+      },
+      {
+        "level": 19,
+        "required": 2442
+      },
+      {
+        "level": 20,
+        "required": 2670
+      }
+    ],
+    "BossAwak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 345
+      },
+      {
+        "level": 2,
+        "required": 451
+      },
+      {
+        "level": 3,
+        "required": 556
+      },
+      {
+        "level": 4,
+        "required": 662
+      },
+      {
+        "level": 5,
+        "required": 1044
+      },
+      {
+        "level": 6,
+        "required": 1176
+      },
+      {
+        "level": 7,
+        "required": 1308
+      },
+      {
+        "level": 8,
+        "required": 1440
+      },
+      {
+        "level": 9,
+        "required": 1573
+      },
+      {
+        "level": 10,
+        "required": 1704
+      },
+      {
+        "level": 11,
+        "required": 1752
+      },
+      {
+        "level": 12,
+        "required": 1884
+      },
+      {
+        "level": 13,
+        "required": 2016
+      },
+      {
+        "level": 14,
+        "required": 2148
+      },
+      {
+        "level": 15,
+        "required": 2280
+      },
+      {
+        "level": 16,
+        "required": 2412
+      },
+      {
+        "level": 17,
+        "required": 2544
+      },
+      {
+        "level": 18,
+        "required": 2676
+      },
+      {
+        "level": 19,
+        "required": 2808
+      },
+      {
+        "level": 20,
+        "required": 2988
+      }
+    ],
+    "BlueMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 204
+      },
+      {
+        "level": 2,
+        "required": 271
+      },
+      {
+        "level": 3,
+        "required": 337
+      },
+      {
+        "level": 4,
+        "required": 404
+      },
+      {
+        "level": 5,
+        "required": 639
+      },
+      {
+        "level": 6,
+        "required": 722
+      },
+      {
+        "level": 7,
+        "required": 805
+      },
+      {
+        "level": 8,
+        "required": 888
+      },
+      {
+        "level": 9,
+        "required": 971
+      },
+      {
+        "level": 10,
+        "required": 1054
+      },
+      {
+        "level": 11,
+        "required": 1242
+      },
+      {
+        "level": 12,
+        "required": 1272
+      },
+      {
+        "level": 13,
+        "required": 1302
+      },
+      {
+        "level": 14,
+        "required": 1332
+      },
+      {
+        "level": 15,
+        "required": 1362
+      },
+      {
+        "level": 16,
+        "required": 1392
+      },
+      {
+        "level": 17,
+        "required": 1422
+      },
+      {
+        "level": 18,
+        "required": 1452
+      },
+      {
+        "level": 19,
+        "required": 1482
+      },
+      {
+        "level": 20,
+        "required": 1512
+      }
+    ],
+    "GreenMH/Awak": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 80
+      },
+      {
+        "level": 2,
+        "required": 112
+      },
+      {
+        "level": 3,
+        "required": 144
+      },
+      {
+        "level": 4,
+        "required": 176
+      },
+      {
+        "level": 5,
+        "required": 281
+      },
+      {
+        "level": 6,
+        "required": 321
+      },
+      {
+        "level": 7,
+        "required": 361
+      },
+      {
+        "level": 8,
+        "required": 401
+      },
+      {
+        "level": 9,
+        "required": 442
+      },
+      {
+        "level": 10,
+        "required": 482
+      },
+      {
+        "level": 11,
+        "required": 540
+      },
+      {
+        "level": 12,
+        "required": 570
+      },
+      {
+        "level": 13,
+        "required": 600
+      },
+      {
+        "level": 14,
+        "required": 630
+      },
+      {
+        "level": 15,
+        "required": 660
+      },
+      {
+        "level": 16,
+        "required": 690
+      },
+      {
+        "level": 17,
+        "required": 720
+      },
+      {
+        "level": 18,
+        "required": 750
+      },
+      {
+        "level": 19,
+        "required": 780
+      },
+      {
+        "level": 20,
+        "required": 810
+      }
+    ],
+    "BossOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 297
+      },
+      {
+        "level": 2,
+        "required": 389
+      },
+      {
+        "level": 3,
+        "required": 481
+      },
+      {
+        "level": 4,
+        "required": 573
+      },
+      {
+        "level": 5,
+        "required": 905
+      },
+      {
+        "level": 6,
+        "required": 1020
+      },
+      {
+        "level": 7,
+        "required": 1135
+      },
+      {
+        "level": 8,
+        "required": 1250
+      },
+      {
+        "level": 9,
+        "required": 1365
+      },
+      {
+        "level": 10,
+        "required": 1480
+      },
+      {
+        "level": 11,
+        "required": 1764
+      },
+      {
+        "level": 12,
+        "required": 1794
+      },
+      {
+        "level": 13,
+        "required": 1824
+      },
+      {
+        "level": 14,
+        "required": 1854
+      },
+      {
+        "level": 15,
+        "required": 1884
+      },
+      {
+        "level": 16,
+        "required": 1914
+      },
+      {
+        "level": 17,
+        "required": 1944
+      },
+      {
+        "level": 18,
+        "required": 1974
+      },
+      {
+        "level": 19,
+        "required": 2004
+      },
+      {
+        "level": 20,
+        "required": 2034
+      }
+    ],
+    "GreenOffhand": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 80
+      },
+      {
+        "level": 2,
+        "required": 112
+      },
+      {
+        "level": 3,
+        "required": 144
+      },
+      {
+        "level": 4,
+        "required": 176
+      },
+      {
+        "level": 5,
+        "required": 281
+      },
+      {
+        "level": 6,
+        "required": 321
+      },
+      {
+        "level": 7,
+        "required": 361
+      },
+      {
+        "level": 8,
+        "required": 401
+      },
+      {
+        "level": 9,
+        "required": 442
+      },
+      {
+        "level": 10,
+        "required": 482
+      },
+      {
+        "level": 11,
+        "required": 540
+      },
+      {
+        "level": 12,
+        "required": 570
+      },
+      {
+        "level": 13,
+        "required": 600
+      },
+      {
+        "level": 14,
+        "required": 630
+      },
+      {
+        "level": 15,
+        "required": 660
+      },
+      {
+        "level": 16,
+        "required": 690
+      },
+      {
+        "level": 17,
+        "required": 720
+      },
+      {
+        "level": 18,
+        "required": 750
+      },
+      {
+        "level": 19,
+        "required": 780
+      },
+      {
+        "level": 20,
+        "required": 810
+      }
+    ],
+    "BossArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 153
+      },
+      {
+        "level": 2,
+        "required": 230
+      },
+      {
+        "level": 3,
+        "required": 307
+      },
+      {
+        "level": 4,
+        "required": 307
+      },
+      {
+        "level": 5,
+        "required": 713
+      },
+      {
+        "level": 6,
+        "required": 714
+      },
+      {
+        "level": 7,
+        "required": 1098
+      },
+      {
+        "level": 8,
+        "required": 1194
+      },
+      {
+        "level": 9,
+        "required": 1234
+      },
+      {
+        "level": 10,
+        "required": 1274
+      },
+      {
+        "level": 11,
+        "required": 1272
+      },
+      {
+        "level": 12,
+        "required": 1312
+      },
+      {
+        "level": 13,
+        "required": 1352
+      },
+      {
+        "level": 14,
+        "required": 1392
+      },
+      {
+        "level": 15,
+        "required": 1432
+      },
+      {
+        "level": 16,
+        "required": 1472
+      },
+      {
+        "level": 17,
+        "required": 1512
+      },
+      {
+        "level": 18,
+        "required": 1552
+      },
+      {
+        "level": 19,
+        "required": 1592
+      },
+      {
+        "level": 20,
+        "required": 1632
+      }
+    ],
+    "DimTree": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 176
+      },
+      {
+        "level": 2,
+        "required": 264
+      },
+      {
+        "level": 3,
+        "required": 352
+      },
+      {
+        "level": 4,
+        "required": 352
+      },
+      {
+        "level": 5,
+        "required": 817
+      },
+      {
+        "level": 6,
+        "required": 817
+      },
+      {
+        "level": 7,
+        "required": 1258
+      },
+      {
+        "level": 8,
+        "required": 1368
+      },
+      {
+        "level": 9,
+        "required": 1408
+      },
+      {
+        "level": 10,
+        "required": 1448
+      },
+      {
+        "level": 11,
+        "required": 1440
+      },
+      {
+        "level": 12,
+        "required": 1480
+      },
+      {
+        "level": 13,
+        "required": 1520
+      },
+      {
+        "level": 14,
+        "required": 1560
+      },
+      {
+        "level": 15,
+        "required": 1600
+      },
+      {
+        "level": 16,
+        "required": 1640
+      },
+      {
+        "level": 17,
+        "required": 1680
+      },
+      {
+        "level": 18,
+        "required": 1720
+      },
+      {
+        "level": 19,
+        "required": 1760
+      },
+      {
+        "level": 20,
+        "required": 1800
+      }
+    ],
+    "BlueArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 57
+      },
+      {
+        "level": 2,
+        "required": 86
+      },
+      {
+        "level": 3,
+        "required": 115
+      },
+      {
+        "level": 4,
+        "required": 115
+      },
+      {
+        "level": 5,
+        "required": 267
+      },
+      {
+        "level": 6,
+        "required": 268
+      },
+      {
+        "level": 7,
+        "required": 412
+      },
+      {
+        "level": 8,
+        "required": 448
+      },
+      {
+        "level": 9,
+        "required": 448
+      },
+      {
+        "level": 10,
+        "required": 528
+      },
+      {
+        "level": 11,
+        "required": 552
+      },
+      {
+        "level": 12,
+        "required": 592
+      },
+      {
+        "level": 13,
+        "required": 632
+      },
+      {
+        "level": 14,
+        "required": 672
+      },
+      {
+        "level": 15,
+        "required": 712
+      },
+      {
+        "level": 16,
+        "required": 752
+      },
+      {
+        "level": 17,
+        "required": 792
+      },
+      {
+        "level": 18,
+        "required": 832
+      },
+      {
+        "level": 19,
+        "required": 872
+      },
+      {
+        "level": 20,
+        "required": 912
+      }
+    ],
+    "GreenArmor": [
+      {
+        "level": 0,
+        "required": 0
+      },
+      {
+        "level": 1,
+        "required": 28
+      },
+      {
+        "level": 2,
+        "required": 43
+      },
+      {
+        "level": 3,
+        "required": 57
+      },
+      {
+        "level": 4,
+        "required": 57
+      },
+      {
+        "level": 5,
+        "required": 134
+      },
+      {
+        "level": 6,
+        "required": 134
+      },
+      {
+        "level": 7,
+        "required": 206
+      },
+      {
+        "level": 8,
+        "required": 224
+      },
+      {
+        "level": 9,
+        "required": 264
+      },
+      {
+        "level": 10,
+        "required": 305
+      },
+      {
+        "level": 11,
+        "required": 336
+      },
+      {
+        "level": 12,
+        "required": 376
+      },
+      {
+        "level": 13,
+        "required": 416
+      },
+      {
+        "level": 14,
+        "required": 456
+      },
+      {
+        "level": 15,
+        "required": 496
+      },
+      {
+        "level": 16,
+        "required": 536
+      },
+      {
+        "level": 17,
+        "required": 576
+      },
+      {
+        "level": 18,
+        "required": 616
+      },
+      {
+        "level": 19,
+        "required": 656
+      },
+      {
+        "level": 20,
+        "required": 696
+      }
+    ]
+  }
+}

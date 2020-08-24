@@ -1,20 +1,20 @@
-const config = require('./config')
-const request = require('request')
+const config = require('./config');
+const request = require('request');
 
-let BDOApiConfig
+let BDOApiConfig;
 
 const getUrl = (route, region) => {
-  const baseURL = `https://marketweb-${region}.blackdesertonline.com/Home`
+  const baseURL = `https://marketweb-${region}.blackdesertonline.com/Home`;
   const routeEndpoint = {
     ItemList: 'GetWorldMarketList',
     ItemInfo: 'GetWorldMarketSubList',
     ItemPricing: 'GetItemSellBuyInfo',
     ItemSearch: 'GetWorldMarketSearchList',
-  }
+  };
 
-  const url = `${baseURL}/${routeEndpoint[route]}`
-  return url
-}
+  const url = `${baseURL}/${routeEndpoint[route]}`;
+  return url;
+};
 
 const createConfig = (route, region, dataObj) => {
   regionConfigs = {
@@ -26,7 +26,7 @@ const createConfig = (route, region, dataObj) => {
       na: config.NA_TOKEN,
       eu: config.EU_TOKEN,
     },
-  }
+  };
 
   const apiConfig = {
     method: 'POST',
@@ -41,19 +41,19 @@ const createConfig = (route, region, dataObj) => {
       ...dataObj,
     },
     json: true,
-  }
+  };
 
-  BDOApiConfig = apiConfig
-}
+  BDOApiConfig = apiConfig;
+};
 
 const bdoApiCall = (route, region, dataObj, callback) => {
-  createConfig(route, region, dataObj)
+  createConfig(route, region, dataObj);
 
   request(BDOApiConfig, (err, res) => {
-    callback(err, res.body)
-  })
-}
+    callback(err, res.body);
+  });
+};
 
 module.exports = {
   bdoApiCall,
-}
+};
