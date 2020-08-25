@@ -20,6 +20,12 @@ Allows you to create a custom search for items if you have all the item ids. Res
 
 - [Search](docs/search.md) `GET /api/search`
 
+### Caphras Calculator
+
+Calculate the current cost of caphras enhancing for an item.
+
+- [Caphras-Calc](docs/caphrasCalc.md) `GET /api/caphras-calc`
+
 ### Marketplace Clone
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.

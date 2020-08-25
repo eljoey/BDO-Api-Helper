@@ -9,7 +9,6 @@ app.use(cors());
 app.use(bodyparser.json());
 
 //Routes
-// TODO: Sort Ingredients into groups and add ability to grab prices for groups
 const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
 

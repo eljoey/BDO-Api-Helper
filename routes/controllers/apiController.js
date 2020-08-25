@@ -71,22 +71,53 @@ exports.search_get = (req, res, next) => {
   });
 };
 
-// TODO: More validation
-// TODO: Update Docs for Caphras Calc
-
 exports.caphras_calc_get = (req, res, next) => {
   const { item, enhLevel, curLevel, desiredLevel, region } = req.query;
 
   const validRegions = ['na', 'eu'];
+  const validItems = [
+    'BossMH',
+    'BossAwak',
+    'BlueMH/Awak',
+    'GreenMH/Awak',
+    'BossOffhand',
+    'GreenOffhand',
+    'BossArmor',
+    'DimTree',
+    'BlueArmor',
+    'GreenArmor',
+  ];
+  const validEnhLevels = ['tri', 'tet', 'pen'];
 
-  if (!item || !enhLevel || !curLevel || !desiredLevel) {
-    return res.status(400).json({
-      error: 'Missing query.  Please verify that you have all required queries',
-    });
-  }
   if (!validRegions.includes(region)) {
     return res.status(400).json({
       error: 'Invalid or no region given',
+    });
+  }
+  if (!validItems.includes(item)) {
+    return res.status(400).json({
+      error: 'Invalid or no item given',
+    });
+  }
+  if (!validEnhLevels.includes(enhLevel)) {
+    return res.status(400).json({
+      error: 'Invalid or no enhLevel given',
+    });
+  }
+  if (0 > Number(curLevel) || Number(curLevel) > 19) {
+    console.log(curLevel);
+    return res.status(400).json({
+      error: 'Invalid or no curLevel given. A number 0-19 is needed',
+    });
+  }
+  if (1 > Number(desiredLevel) || Number(desiredLevel) > 20) {
+    return res.status(400).json({
+      error: 'Invalid or no desiredLevel given. A number 1-20 is needed',
+    });
+  }
+  if (Number(curLevel) >= Number(desiredLevel)) {
+    return res.status(400).json({
+      error: 'desiredLevel must be greater than curLevel',
     });
   }
 
