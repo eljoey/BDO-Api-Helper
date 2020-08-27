@@ -1,225 +1,831 @@
 {
   "class": {
     "dk": {
-      "mainHand": {
-        "ids": [11360, 11436, 715016]
-      },
-      "awakening": {
-        "ids": [14817, 702513]
-      },
-      "offhand": {
-        "ids": [10740, 10738]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Kriegsmesser",
+          "id": 11360
+        },
+        {
+          "name": "Offin Tett's Kriegsmesser",
+          "id": 11436
+        },
+        {
+          "name": "Blackstar Kriegsmesser",
+          "id": 715016
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Vediant",
+          "id": 14817
+        },
+        {
+          "name": "Dragon Slayer Vediant",
+          "id": 702513
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Ornamental Knot",
+          "id": 10740
+        },
+        {
+          "name": "Nouver Ornamental Knot",
+          "id": 10738
+        }
+      ]
     },
     "warrior": {
-      "mainHand": {
-        "ids": [10010, 10086, 715001]
-      },
-      "awakening": {
-        "ids": [14702, 702501]
-      },
-      "offhand": {
-        "ids": [10140, 10138]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Longsword",
+          "id": 10010
+        },
+        {
+          "name": "Offin Tett's Longsword",
+          "id": 10086
+        },
+        {
+          "name": "Blackstar Longsword",
+          "id": 715001
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Great Sword",
+          "id": 14702
+        },
+        {
+          "name": "Dragon Slayer Great Sword",
+          "id": 702501
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Shield",
+          "id": 10140
+        },
+        {
+          "name": "Nouver Shield",
+          "id": 10138
+        }
+      ]
     },
     "valk": {
-      "mainHand": {
-        "ids": [10010, 10086, 715001]
-      },
-      "awakening": {
-        "ids": [14752, 702506]
-      },
-      "offhand": {
-        "ids": [10140, 10138]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Longsword",
+          "id": 10010
+        },
+        {
+          "name": "Offin Tett's Longsword",
+          "id": 10086
+        },
+        {
+          "name": "Blackstar Longsword",
+          "id": 715001
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Lancia",
+          "id": 14752
+        },
+        {
+          "name": "Dragon Slayer Lancia",
+          "id": 702506
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Shield",
+          "id": 10140
+        },
+        {
+          "name": "Nouver Shield",
+          "id": 10138
+        }
+      ]
     },
     "guardian": {
-      "mainHand": {
-        "ids": [690513, 690541, 690563]
-      },
-      "awakening": {
-        "ids": [691503, 702535]
-      },
-      "offhand": {
-        "ids": [10140, 10138]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Battle Axe",
+          "id": 690513
+        },
+        {
+          "name": "Offin Tett's Battle Axe",
+          "id": 690541
+        },
+        {
+          "name": "Blackstar Battle Axe",
+          "id": 690563
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Jordun",
+          "id": 691503
+        },
+        {
+          "name": "Dragon Slayer Jordun",
+          "id": 702535
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Shield",
+          "id": 10140
+        },
+        {
+          "name": "Nouver Shield",
+          "id": 10138
+        }
+      ]
     },
     "ranger": {
-      "mainHand": {
-        "ids": [10210, 10286, 715003]
-      },
-      "awakening": {
-        "ids": [14732, 702504]
-      },
-      "offhand": {
-        "ids": [10340, 10338]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Longbow",
+          "id": 10210
+        },
+        {
+          "name": "Offin Tett's Longbow",
+          "id": 10286
+        },
+        {
+          "name": "Blackstar Longbow",
+          "id": 715003
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Kamasylven Sword",
+          "id": 14732
+        },
+        {
+          "name": "Dragon Slayer Kamasylven Sword",
+          "id": 702504
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Dagger",
+          "id": 10340
+        },
+        {
+          "name": "Nouver Dagger",
+          "id": 10338
+        }
+      ]
     },
     "witch": {
-      "mainHand": {
-        "ids": [14410, 14486, 715013]
-      },
-      "awakening": {
-        "ids": [14802, 702511]
-      },
-      "offhand": {
-        "ids": [10340, 10338]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Staff",
+          "id": 14410
+        },
+        {
+          "name": "Offin Tett's Staff",
+          "id": 14486
+        },
+        {
+          "name": "Blackstar Staff",
+          "id": 715013
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Aad Sphera",
+          "id": 14802
+        },
+        {
+          "name": "Dragon Slayer Aad Sphera",
+          "id": 702511
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Dagger",
+          "id": 10340
+        },
+        {
+          "name": "Nouver Dagger",
+          "id": 10338
+        }
+      ]
     },
     "wizard": {
-      "mainHand": {
-        "ids": [14410, 14486, 715013]
-      },
-      "awakening": {
-        "ids": [14812, 702512]
-      },
-      "offhand": {
-        "ids": [10340, 10338]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Staff",
+          "id": 14410
+        },
+        {
+          "name": "Offin Tett's Staff",
+          "id": 14486
+        },
+        {
+          "name": "Blackstar Staff",
+          "id": 715013
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Godr Sphera",
+          "id": 14802
+        },
+        {
+          "name": "Dragon Slayer Godr Sphera",
+          "id": 702511
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Dagger",
+          "id": 10340
+        },
+        {
+          "name": "Nouver Dagger",
+          "id": 10338
+        }
+      ]
     },
     "sorc": {
-      "mainHand": {
-        "ids": [10410, 10486, 715005]
-      },
-      "awakening": {
-        "ids": [14712, 702502]
-      },
-      "offhand": {
-        "ids": [10540, 10538]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Amulet",
+          "id": 10410
+        },
+        {
+          "name": "Offin Tett's Amulet",
+          "id": 10486
+        },
+        {
+          "name": "Blackstar Amulet",
+          "id": 715005
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Scythe",
+          "id": 14712
+        },
+        {
+          "name": "Dragon Slayer Scythe",
+          "id": 702502
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Talisman",
+          "id": 10540
+        },
+        {
+          "name": "Nouver Talisman",
+          "id": 10538
+        }
+      ]
     },
     "beserker": {
-      "mainHand": {
-        "ids": [10610, 10686, 715007]
-      },
-      "awakening": {
-        "ids": [14722, 702503]
-      },
-      "offhand": {
-        "ids": [10740, 10738]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Axe",
+          "id": 10610
+        },
+        {
+          "name": "Offin Tett's Axe",
+          "id": 10686
+        },
+        {
+          "name": "Blackstar Axe",
+          "id": 715007
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Iron Buster",
+          "id": 14722
+        },
+        {
+          "name": "Dragon Slayer Iron Buster",
+          "id": 702503
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Ornamental Knot",
+          "id": 10740
+        },
+        {
+          "name": "Nouver Ornamental Knot",
+          "id": 10738
+        }
+      ]
     },
     "tamer": {
-      "mainHand": {
-        "ids": [13210, 13286, 715009]
-      },
-      "awakening": {
-        "ids": [14742, 702505]
-      },
-      "offhand": {
-        "ids": [13040, 13038]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Shortsword",
+          "id": 13210
+        },
+        {
+          "name": "Offin Tett's Shortsword",
+          "id": 13286
+        },
+        {
+          "name": "Blackstar Shortsword",
+          "id": 715009
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Celestial Bo Staff",
+          "id": 14742
+        },
+        {
+          "name": "Dragon Slayer Celestial Bo Staff",
+          "id": 702505
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Trinket",
+          "id": 13040
+        },
+        {
+          "name": "Nouver Trinket",
+          "id": 13038
+        }
+      ]
     },
     "musa": {
-      "mainHand": {
-        "ids": [13310, 13386, 715011]
-      },
-      "awakening": {
-        "ids": [14762, 702507]
-      },
-      "offhand": {
-        "ids": [13140, 13138]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Blade",
+          "id": 13310
+        },
+        {
+          "name": "Offin Tett's Blade",
+          "id": 13386
+        },
+        {
+          "name": "Blackstar Blade",
+          "id": 715011
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Crescent Blade",
+          "id": 14762
+        },
+        {
+          "name": "Dragon Slayer Crescent Blade",
+          "id": 702507
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Horn Bow",
+          "id": 13140
+        },
+        {
+          "name": "Nouver Horn Bow",
+          "id": 13138
+        }
+      ]
     },
     "maehwa": {
-      "mainHand": {
-        "ids": [13310, 13386, 715011]
-      },
-      "awakening": {
-        "ids": [14772, 702508]
-      },
-      "offhand": {
-        "ids": [13140, 13138]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Blade",
+          "id": 13310
+        },
+        {
+          "name": "Offin Tett's Blade",
+          "id": 13386
+        },
+        {
+          "name": "Blackstar Blade",
+          "id": 715011
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Kerispear",
+          "id": 14772
+        },
+        {
+          "name": "Dragon Slayer Kerispear",
+          "id": 702508
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Horn Bow",
+          "id": 13140
+        },
+        {
+          "name": "Nouver Horn Bow",
+          "id": 13138
+        }
+      ]
     },
     "ninja": {
-      "mainHand": {
-        "ids": [13210, 13286, 715009]
-      },
-      "awakening": {
-        "ids": [14782, 702509]
-      },
-      "offhand": {
-        "ids": [14640, 14540, 14538, 14638]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Shortsword",
+          "id": 13210
+        },
+        {
+          "name": "Offin Tett's Shortsword",
+          "id": 13286
+        },
+        {
+          "name": "Blackstar Shortsword",
+          "id": 715009
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Sura Katana",
+          "id": 14782
+        },
+        {
+          "name": "Dragon Slayer Sura Katana",
+          "id": 702509
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Shuriken",
+          "id": 14640
+        },
+        {
+          "name": "Kutum Kunai",
+          "id": 14540
+        },
+        {
+          "name": " Nouver Kunai",
+          "id": 14538
+        },
+        {
+          "name": "Nouver Shuriken",
+          "id": 14638
+        }
+      ]
     },
     "kunoichi": {
-      "mainHand": {
-        "ids": [13210, 13286, 715009]
-      },
-      "awakening": {
-        "ids": [14792, 702510]
-      },
-      "offhand": {
-        "ids": [14640, 14540, 14538, 14638]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Shortsword",
+          "id": 13210
+        },
+        {
+          "name": "Offin Tett's Shortsword",
+          "id": 13286
+        },
+        {
+          "name": "Blackstar Shortsword",
+          "id": 715009
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Sah Chakram",
+          "id": 14792
+        },
+        {
+          "name": "Dragon Slayer Sah Chakram",
+          "id": 702510
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Shuriken",
+          "id": 14640
+        },
+        {
+          "name": "Kutum Kunai",
+          "id": 14540
+        },
+        {
+          "name": " Nouver Kunai",
+          "id": 14538
+        },
+        {
+          "name": "Nouver Shuriken",
+          "id": 14638
+        }
+      ]
     },
     "striker": {
-      "mainHand": {
-        "ids": [11210, 11287, 715017]
-      },
-      "awakening": {
-        "ids": [14822, 702514]
-      },
-      "offhand": {
-        "ids": [11340, 11338]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Guantlet",
+          "id": 11210
+        },
+        {
+          "name": "Offin Tett's Guantlet",
+          "id": 11287
+        },
+        {
+          "name": "Blackstar Guantlet",
+          "id": 715017
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Gardbrace",
+          "id": 14822
+        },
+        {
+          "name": "Dragon Slayer Gardbrace",
+          "id": 702514
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Vambrace",
+          "id": 11340
+        },
+        {
+          "name": "Nouver Vambrace",
+          "id": 11338
+        }
+      ]
     },
     "mystic": {
-      "mainHand": {
-        "ids": [11210, 11287, 715017]
-      },
-      "awakening": {
-        "ids": [14830, 702515]
-      },
-      "offhand": {
-        "ids": [11340, 11338]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Guantlet",
+          "id": 11210
+        },
+        {
+          "name": "Offin Tett's Guantlet",
+          "id": 11287
+        },
+        {
+          "name": "Blackstar Guantlet",
+          "id": 715017
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Cestus",
+          "id": 14830
+        },
+        {
+          "name": "Dragon Slayer Cestus",
+          "id": 702515
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Vambrace",
+          "id": 11340
+        },
+        {
+          "name": "Nouver Vambrace",
+          "id": 11338
+        }
+      ]
     },
     "lahn": {
-      "mainHand": {
-        "ids": [13410, 13487, 715019]
-      },
-      "awakening": {
-        "ids": [550502, 702516]
-      },
-      "offhand": {
-        "ids": [13540, 13538]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Pendulum",
+          "id": 13410
+        },
+        {
+          "name": "Offin Tett's Pendulum",
+          "id": 13487
+        },
+        {
+          "name": "Blackstar Pendulum",
+          "id": 715019
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Glaives",
+          "id": 550502
+        },
+        {
+          "name": "Dragon Slayer Glaives",
+          "id": 702516
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Noble Sword",
+          "id": 13540
+        },
+        {
+          "name": "Nouver Noble",
+          "id": 13538
+        }
+      ]
     },
     "archer": {
-      "mainHand": {
-        "ids": [13710, 13786, 715021]
-      },
-      "awakening": {
-        "ids": [13903, 702533]
-      },
-      "offhand": {
-        "ids": [13840, 13838]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Crossbow",
+          "id": 13710
+        },
+        {
+          "name": "Offin Tett's Crossbow",
+          "id": 13786
+        },
+        {
+          "name": "Blackstar Crossbow",
+          "id": 715021
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Greatbow",
+          "id": 13903
+        },
+        {
+          "name": "Dragon Slayer Greatbow",
+          "id": 702533
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Ra'ghon",
+          "id": 13840
+        },
+        {
+          "name": "Nouver Ra'ghon",
+          "id": 13838
+        }
+      ]
     },
     "shai": {
-      "mainHand": {
-        "ids": [718510, 718586, 718616]
-      },
-      "awakening": {
-        "ids": []
-      },
-      "offhand": {
-        "ids": [719040, 719038]
-      }
+      "mainHand": [
+        {
+          "name": "Kzarka Florang",
+          "id": 718510
+        },
+        {
+          "name": "Offin Tett's Florang",
+          "id": 718586
+        },
+        {
+          "name": "Blackstar Florang",
+          "id": 718616
+        }
+      ],
+      "awakening": [],
+      "offhand": [
+        {
+          "name": "Kutum Vitclari",
+          "id": 719040
+        },
+        {
+          "name": "Nouver Vitclari",
+          "id": 719038
+        }
+      ]
     }
   },
   "armor": {
-    "gloves": [11015, 11102],
-    "helm": [11101, 11013],
-    "armor": [11017, 11014, 719902],
-    "boots": [11016, 11103]
+    "gloves": [
+      {
+        "name": "Bheg's Gloves",
+        "id": 11015
+      },
+      {
+        "name": "Leebur's Gloves",
+        "id": 11102
+      }
+    ],
+    "helm": [
+      {
+        "name": "Griffon's Helmet",
+        "id": 11101
+      },
+      {
+        "name": "Giath's Helmet",
+        "id": 11013
+      }
+    ],
+    "armor": [
+      {
+        "name": "Dim Tree Spirit's Armor",
+        "id": 11017
+      },
+      {
+        "name": "Red Nose's Armor",
+        "id": 11014
+      },
+      {
+        "name": "Blackstar Armor",
+        "id": 719902
+      }
+    ],
+    "boots": [
+      {
+        "name": "Muskan's Shoes",
+        "id": 11016
+      },
+      {
+        "name": "Urugon's Shoes",
+        "id": 11103
+      }
+    ]
   },
   "accessories": {
-    "ring": [12031, 12061, 12032, 12060],
-    "earring": [11855, 11856, 11853, 11834, 11828],
-    "necklace": [11607, 11653, 11630, 11628, 11625, 11629],
-    "belt": [12237, 12236, 12230, 12229, 12251]
+    "ring": [
+      {
+        "name": "Ring of Crescent Guardian",
+        "id": 12031
+      },
+      {
+        "name": "Tungrad Ring",
+        "id": 12061
+      },
+      {
+        "name": "Ring of Cadry Guardian",
+        "id": 12032
+      },
+      {
+        "name": "Eye of the Ruins Ring",
+        "id": 12060
+      }
+    ],
+    "earring": [
+      {
+        "name": "Tungrad Earring",
+        "id": 11828
+      },
+      {
+        "name": "Dawn Earring",
+        "id": 11855
+      },
+      {
+        "name": "Ethereal Earrings",
+        "id": 11856
+      },
+      {
+        "name": "Black Distortion Earring",
+        "id": 11853
+      },
+      {
+        "name": "Narc Ear Accessory",
+        "id": 11834
+      }
+    ],
+    "necklace": [
+      {
+        "name": "Ogre Ring",
+        "id": 11607
+      },
+      {
+        "name": "Deboreka Necklace",
+        "id": 11653
+      },
+      {
+        "name": "Laytenn's Power Stone",
+        "id": 11630
+      },
+      {
+        "name": "Serap's Necklace",
+        "id": 11628
+      },
+      {
+        "name": "Sicil's Necklace",
+        "id": 11625
+      },
+      {
+        "name": "Tungrad Necklace",
+        "id": 11629
+      }
+    ],
+    "belt": [
+      {
+        "name": "Tungrad Belt",
+        "id": 12237
+      },
+      {
+        "name": "Valtarra Eclipsed Belt",
+        "id": 12236
+      },
+      {
+        "name": "Basilisk's Belt",
+        "id": 12230
+      },
+      {
+        "name": "Centaurus Belt",
+        "id": 12229
+      },
+      {
+        "name": "Orkinrad's Belt",
+        "id": 12251
+      }
+    ]
   }
 }

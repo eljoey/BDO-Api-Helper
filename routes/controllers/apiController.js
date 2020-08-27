@@ -3,6 +3,8 @@ const helpers = require('../../utils/helpers');
 const alchMatsJSON = require('../../data/Alchemy.json');
 const fishMatsJSON = require('../../data/DriedFish.json');
 const cookMatsJSON = require('../../data/Cooking.json');
+const upgradeIds = require('../../data/UpgradeIds.json');
+const e = require('express');
 
 exports.prices_get = (req, res, next) => {
   const region = req.query.region;
@@ -138,5 +140,71 @@ exports.caphras_calc_get = (req, res, next) => {
       caphrasNeeded,
       totalCaphrasPrice,
     });
+  });
+};
+
+exports.item_upgrade_get = (req, res, next) => {
+  let upgradeInfo = Object.keys(upgradeIds).map((key) => {
+    if (key === 'class') {
+      let infoArr = [];
+
+      for (let x = 16; x <= 20; x++) {
+        infoArr.push(
+          ...upgradeIds[key].dk.mainHand.map((id) => {
+            return { name: id.name, mainKey: id.id, subKey: x };
+          })
+        );
+      }
+      return infoArr;
+    } else if (key === 'armor') {
+      let infoArr = [];
+      const keyArr = Object.keys(upgradeIds[key]);
+
+      for (let x = 16; x <= 20; x++) {
+        for (let y = 0; y <= 3; y++) {
+          infoArr.push(
+            ...upgradeIds[key][keyArr[y]].map((id) => {
+              return { name: id.name, mainKey: id.id, subKey: x };
+            })
+          );
+        }
+      }
+      return infoArr;
+    } else {
+      let infoArr = [];
+      const keyArr = Object.keys(upgradeIds[key]);
+
+      for (let x = 1; x <= 5; x++) {
+        for (let y = 0; y <= 3; y++) {
+          infoArr.push(
+            ...upgradeIds[key][keyArr[y]].map((id) => {
+              return { name: id.name, mainKey: id.id, subKey: x };
+            })
+          );
+        }
+      }
+      return infoArr;
+    }
+  });
+  let formattedUpgradeInfo = [
+    ...upgradeInfo[0],
+    ...upgradeInfo[1],
+    ...upgradeInfo[2],
+  ];
+
+  const parallelApiCalls = helpers.itemUpgradeParallelSetup(
+    formattedUpgradeInfo,
+    'na'
+  );
+
+  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
+    if (err) {
+      console.log(err);
+    }
+    let data = helpers.itemUpgradeDataFormat(results, formattedUpgradeInfo);
+    res.send(data);
+
+    // TODO: Swap to better quicker calling using item info and parse the data
+    //        to sort out the unwanted items. Less calls to bdo and should be quicker.
   });
 };

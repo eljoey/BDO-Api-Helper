@@ -14,4 +14,6 @@ router.get('/search', apiController.search_get);
 
 router.get('/caphras-calc', apiController.caphras_calc_get);
 
+router.get('/item-upgrade', apiController.item_upgrade_get);
+
 module.exports = router;
