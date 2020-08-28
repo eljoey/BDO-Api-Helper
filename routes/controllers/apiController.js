@@ -202,9 +202,11 @@ exports.item_upgrade_get = (req, res, next) => {
       console.log(err);
     }
     let data = helpers.itemUpgradeDataFormat(results, formattedUpgradeInfo);
-    res.send(data);
+    let addDataStats = helpers.addStats(data);
+
+    res.send(addDataStats);
 
     // TODO: Swap to better quicker calling using item info and parse the data
-    //        to sort out the unwanted items. Less calls to bdo and should be quicker.
+    //        to sort out the unwanted items. Less calls to bdo, but need to figure out how to determine btwn types.
   });
 };

@@ -1,5 +1,6 @@
 const apiConfig = require('./apiConifg');
 const caphrasData = require('../data/caphras.json');
+const itemStats = require('../data/ItemStats.json');
 
 const parallelSetup = (idArr, region) => {
   const parallelCalls = idArr.map((id) => {
@@ -68,11 +69,170 @@ const itemUpgradeDataFormat = (data, itemArr) => {
   }
 
   for (let i = 0; i < data.length; i++) {
-    console.log(dataHolder);
     dataHolder[i].price = data[i].basePrice;
   }
 
   return dataHolder;
+};
+
+const addStats = (data) => {
+  const mainhandNames = ['Kzarka', 'Offin', 'Blackstar'];
+  const awakeningNames = ['Dandelion', 'Dragon'];
+  const offhandNames = ['Kutum', 'Nouver'];
+  const gloveNames = ["Bheg's", "Leebur's"];
+  const helmNames = ["Griffon's", "Giath's"];
+  const armorNames = ['Dim', 'Red', 'Blackstar'];
+  const bootNames = ["Muskan's", "Urugon's"];
+
+  const addStatInfo = data.map((item) => {
+    const itemBaseName = item.name.split(' ')[0];
+    const itemTypeName = item.name.split(' ')[1];
+
+    //Mainhand Weapon
+    if (mainhandNames.includes(itemBaseName) && itemTypeName !== 'Armor') {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.mainHand[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.mainHand[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Awakening Weapon
+    if (awakeningNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.awakening[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.awakening[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Offhand Weapon
+    if (offhandNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.offhand[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.offhand[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Gloves
+    if (gloveNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.gloves[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.gloves[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Helm
+    if (helmNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.helm[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.helm[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Armor
+    if (armorNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.armor[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.armor[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Boots
+    if (bootNames.includes(itemBaseName)) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.boots[itemBaseName].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.boots[itemBaseName].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Rings
+    if (itemStats.ring[item.name]) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.ring[item.name].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.ring[item.name].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Earrings
+    if (itemStats.earring[item.name]) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.earring[item.name].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.earring[item.name].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Necklace
+    if (itemStats.necklace[item.name]) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.necklace[item.name].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.necklace[item.name].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+
+    //Belts
+    if (itemStats.belt[item.name]) {
+      const itemWithStats = {
+        ...item,
+        stats: {
+          ap: itemStats.belt[item.name].enhanceLevel[item.enhLevel].ap,
+          dp: itemStats.belt[item.name].enhanceLevel[item.enhLevel].dp,
+        },
+      };
+
+      return itemWithStats;
+    }
+  });
+
+  return addStatInfo;
 };
 
 module.exports = {
@@ -81,4 +241,5 @@ module.exports = {
   caphrasNeeded,
   itemUpgradeParallelSetup,
   itemUpgradeDataFormat,
+  addStats,
 };

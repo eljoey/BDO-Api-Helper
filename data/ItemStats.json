@@ -1,384 +1,348 @@
 {
-  "mainHand": [
-    {
-      "name": "Kzarka",
-      "stats": {
-        "pri": { "ap": 88, "dp": 0 },
-        "duo": { "ap": 96, "dp": 0 },
-        "tri": { "ap": 108, "dp": 0 },
-        "tet": { "ap": 116, "dp": 0 },
-        "pen": { "ap": 124, "dp": 0 }
+  "mainHand": {
+    "Kzarka": {
+      "enhanceLevel": {
+        "16": { "ap": 88, "dp": 0 },
+        "17": { "ap": 96, "dp": 0 },
+        "18": { "ap": 108, "dp": 0 },
+        "19": { "ap": 116, "dp": 0 },
+        "20": { "ap": 124, "dp": 0 }
       }
     },
-    {
-      "name": "Offin",
-      "stats": {
-        "pri": { "ap": 91, "dp": 0 },
-        "duo": { "ap": 99, "dp": 0 },
-        "tri": { "ap": 111, "dp": 0 },
-        "tet": { "ap": 119, "dp": 0 },
-        "pen": { "ap": 127, "dp": 0 }
+    "Offin": {
+      "enhanceLevel": {
+        "16": { "ap": 91, "dp": 0 },
+        "17": { "ap": 99, "dp": 0 },
+        "18": { "ap": 111, "dp": 0 },
+        "19": { "ap": 119, "dp": 0 },
+        "20": { "ap": 127, "dp": 0 }
       }
     },
-    {
-      "name": "Blackstar",
-      "stats": {
-        "pri": { "ap": 97, "dp": 0 },
-        "duo": { "ap": 109, "dp": 0 },
-        "tri": { "ap": 117, "dp": 0 },
-        "tet": { "ap": 125, "dp": 0 },
-        "pen": { "ap": 134, "dp": 0 }
+    "Blackstar": {
+      "enhanceLevel": {
+        "16": { "ap": 97, "dp": 0 },
+        "17": { "ap": 109, "dp": 0 },
+        "18": { "ap": 117, "dp": 0 },
+        "19": { "ap": 125, "dp": 0 },
+        "20": { "ap": 134, "dp": 0 }
       }
     }
-  ],
-  "awakening": [
-    {
-      "name": "Dandelion",
-      "stats": {
-        "pri": { "ap": 90, "dp": 0 },
-        "duo": { "ap": 98, "dp": 0 },
-        "tri": { "ap": 110, "dp": 0 },
-        "tet": { "ap": 118, "dp": 0 },
-        "pen": { "ap": 126, "dp": 0 }
+  },
+  "awakening": {
+    "Dandelion": {
+      "enhanceLevel": {
+        "16": { "ap": 90, "dp": 0 },
+        "17": { "ap": 98, "dp": 0 },
+        "18": { "ap": 110, "dp": 0 },
+        "19": { "ap": 118, "dp": 0 },
+        "20": { "ap": 126, "dp": 0 }
       }
     },
-    {
-      "name": "Dragon Slayer",
-      "stats": {
-        "pri": { "ap": 89, "dp": 0 },
-        "duo": { "ap": 97, "dp": 0 },
-        "tri": { "ap": 109, "dp": 0 },
-        "tet": { "ap": 117, "dp": 0 },
-        "pen": { "ap": 125, "dp": 0 }
+    "Dragon": {
+      "enhanceLevel": {
+        "16": { "ap": 89, "dp": 0 },
+        "17": { "ap": 97, "dp": 0 },
+        "18": { "ap": 109, "dp": 0 },
+        "19": { "ap": 117, "dp": 0 },
+        "20": { "ap": 125, "dp": 0 }
       }
     }
-  ],
-  "Offhand": [
-    {
-      "name": "Kutum",
-      "stats": {
-        "pri": { "ap": 22, "dp": 10 },
-        "duo": { "ap": 24, "dp": 12 },
-        "tri": { "ap": 28, "dp": 15 },
-        "tet": { "ap": 30, "dp": 17 },
-        "pen": { "ap": 32, "dp": 19 }
+  },
+  "offhand": {
+    "Kutum": {
+      "enhanceLevel": {
+        "16": { "ap": 22, "dp": 10 },
+        "17": { "ap": 24, "dp": 12 },
+        "18": { "ap": 28, "dp": 15 },
+        "19": { "ap": 30, "dp": 17 },
+        "20": { "ap": 32, "dp": 19 }
       }
     },
-    {
-      "name": "Nouver",
-      "stats": {
-        "pri": { "ap": 30, "dp": 3 },
-        "duo": { "ap": 33, "dp": 4 },
-        "tri": { "ap": 39, "dp": 5 },
-        "tet": { "ap": 42, "dp": 6 },
-        "pen": { "ap": 45, "dp": 7 }
+    "Nouver": {
+      "enhanceLevel": {
+        "16": { "ap": 30, "dp": 3 },
+        "17": { "ap": 33, "dp": 4 },
+        "18": { "ap": 39, "dp": 5 },
+        "19": { "ap": 42, "dp": 6 },
+        "20": { "ap": 45, "dp": 7 }
       }
     }
-  ],
-  "Gloves": [
-    {
-      "name": "Bhegs",
-      "stats": {
-        "pri": { "ap": 0, "dp": 37 },
-        "duo": { "ap": 0, "dp": 42 },
-        "tri": { "ap": 0, "dp": 50 },
-        "tet": { "ap": 0, "dp": 55 },
-        "pen": { "ap": 0, "dp": 60 }
+  },
+  "gloves": {
+    "Bheg's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 37 },
+        "17": { "ap": 0, "dp": 42 },
+        "18": { "ap": 0, "dp": 50 },
+        "19": { "ap": 0, "dp": 55 },
+        "20": { "ap": 0, "dp": 60 }
       }
     },
-    {
-      "name": "leeburs",
-      "stats": {
-        "pri": { "ap": 0, "dp": 37 },
-        "duo": { "ap": 0, "dp": 42 },
-        "tri": { "ap": 0, "dp": 50 },
-        "tet": { "ap": 0, "dp": 56 },
-        "pen": { "ap": 0, "dp": 62 }
+    "Leebur's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 37 },
+        "17": { "ap": 0, "dp": 42 },
+        "18": { "ap": 0, "dp": 50 },
+        "19": { "ap": 0, "dp": 56 },
+        "20": { "ap": 0, "dp": 62 }
       }
     }
-  ],
-  "Helm": [
-    {
-      "name": "Griffons",
-      "stats": {
-        "pri": { "ap": 0, "dp": 57 },
-        "duo": { "ap": 0, "dp": 62 },
-        "tri": { "ap": 0, "dp": 70 },
-        "tet": { "ap": 0, "dp": 75 },
-        "pen": { "ap": 0, "dp": 80 }
+  },
+  "helm": {
+    "Griffon's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 57 },
+        "17": { "ap": 0, "dp": 62 },
+        "18": { "ap": 0, "dp": 70 },
+        "19": { "ap": 0, "dp": 75 },
+        "20": { "ap": 0, "dp": 80 }
       }
     },
-    {
-      "name": "Giaths",
-      "stats": {
-        "pri": { "ap": 0, "dp": 57 },
-        "duo": { "ap": 0, "dp": 62 },
-        "tri": { "ap": 0, "dp": 70 },
-        "tet": { "ap": 0, "dp": 75 },
-        "pen": { "ap": 0, "dp": 80 }
+    "Giath's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 57 },
+        "17": { "ap": 0, "dp": 62 },
+        "18": { "ap": 0, "dp": 70 },
+        "19": { "ap": 0, "dp": 75 },
+        "20": { "ap": 0, "dp": 80 }
       }
     }
-  ],
-  "Armor": [
-    {
-      "name": "Dim Tree",
-      "stats": {
-        "pri": { "ap": 0, "dp": 66 },
-        "duo": { "ap": 0, "dp": 71 },
-        "tri": { "ap": 0, "dp": 79 },
-        "tet": { "ap": 0, "dp": 84 },
-        "pen": { "ap": 0, "dp": 89 }
+  },
+  "armor": {
+    "Dim": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 66 },
+        "17": { "ap": 0, "dp": 71 },
+        "18": { "ap": 0, "dp": 79 },
+        "19": { "ap": 0, "dp": 84 },
+        "20": { "ap": 0, "dp": 89 }
       }
     },
-    {
-      "name": "Red Nose",
-      "stats": {
-        "pri": { "ap": 0, "dp": 66 },
-        "duo": { "ap": 0, "dp": 71 },
-        "tri": { "ap": 0, "dp": 79 },
-        "tet": { "ap": 0, "dp": 84 },
-        "pen": { "ap": 0, "dp": 89 }
+    "Red": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 66 },
+        "17": { "ap": 0, "dp": 71 },
+        "18": { "ap": 0, "dp": 79 },
+        "19": { "ap": 0, "dp": 84 },
+        "20": { "ap": 0, "dp": 89 }
       }
     },
-    {
-      "name": "Blackstar",
-      "stats": {
-        "pri": { "ap": 0, "dp": 71 },
-        "duo": { "ap": 0, "dp": 80 },
-        "tri": { "ap": 0, "dp": 85 },
-        "tet": { "ap": 0, "dp": 91 },
-        "pen": { "ap": 0, "dp": 99 }
+    "Blackstar": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 71 },
+        "17": { "ap": 0, "dp": 80 },
+        "18": { "ap": 0, "dp": 85 },
+        "19": { "ap": 0, "dp": 91 },
+        "20": { "ap": 0, "dp": 99 }
       }
     }
-  ],
-  "Boots": [
-    {
-      "name": "Muskans",
-      "stats": {
-        "pri": { "ap": 0, "dp": 54 },
-        "duo": { "ap": 0, "dp": 59 },
-        "tri": { "ap": 0, "dp": 67 },
-        "tet": { "ap": 0, "dp": 72 },
-        "pen": { "ap": 0, "dp": 77 }
+  },
+  "boots": {
+    "Muskan's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 54 },
+        "17": { "ap": 0, "dp": 59 },
+        "18": { "ap": 0, "dp": 67 },
+        "19": { "ap": 0, "dp": 72 },
+        "20": { "ap": 0, "dp": 77 }
       }
     },
-    {
-      "name": "Urugons",
-      "stats": {
-        "pri": { "ap": 0, "dp": 56 },
-        "duo": { "ap": 0, "dp": 61 },
-        "tri": { "ap": 0, "dp": 69 },
-        "tet": { "ap": 0, "dp": 74 },
-        "pen": { "ap": 0, "dp": 79 }
+    "Urugon's": {
+      "enhanceLevel": {
+        "16": { "ap": 0, "dp": 56 },
+        "17": { "ap": 0, "dp": 61 },
+        "18": { "ap": 0, "dp": 69 },
+        "19": { "ap": 0, "dp": 74 },
+        "20": { "ap": 0, "dp": 79 }
       }
     }
-  ],
-  "Ring": [
-    {
-      "name": "Crescent",
-      "stats": {
-        "pri": { "ap": 8, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 14, "dp": 0 },
-        "tet": { "ap": 17, "dp": 0 },
-        "pen": { "ap": 20, "dp": 0 }
+  },
+  "ring": {
+    "Ring of Crescent Guardian": {
+      "enhanceLevel": {
+        "1": { "ap": 8, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 14, "dp": 0 },
+        "4": { "ap": 17, "dp": 0 },
+        "5": { "ap": 20, "dp": 0 }
       }
     },
-    {
-      "name": "Tungrad",
-      "stats": {
-        "pri": { "ap": 9, "dp": 0 },
-        "duo": { "ap": 12, "dp": 0 },
-        "tri": { "ap": 15, "dp": 0 },
-        "tet": { "ap": 18, "dp": 0 },
-        "pen": { "ap": 21, "dp": 0 }
+    "Tungrad Ring": {
+      "enhanceLevel": {
+        "1": { "ap": 9, "dp": 0 },
+        "2": { "ap": 12, "dp": 0 },
+        "3": { "ap": 15, "dp": 0 },
+        "4": { "ap": 18, "dp": 0 },
+        "5": { "ap": 21, "dp": 0 }
       }
     },
-    {
-      "name": "Cadry",
-      "stats": {
-        "pri": { "ap": 0, "dp": 8 },
-        "duo": { "ap": 0, "dp": 11 },
-        "tri": { "ap": 0, "dp": 14 },
-        "tet": { "ap": 0, "dp": 17 },
-        "pen": { "ap": 0, "dp": 20 }
+    "Ring of Cadry Guardian": {
+      "enhanceLevel": {
+        "1": { "ap": 0, "dp": 8 },
+        "2": { "ap": 0, "dp": 11 },
+        "3": { "ap": 0, "dp": 14 },
+        "4": { "ap": 0, "dp": 17 },
+        "5": { "ap": 0, "dp": 20 }
       }
     },
-    {
-      "name": "Eye of Ruins",
-      "stats": {
-        "pri": { "ap": 8, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 14, "dp": 0 },
-        "tet": { "ap": 17, "dp": 0 },
-        "pen": { "ap": 20, "dp": 0 }
+    "Eye of the Ruins Ring": {
+      "enhanceLevel": {
+        "1": { "ap": 8, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 14, "dp": 0 },
+        "4": { "ap": 17, "dp": 0 },
+        "5": { "ap": 20, "dp": 0 }
       }
     }
-  ],
-  "Earring": [
-    {
-      "name": "Dawn",
-      "stats": {
-        "pri": { "ap": 6, "dp": 0 },
-        "duo": { "ap": 8, "dp": 0 },
-        "tri": { "ap": 10, "dp": 0 },
-        "tet": { "ap": 12, "dp": 0 },
-        "pen": { "ap": 14, "dp": 0 }
+  },
+  "earring": {
+    "Dawn Earring": {
+      "enhanceLevel": {
+        "1": { "ap": 6, "dp": 0 },
+        "2": { "ap": 8, "dp": 0 },
+        "3": { "ap": 10, "dp": 0 },
+        "4": { "ap": 12, "dp": 0 },
+        "5": { "ap": 14, "dp": 0 }
       }
     },
-    {
-      "name": "Ethereal",
-      "stats": {
-        "pri": { "ap": 8, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 14, "dp": 0 },
-        "tet": { "ap": 17, "dp": 0 },
-        "pen": { "ap": 20, "dp": 0 }
+    "Ethereal Earrings": {
+      "enhanceLevel": {
+        "1": { "ap": 8, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 14, "dp": 0 },
+        "4": { "ap": 17, "dp": 0 },
+        "5": { "ap": 20, "dp": 0 }
       }
     },
-    {
-      "name": "Black Distortion",
-      "stats": {
-        "pri": { "ap": 0, "dp": -1 },
-        "duo": { "ap": 0, "dp": -2 },
-        "tri": { "ap": 0, "dp": -3 },
-        "tet": { "ap": 0, "dp": -4 },
-        "pen": { "ap": 0, "dp": -5 }
+    "Black Distortion Earring": {
+      "enhanceLevel": {
+        "1": { "ap": 9, "dp": -1 },
+        "2": { "ap": 12, "dp": -2 },
+        "3": { "ap": 15, "dp": -3 },
+        "4": { "ap": 18, "dp": -4 },
+        "5": { "ap": 21, "dp": -5 }
       }
     },
-    {
-      "name": "Narc",
-      "stats": {
-        "pri": { "ap": 7, "dp": 1 },
-        "duo": { "ap": 9, "dp": 2 },
-        "tri": { "ap": 11, "dp": 3 },
-        "tet": { "ap": 13, "dp": 4 },
-        "pen": { "ap": 15, "dp": 5 }
+    "Narc Ear Accessory": {
+      "enhanceLevel": {
+        "1": { "ap": 7, "dp": 1 },
+        "2": { "ap": 9, "dp": 2 },
+        "3": { "ap": 11, "dp": 3 },
+        "4": { "ap": 13, "dp": 4 },
+        "5": { "ap": 15, "dp": 5 }
       }
     },
-    {
-      "name": "Tungrad",
-      "stats": {
-        "pri": { "ap": 9, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 13, "dp": 0 },
-        "tet": { "ap": 15, "dp": 0 },
-        "pen": { "ap": 17, "dp": 0 }
+    "Tungrad Earring": {
+      "enhanceLevel": {
+        "1": { "ap": 9, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 13, "dp": 0 },
+        "4": { "ap": 15, "dp": 0 },
+        "5": { "ap": 17, "dp": 0 }
       }
     }
-  ],
-  "Necklace": [
-    {
-      "name": "Ogre",
-      "stats": {
-        "pri": { "ap": 15, "dp": 0 },
-        "duo": { "ap": 20, "dp": 0 },
-        "tri": { "ap": 25, "dp": 0 },
-        "tet": { "ap": 30, "dp": 0 },
-        "pen": { "ap": 35, "dp": 0 }
+  },
+  "necklace": {
+    "Ogre Ring": {
+      "enhanceLevel": {
+        "1": { "ap": 15, "dp": 0 },
+        "2": { "ap": 20, "dp": 0 },
+        "3": { "ap": 25, "dp": 0 },
+        "4": { "ap": 30, "dp": 0 },
+        "5": { "ap": 35, "dp": 0 }
       }
     },
-    {
-      "name": "Deboreka",
-      "stats": {
-        "pri": { "ap": 16, "dp": 0 },
-        "duo": { "ap": 22, "dp": 0 },
-        "tri": { "ap": 28, "dp": 0 },
-        "tet": { "ap": 34, "dp": 0 },
-        "pen": { "ap": 40, "dp": 0 }
+    "Deboreka Necklace": {
+      "enhanceLevel": {
+        "1": { "ap": 16, "dp": 0 },
+        "2": { "ap": 22, "dp": 0 },
+        "3": { "ap": 28, "dp": 0 },
+        "4": { "ap": 34, "dp": 0 },
+        "5": { "ap": 40, "dp": 0 }
       }
     },
-    {
-      "name": "Layten",
-      "stats": {
-        "pri": { "ap": 15, "dp": 0 },
-        "duo": { "ap": 20, "dp": 0 },
-        "tri": { "ap": 25, "dp": 0 },
-        "tet": { "ap": 30, "dp": 0 },
-        "pen": { "ap": 35, "dp": 0 }
+    "Laytenn's Power Stone": {
+      "enhanceLevel": {
+        "1": { "ap": 15, "dp": 0 },
+        "2": { "ap": 20, "dp": 0 },
+        "3": { "ap": 25, "dp": 0 },
+        "4": { "ap": 30, "dp": 0 },
+        "5": { "ap": 35, "dp": 0 }
       }
     },
-    {
-      "name": "Seraps",
-      "stats": {
-        "pri": { "ap": 12, "dp": 0 },
-        "duo": { "ap": 16, "dp": 0 },
-        "tri": { "ap": 20, "dp": 0 },
-        "tet": { "ap": 24, "dp": 0 },
-        "pen": { "ap": 28, "dp": 0 }
+    "Serap's Necklace": {
+      "enhanceLevel": {
+        "1": { "ap": 12, "dp": 0 },
+        "2": { "ap": 16, "dp": 0 },
+        "3": { "ap": 20, "dp": 0 },
+        "4": { "ap": 24, "dp": 0 },
+        "5": { "ap": 28, "dp": 0 }
       }
     },
-    {
-      "name": "Sicils",
-      "stats": {
-        "pri": { "ap": 10, "dp": 5 },
-        "duo": { "ap": 13, "dp": 7 },
-        "tri": { "ap": 16, "dp": 9 },
-        "tet": { "ap": 19, "dp": 11 },
-        "pen": { "ap": 22, "dp": 13 }
+    "Sicil's Necklace": {
+      "enhanceLevel": {
+        "1": { "ap": 10, "dp": 5 },
+        "2": { "ap": 13, "dp": 7 },
+        "3": { "ap": 16, "dp": 9 },
+        "4": { "ap": 19, "dp": 11 },
+        "5": { "ap": 22, "dp": 13 }
       }
     },
-    {
-      "name": "Tungrad",
-      "stats": {
-        "pri": { "ap": 15, "dp": 0 },
-        "duo": { "ap": 20, "dp": 0 },
-        "tri": { "ap": 25, "dp": 0 },
-        "tet": { "ap": 30, "dp": 0 },
-        "pen": { "ap": 35, "dp": 0 }
+    "Tungrad Necklace": {
+      "enhanceLevel": {
+        "1": { "ap": 15, "dp": 0 },
+        "2": { "ap": 20, "dp": 0 },
+        "3": { "ap": 25, "dp": 0 },
+        "4": { "ap": 30, "dp": 0 },
+        "5": { "ap": 35, "dp": 0 }
       }
     }
-  ],
-  "Belt": [
-    {
-      "name": "Tungrad",
-      "stats": {
-        "pri": { "ap": 9, "dp": 0 },
-        "duo": { "ap": 12, "dp": 0 },
-        "tri": { "ap": 15, "dp": 0 },
-        "tet": { "ap": 18, "dp": 0 },
-        "pen": { "ap": 21, "dp": 0 }
+  },
+  "belt": {
+    "Tungrad Belt": {
+      "enhanceLevel": {
+        "1": { "ap": 9, "dp": 0 },
+        "2": { "ap": 12, "dp": 0 },
+        "3": { "ap": 15, "dp": 0 },
+        "4": { "ap": 18, "dp": 0 },
+        "5": { "ap": 21, "dp": 0 }
       }
     },
-    {
-      "name": "Valtarra",
-      "stats": {
-        "pri": { "ap": 8, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 14, "dp": 0 },
-        "tet": { "ap": 17, "dp": 0 },
-        "pen": { "ap": 20, "dp": 0 }
+    "Valtarra Eclipsed Belt": {
+      "enhanceLevel": {
+        "1": { "ap": 8, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 14, "dp": 0 },
+        "4": { "ap": 17, "dp": 0 },
+        "5": { "ap": 20, "dp": 0 }
       }
     },
-    {
-      "name": "Basilisks",
-      "stats": {
-        "pri": { "ap": 8, "dp": 0 },
-        "duo": { "ap": 11, "dp": 0 },
-        "tri": { "ap": 14, "dp": 0 },
-        "tet": { "ap": 17, "dp": 0 },
-        "pen": { "ap": 20, "dp": 0 }
+    "Basilisk's Belt": {
+      "enhanceLevel": {
+        "1": { "ap": 8, "dp": 0 },
+        "2": { "ap": 11, "dp": 0 },
+        "3": { "ap": 14, "dp": 0 },
+        "4": { "ap": 17, "dp": 0 },
+        "5": { "ap": 20, "dp": 0 }
       }
     },
-    {
-      "name": "Centaurus",
-      "stats": {
-        "pri": { "ap": 0, "dp": 8 },
-        "duo": { "ap": 0, "dp": 11 },
-        "tri": { "ap": 0, "dp": 14 },
-        "tet": { "ap": 0, "dp": 17 },
-        "pen": { "ap": 0, "dp": 20 }
+    "Centaurus Belt": {
+      "enhanceLevel": {
+        "1": { "ap": 0, "dp": 8 },
+        "2": { "ap": 0, "dp": 11 },
+        "3": { "ap": 0, "dp": 14 },
+        "4": { "ap": 0, "dp": 17 },
+        "5": { "ap": 0, "dp": 20 }
       }
     },
-    {
-      "name": "Orkinrads",
-      "stats": {
-        "pri": { "ap": 9, "dp": 1 },
-        "duo": { "ap": 11, "dp": 2 },
-        "tri": { "ap": 13, "dp": 3 },
-        "tet": { "ap": 15, "dp": 4 },
-        "pen": { "ap": 17, "dp": 5 }
+    "Orkinrad's Belt": {
+      "enhanceLevel": {
+        "1": { "ap": 9, "dp": 1 },
+        "2": { "ap": 11, "dp": 2 },
+        "3": { "ap": 13, "dp": 3 },
+        "4": { "ap": 15, "dp": 4 },
+        "5": { "ap": 17, "dp": 5 }
       }
     }
-  ]
+  }
 }
