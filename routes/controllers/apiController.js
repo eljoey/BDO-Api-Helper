@@ -107,7 +107,6 @@ exports.caphras_calc_get = (req, res, next) => {
     });
   }
   if (0 > Number(curLevel) || Number(curLevel) > 19) {
-    console.log(curLevel);
     return res.status(400).json({
       error: 'Invalid or no curLevel given. A number 0-19 is needed',
     });
@@ -144,17 +143,38 @@ exports.caphras_calc_get = (req, res, next) => {
 };
 
 exports.item_upgrade_get = (req, res, next) => {
+  const gearArr = ({
+    character,
+    mainHand,
+    offhand,
+    awakening,
+    gloves,
+    helm,
+    armor,
+    boots,
+    ring,
+    earring,
+    necklace,
+    belt,
+  } = req.body);
+
+  const currentGearWithStats = helpers.addCurrentGearStats(gearArr);
+
   let upgradeInfo = Object.keys(upgradeIds).map((key) => {
     if (key === 'class') {
       let infoArr = [];
+      const weaponTypes = ['mainHand', 'offhand', 'awakening'];
 
-      for (let x = 16; x <= 20; x++) {
-        infoArr.push(
-          ...upgradeIds[key].dk.mainHand.map((id) => {
-            return { name: id.name, mainKey: id.id, subKey: x };
-          })
-        );
+      for (let i = 0; i < weaponTypes.length; i++) {
+        for (let x = 16; x <= 20; x++) {
+          infoArr.push(
+            ...upgradeIds[key][gearArr.character][weaponTypes[i]].map((id) => {
+              return { name: id.name, mainKey: id.id, subKey: x };
+            })
+          );
+        }
       }
+
       return infoArr;
     } else if (key === 'armor') {
       let infoArr = [];
@@ -201,10 +221,15 @@ exports.item_upgrade_get = (req, res, next) => {
     if (err) {
       console.log(err);
     }
-    let data = helpers.itemUpgradeDataFormat(results, formattedUpgradeInfo);
-    let addDataStats = helpers.addStats(data);
 
-    res.send(addDataStats);
+    const data = helpers.itemUpgradeDataFormat(results, formattedUpgradeInfo);
+    const dataWithStats = helpers.addStats(data);
+    const dataWithEverything = helpers.calcCostPerStat(
+      currentGearWithStats,
+      dataWithStats
+    );
+
+    res.send(dataWithEverything);
 
     // TODO: Swap to better quicker calling using item info and parse the data
     //        to sort out the unwanted items. Less calls to bdo, but need to figure out how to determine btwn types.

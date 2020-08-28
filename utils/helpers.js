@@ -88,10 +88,13 @@ const addStats = (data) => {
     const itemBaseName = item.name.split(' ')[0];
     const itemTypeName = item.name.split(' ')[1];
 
+    // TODO: Clean this up.
+
     //Mainhand Weapon
     if (mainhandNames.includes(itemBaseName) && itemTypeName !== 'Armor') {
       const itemWithStats = {
         ...item,
+        type: 'mainHand',
         stats: {
           ap: itemStats.mainHand[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.mainHand[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -105,6 +108,7 @@ const addStats = (data) => {
     if (awakeningNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'awakening',
         stats: {
           ap: itemStats.awakening[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.awakening[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -118,6 +122,7 @@ const addStats = (data) => {
     if (offhandNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'offhand',
         stats: {
           ap: itemStats.offhand[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.offhand[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -131,6 +136,7 @@ const addStats = (data) => {
     if (gloveNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'gloves',
         stats: {
           ap: itemStats.gloves[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.gloves[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -144,6 +150,7 @@ const addStats = (data) => {
     if (helmNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'helm',
         stats: {
           ap: itemStats.helm[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.helm[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -157,6 +164,7 @@ const addStats = (data) => {
     if (armorNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'armor',
         stats: {
           ap: itemStats.armor[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.armor[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -170,6 +178,7 @@ const addStats = (data) => {
     if (bootNames.includes(itemBaseName)) {
       const itemWithStats = {
         ...item,
+        type: 'boots',
         stats: {
           ap: itemStats.boots[itemBaseName].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.boots[itemBaseName].enhanceLevel[item.enhLevel].dp,
@@ -183,6 +192,7 @@ const addStats = (data) => {
     if (itemStats.ring[item.name]) {
       const itemWithStats = {
         ...item,
+        type: 'ring',
         stats: {
           ap: itemStats.ring[item.name].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.ring[item.name].enhanceLevel[item.enhLevel].dp,
@@ -196,6 +206,7 @@ const addStats = (data) => {
     if (itemStats.earring[item.name]) {
       const itemWithStats = {
         ...item,
+        type: 'earring',
         stats: {
           ap: itemStats.earring[item.name].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.earring[item.name].enhanceLevel[item.enhLevel].dp,
@@ -209,6 +220,7 @@ const addStats = (data) => {
     if (itemStats.necklace[item.name]) {
       const itemWithStats = {
         ...item,
+        type: 'necklace',
         stats: {
           ap: itemStats.necklace[item.name].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.necklace[item.name].enhanceLevel[item.enhLevel].dp,
@@ -222,6 +234,7 @@ const addStats = (data) => {
     if (itemStats.belt[item.name]) {
       const itemWithStats = {
         ...item,
+        type: 'belt',
         stats: {
           ap: itemStats.belt[item.name].enhanceLevel[item.enhLevel].ap,
           dp: itemStats.belt[item.name].enhanceLevel[item.enhLevel].dp,
@@ -235,6 +248,56 @@ const addStats = (data) => {
   return addStatInfo;
 };
 
+const calcCostPerStat = (currentGear, potentialGear) => {
+  const addCostPerStat = potentialGear.map((item) => {
+    const currentGearAp = currentGear[item.type].stats.ap;
+    const currentGearDp = currentGear[item.type].stats.dp;
+    const potentialGearAp = item.stats.ap;
+    const potentialGearDp = item.stats.dp;
+    const apDiff = potentialGearAp - currentGearAp;
+    const dpDiff = potentialGearDp - currentGearDp;
+    const pricePerBillion = item.price / 1000000000;
+    const apPerBillion = apDiff === 0 ? 0 : pricePerBillion / apDiff;
+    const dpPerBillion = dpDiff === 0 ? 0 : pricePerBillion / dpDiff;
+
+    const newItem = {
+      ...item,
+      perStatCost: {
+        ap: apPerBillion,
+        dp: dpPerBillion,
+        total: pricePerBillion / (apDiff + dpDiff),
+      },
+    };
+
+    return newItem;
+  });
+
+  return addCostPerStat;
+};
+
+const addCurrentGearStats = (data) => {
+  const gearKeys = Object.keys(data).slice(1);
+  const updatedGear = {};
+
+  for (let i = 0; i < gearKeys.length; i++) {
+    updatedGear[gearKeys[i]] = {
+      ...data[gearKeys[i]],
+      stats: {
+        ap:
+          itemStats[gearKeys[i]][data[gearKeys[i]].name].enhanceLevel[
+            data[gearKeys[i]].enhLevel
+          ].ap,
+        dp:
+          itemStats[gearKeys[i]][data[gearKeys[i]].name].enhanceLevel[
+            data[gearKeys[i]].enhLevel
+          ].dp,
+      },
+    };
+  }
+
+  return updatedGear;
+};
+
 module.exports = {
   parallelSetup,
   formatData,
@@ -242,4 +305,6 @@ module.exports = {
   itemUpgradeParallelSetup,
   itemUpgradeDataFormat,
   addStats,
+  addCurrentGearStats,
+  calcCostPerStat,
 };
