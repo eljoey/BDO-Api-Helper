@@ -249,28 +249,38 @@ const addStats = (data) => {
 };
 
 const calcCostPerStat = (currentGear, potentialGear) => {
-  const addCostPerStat = potentialGear.map((item) => {
-    const currentGearAp = currentGear[item.type].stats.ap;
-    const currentGearDp = currentGear[item.type].stats.dp;
-    const potentialGearAp = item.stats.ap;
-    const potentialGearDp = item.stats.dp;
-    const apDiff = potentialGearAp - currentGearAp;
-    const dpDiff = potentialGearDp - currentGearDp;
-    const pricePerBillion = item.price / 1000000000;
-    const apPerBillion = apDiff === 0 ? 0 : pricePerBillion / apDiff;
-    const dpPerBillion = dpDiff === 0 ? 0 : pricePerBillion / dpDiff;
+  const addCostPerStat = potentialGear
+    .map((item) => {
+      const currentGearAp = currentGear[item.type].stats.ap;
+      const currentGearDp = currentGear[item.type].stats.dp;
+      const potentialGearAp = item.stats.ap;
+      const potentialGearDp = item.stats.dp;
+      const apDiff = potentialGearAp - currentGearAp;
+      const dpDiff = potentialGearDp - currentGearDp;
+      const pricePerBillion = item.price / 1000000000;
+      const apPerBillion = apDiff === 0 ? 0 : pricePerBillion / apDiff;
+      const dpPerBillion = dpDiff === 0 ? 0 : pricePerBillion / dpDiff;
 
-    const newItem = {
-      ...item,
-      perStatCost: {
-        ap: apPerBillion,
-        dp: dpPerBillion,
-        total: pricePerBillion / (apDiff + dpDiff),
-      },
-    };
+      const newItem = {
+        ...item,
+        perStatCost: {
+          ap: apPerBillion,
+          dp: dpPerBillion,
+          total: pricePerBillion / (apDiff + dpDiff),
+        },
+      };
 
-    return newItem;
-  });
+      if (
+        newItem.perStatCost.total <= 0 ||
+        newItem.perStatCost.total === Infinity ||
+        newItem.perStatCost.total === null
+      ) {
+        return;
+      }
+
+      return newItem;
+    })
+    .filter((x) => x);
 
   return addCostPerStat;
 };

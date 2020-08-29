@@ -4,7 +4,7 @@ const alchMatsJSON = require('../../data/Alchemy.json');
 const fishMatsJSON = require('../../data/DriedFish.json');
 const cookMatsJSON = require('../../data/Cooking.json');
 const upgradeIds = require('../../data/UpgradeIds.json');
-const e = require('express');
+const validItems = require('../../utils/validItems');
 
 exports.prices_get = (req, res, next) => {
   const region = req.query.region;
@@ -143,6 +143,7 @@ exports.caphras_calc_get = (req, res, next) => {
 };
 
 exports.item_upgrade_get = (req, res, next) => {
+  const region = req.query.region;
   const gearArr = ({
     character,
     mainHand,
@@ -158,6 +159,60 @@ exports.item_upgrade_get = (req, res, next) => {
     belt,
   } = req.body);
 
+  const validRegions = ['na', 'eu'];
+  const validNames = [
+    'character',
+    'mainHand',
+    'offhand',
+    'awakening',
+    'gloves',
+    'helm',
+    'armor',
+    'boots',
+    'ring',
+    'earring',
+    'necklace',
+    'belt',
+  ];
+
+  if (!validRegions.includes(region)) {
+    return res.status(400).json({
+      error: 'Invalid or no region given',
+    });
+  }
+
+  for (let i = 0; i < validNames.length; i++) {
+    const name = validNames[i];
+
+    if (!validItems[name].includes(gearArr[name].name)) {
+      return res.status(400).json({
+        error: `Invalid or no ${name} given`,
+      });
+    }
+  }
+
+  // Weapon and Armor enhLevel validation
+  for (let i = 1; i < 7; i++) {
+    const enhLvlInput = gearArr[validNames[i]].enhLevel;
+
+    if (enhLvlInput < 16 || enhLvlInput > 20) {
+      return res.status(400).json({
+        error: `Invalid or no ${validNames[i]} enhLevel given`,
+      });
+    }
+  }
+
+  // Accessories enhLevel validation
+  for (let i = 8; i < 11; i++) {
+    const enhLvlInput = gearArr[validNames[i]].enhLevel;
+
+    if (enhLvlInput < 1 || enhLvlInput > 5) {
+      return res.status(400).json({
+        error: `Invalid or no ${validNames[i]} enhLevel given`,
+      });
+    }
+  }
+
   const currentGearWithStats = helpers.addCurrentGearStats(gearArr);
 
   let upgradeInfo = Object.keys(upgradeIds).map((key) => {
@@ -168,9 +223,11 @@ exports.item_upgrade_get = (req, res, next) => {
       for (let i = 0; i < weaponTypes.length; i++) {
         for (let x = 16; x <= 20; x++) {
           infoArr.push(
-            ...upgradeIds[key][gearArr.character][weaponTypes[i]].map((id) => {
-              return { name: id.name, mainKey: id.id, subKey: x };
-            })
+            ...upgradeIds[key][gearArr.character.name][weaponTypes[i]].map(
+              (id) => {
+                return { name: id.name, mainKey: id.id, subKey: x };
+              }
+            )
           );
         }
       }
@@ -214,7 +271,7 @@ exports.item_upgrade_get = (req, res, next) => {
 
   const parallelApiCalls = helpers.itemUpgradeParallelSetup(
     formattedUpgradeInfo,
-    'na'
+    region
   );
 
   async.parallelLimit(parallelApiCalls, 50, (err, results) => {
