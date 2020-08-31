@@ -26,6 +26,12 @@ Calculate the current cost of caphras enhancing for an item.
 
 - [Caphras-Calc](docs/caphrasCalc.md) `GET /api/caphras-calc`
 
+### Item Upgrade Path
+
+Get a list of items with upgrade cost per stat increase to help choosing which item to upgrade next.
+
+- [Item-Upgrade](docs/itemUpgrade.md) `GET /api/item-upgrade`
+
 ### Marketplace Clone
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.

@@ -1,8 +1,8 @@
-const character = [
-  'dk',
-  'sorc',
+const characterClass = [
+  'dark knight',
+  'sorceress',
   'warrior',
-  'valk',
+  'valkyrie',
   'guardian',
   'ranger',
   'witch',
@@ -56,7 +56,7 @@ const belt = [
 ];
 
 module.exports = {
-  character,
+  characterClass,
   mainHand,
   offhand,
   awakening,

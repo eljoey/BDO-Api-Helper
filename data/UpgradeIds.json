@@ -1,6 +1,6 @@
 {
   "class": {
-    "dk": {
+    "dark knight": {
       "mainHand": [
         {
           "name": "Kzarka Kriegsmesser",
@@ -72,7 +72,7 @@
         }
       ]
     },
-    "valk": {
+    "valkyrie": {
       "mainHand": [
         {
           "name": "Kzarka Longsword",
@@ -252,7 +252,7 @@
         }
       ]
     },
-    "sorc": {
+    "sorceress": {
       "mainHand": [
         {
           "name": "Kzarka Amulet",

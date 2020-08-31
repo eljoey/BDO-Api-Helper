@@ -145,7 +145,7 @@ exports.caphras_calc_get = (req, res, next) => {
 exports.item_upgrade_get = (req, res, next) => {
   const region = req.query.region;
   const gearArr = ({
-    character,
+    characterClass,
     mainHand,
     offhand,
     awakening,
@@ -161,7 +161,7 @@ exports.item_upgrade_get = (req, res, next) => {
 
   const validRegions = ['na', 'eu'];
   const validNames = [
-    'character',
+    'characterClass',
     'mainHand',
     'offhand',
     'awakening',
@@ -223,7 +223,7 @@ exports.item_upgrade_get = (req, res, next) => {
       for (let i = 0; i < weaponTypes.length; i++) {
         for (let x = 16; x <= 20; x++) {
           infoArr.push(
-            ...upgradeIds[key][gearArr.character.name][weaponTypes[i]].map(
+            ...upgradeIds[key][gearArr.characterClass.name][weaponTypes[i]].map(
               (id) => {
                 return { name: id.name, mainKey: id.id, subKey: x };
               }
