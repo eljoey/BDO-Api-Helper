@@ -286,7 +286,8 @@ const calcCostPerStat = (currentGear, potentialGear) => {
 };
 
 const addCurrentGearStats = (data) => {
-  const gearKeys = Object.keys(data).slice(1);
+  const gearKeys = Object.keys(data).filter((key) => key !== 'characterClass');
+
   const updatedGear = {};
 
   for (let i = 0; i < gearKeys.length; i++) {
