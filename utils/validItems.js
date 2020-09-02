@@ -7,7 +7,7 @@ const characterClass = [
   'ranger',
   'witch',
   'wizard',
-  'beserker',
+  'berserker',
   'tamer',
   'musa',
   'maehwa',
