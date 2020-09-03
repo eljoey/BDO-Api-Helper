@@ -67,7 +67,7 @@ Get a list of items that are possible upgrades with the calculated upgrade cost 
 ```json
 {
   "characterClass": {
-    "name": "sorc"
+    "name": "sorceress"
   },
   "mainHand": {
     "name": "Kzarka",
