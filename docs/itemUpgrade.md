@@ -145,20 +145,20 @@ Returns an array of items in the following format.
 
 ## Notes
 
-| Entry          | Input Type | Valid Inputs                                                                                                                                                    |
-| -------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| characterClass | string     | dark knight, warrior, valkyrie, guardian, ranger, witch, wizard, sorceress, beserker, tamer, musa, maehwa, ninja, kunoichi, striker, mystic, lahn, archer, shai |
-| mainHand       | string     | Kzarka, Offin, Blackstar                                                                                                                                        |
-| offhand        | string     | Kutum, Nouver                                                                                                                                                   |
-| awakening      | string     | Dandelion, Dragon                                                                                                                                               |
-| gloves         | string     | Bheg's, Leebur's                                                                                                                                                |
-| helm           | string     | Giath's, Griffon's                                                                                                                                              |
-| armor          | string     | Dim, Red, Blackstar                                                                                                                                             |
-| boots          | string     | Urugon's, Muskan's                                                                                                                                              |
-| ring           | string     | Ring of Crescent Guardian, Tungrad Ring, Ring of Cadry Guardian, Eye of the Ruins Ring                                                                          |
-| necklace       | string     | Ogre Ring, Deboreka Necklace, Laytenn's Power Stone, Serap's Necklace, Sicil's Necklace, Tungrad Necklace                                                       |
-| earring        | string     | Tungrad Earring, Dawn Earring, Ethereal Earrings, Black Distortion Earring, Narc Ear Accessory                                                                  |
-| belt           | string     | Tungrad Belt, Valtarra Eclipsed Belt, Basilisk's Belt, Centaurus Belt, Orkinrad's Belt                                                                          |
+| Entry          | Input Type | Valid Inputs                                                                                                                                                               |
+| -------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| characterClass | string     | dark knight, warrior, valkyrie, guardian, ranger, witch, wizard, sorceress, beserker, tamer, musa, maehwa, ninja, kunoichi, striker, mystic, lahn, archer, shai, hashashin |
+| mainHand       | string     | Kzarka, Offin, Blackstar                                                                                                                                                   |
+| offhand        | string     | Kutum, Nouver                                                                                                                                                              |
+| awakening      | string     | Dandelion, Dragon                                                                                                                                                          |
+| gloves         | string     | Bheg's, Leebur's                                                                                                                                                           |
+| helm           | string     | Giath's, Griffon's                                                                                                                                                         |
+| armor          | string     | Dim, Red, Blackstar                                                                                                                                                        |
+| boots          | string     | Urugon's, Muskan's                                                                                                                                                         |
+| ring           | string     | Ring of Crescent Guardian, Tungrad Ring, Ring of Cadry Guardian, Eye of the Ruins Ring                                                                                     |
+| necklace       | string     | Ogre Ring, Deboreka Necklace, Laytenn's Power Stone, Serap's Necklace, Sicil's Necklace, Tungrad Necklace                                                                  |
+| earring        | string     | Tungrad Earring, Dawn Earring, Ethereal Earrings, Black Distortion Earring, Narc Ear Accessory                                                                             |
+| belt           | string     | Tungrad Belt, Valtarra Eclipsed Belt, Basilisk's Belt, Centaurus Belt, Orkinrad's Belt                                                                                     |
 
 - Enhance level for weapons and armor will be:
 

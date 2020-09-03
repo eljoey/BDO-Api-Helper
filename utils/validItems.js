@@ -18,6 +18,7 @@ const characterClass = [
   'lahn',
   'archer',
   'shai',
+  'hashashin',
 ];
 const mainHand = ['Kzarka', 'Offin', 'Blackstar'];
 const awakening = ['Dandelion', 'Dragon'];

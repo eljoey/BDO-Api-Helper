@@ -690,6 +690,33 @@
           "id": 719038
         }
       ]
+    },
+    "hashashin": {
+      "mainHand": [
+        {
+          "name": "Kzarka Shamshir",
+          "id": 692011
+        },
+        {
+          "name": "Offin Tett's Shamshir",
+          "id": 692039
+        },
+        {
+          "name": "Blackstar Shamshir",
+          "id": 692045
+        }
+      ],
+      "awakening": [],
+      "offhand": [
+        {
+          "name": "Kutum Haladie",
+          "id": 692516
+        },
+        {
+          "name": "Nouver Haladie",
+          "id": 692514
+        }
+      ]
     }
   },
   "armor": {
