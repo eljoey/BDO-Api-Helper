@@ -143,7 +143,7 @@ exports.caphras_calc_get = (req, res, next) => {
   });
 };
 
-exports.item_upgrade_get = (req, res, next) => {
+exports.item_upgrade_post = (req, res, next) => {
   const region = req.query.region;
   const gearArr = ({
     characterClass,
@@ -292,4 +292,89 @@ exports.item_upgrade_get = (req, res, next) => {
     // TODO: Swap to better quicker calling using item info and parse the data
     //        to sort out the unwanted items. Less calls to bdo, but need to figure out how to determine btwn types.
   });
+};
+
+exports.kutum_or_nouver_get = (req, res, next) => {
+  const { baseAp, kutumLvl, nouverLvl, region } = req.query;
+  const kutumCaphra = req.query.kutumCaphra || '0';
+  const nouverCaphra = req.query.nouverCaphra || '0';
+  const caphraRegex = /^[0-9]$|^0[1-9]$|^1[0-9]$|^20$/;
+
+  // Validation
+  const validRegions = ['na', 'eu'];
+  const validLvls = ['tri', 'tet', 'pen'];
+
+  if (!validRegions.includes(region)) {
+    return res.status(400).json({
+      error: 'Invalid or no region given',
+    });
+  }
+  if (!validLvls.includes(kutumLvl)) {
+    return res.status(400).json({
+      error: 'Invalid or no kutumLvl given',
+    });
+  }
+  if (!validLvls.includes(nouverLvl)) {
+    return res.status(400).json({
+      error: 'Invalid or no nouverLvl given',
+    });
+  }
+  if (
+    Number(kutumCaphra) < 0 ||
+    Number(kutumCaphra) > 20 ||
+    !caphraRegex.test(kutumCaphra)
+  ) {
+    return res.status(400).json({
+      error: 'Invalid or no kutumCaphra given',
+    });
+  }
+  if (
+    Number(nouverCaphra) < 0 ||
+    Number(nouverCaphra) > 20 ||
+    !caphraRegex.test(nouverCaphra)
+  ) {
+    return res.status(400).json({
+      error: 'Invalid or no nouverCaphra given',
+    });
+  }
+  if (baseAp < 200 || baseAp > 250) {
+    return res.send({ bestOffhand: 'Kutum', effectiveApDiff: 'Alot' });
+  }
+  if (!Number(baseAp)) {
+    return res.status(400).json({
+      error: 'Invalid or no baseAp given',
+    });
+  }
+
+  const kutumEffectiveAp = helpers.getEffectiveAp(
+    'kutum',
+    kutumLvl,
+    kutumCaphra,
+    baseAp
+  );
+  const nouverEffectiveAp = helpers.getEffectiveAp(
+    'nouver',
+    nouverLvl,
+    nouverCaphra,
+    baseAp
+  );
+
+  const effectiveApDiff = Math.abs(kutumEffectiveAp - nouverEffectiveAp);
+
+  if (kutumEffectiveAp === nouverEffectiveAp) {
+    res.send({
+      bestOffhand: 'Both offhands are equal',
+      effectiveApDiff,
+    });
+  } else if (kutumEffectiveAp > nouverEffectiveAp) {
+    res.send({
+      bestOffhand: 'Kutum',
+      effectiveApDiff,
+    });
+  } else {
+    res.send({
+      bestOffhand: 'Nouver',
+      effectiveApDiff,
+    });
+  }
 };

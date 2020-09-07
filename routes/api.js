@@ -14,6 +14,8 @@ router.get('/search', apiController.search_get);
 
 router.get('/caphras-calc', apiController.caphras_calc_get);
 
-router.post('/item-upgrade', apiController.item_upgrade_get);
+router.post('/item-upgrade', apiController.item_upgrade_post);
+
+router.get('/kutum-or-nouver', apiController.kutum_or_nouver_get);
 
 module.exports = router;

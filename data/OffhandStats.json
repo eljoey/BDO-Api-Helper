@@ -1,0 +1,30 @@
+{
+  "kutum": {
+    "tri": {
+      "ap": 28,
+      "monsterAp": 43
+    },
+    "tet": {
+      "ap": 30,
+      "monsterAp": 58
+    },
+    "pen": {
+      "ap": 32,
+      "monsterAp": 62
+    }
+  },
+  "nouver": {
+    "tri": {
+      "ap": 39,
+      "monsterAp": 3
+    },
+    "tet": {
+      "ap": 42,
+      "monsterAp": 4
+    },
+    "pen": {
+      "ap": 45,
+      "monsterAp": 5
+    }
+  }
+}

@@ -1,6 +1,9 @@
 const apiConfig = require('./apiConifg');
 const caphrasData = require('../data/caphras.json');
 const itemStats = require('../data/ItemStats.json');
+const apBracket = require('../data/ApBracket.json');
+const offhandStats = require('../data/OffhandStats.json');
+const caphraAp = require('../data/CaphrasAp.json');
 
 const parallelSetup = (idArr, region) => {
   const parallelCalls = idArr.map((id) => {
@@ -309,6 +312,21 @@ const addCurrentGearStats = (data) => {
   return updatedGear;
 };
 
+const getEffectiveAp = (item, itemLvl, caphrasLvl, baseAp) => {
+  const itemAp =
+    offhandStats[item][itemLvl].ap +
+    caphraAp[itemLvl].caphrasLvl[caphrasLvl].bonusAp +
+    Number(baseAp);
+
+  const itemMonsterAp = offhandStats[item][itemLvl].monsterAp;
+
+  const itemBonusAp = apBracket[itemAp];
+
+  const itemEffectiveAp = itemAp + itemMonsterAp + itemBonusAp;
+
+  return itemEffectiveAp;
+};
+
 module.exports = {
   parallelSetup,
   formatData,
@@ -318,4 +336,5 @@ module.exports = {
   addStats,
   addCurrentGearStats,
   calcCostPerStat,
+  getEffectiveAp,
 };
