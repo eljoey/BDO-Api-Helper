@@ -331,7 +331,7 @@ exports.kutum_or_nouver_get = (req, res, next) => {
       error: 'Invalid or no nouverCaphra given',
     });
   }
-  if (baseAp < 200 || baseAp > 250) {
+  if (baseAp < 200 || baseAp > 270) {
     return res.send({ bestOffhand: 'Kutum', effectiveApDiff: 'Alot' });
   }
   if (!Number(baseAp)) {
