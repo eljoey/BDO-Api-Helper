@@ -13,51 +13,51 @@ Get a list of items that are possible upgrades with the calculated upgrade cost 
 ```json
 {
   "character": {
-    "name": `Character class`
+    "name": "Character class"
   },
   "mainHand": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level (16-20)"
   },
   "offhand": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "awakening": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "gloves": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "helm": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "armor": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "boots": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (16-20)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (16-20)"
   },
   "ring": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (1-5)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (1-5)"
   },
   "necklace": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (1-5)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (1-5)"
   },
   "earring": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (1-5)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (1-5)"
   },
   "belt": {
-    "name": `See notes for valid entries`,
-    "enhLevel": `Enhance Level Enhance Level (1-5)`
+    "name": "See notes for valid entries",
+    "enhLevel": "Enhance Level Enhance Level (1-5)"
   }
 }
 ```
