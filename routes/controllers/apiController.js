@@ -295,20 +295,14 @@ exports.item_upgrade_post = (req, res, next) => {
 };
 
 exports.kutum_or_nouver_get = (req, res, next) => {
-  const { baseAp, kutumLvl, nouverLvl, region } = req.query;
+  const { baseAp, kutumLvl, nouverLvl } = req.query;
   const kutumCaphra = req.query.kutumCaphra || '0';
   const nouverCaphra = req.query.nouverCaphra || '0';
   const caphraRegex = /^[0-9]$|^0[1-9]$|^1[0-9]$|^20$/;
 
   // Validation
-  const validRegions = ['na', 'eu'];
   const validLvls = ['tri', 'tet', 'pen'];
 
-  if (!validRegions.includes(region)) {
-    return res.status(400).json({
-      error: 'Invalid or no region given',
-    });
-  }
   if (!validLvls.includes(kutumLvl)) {
     return res.status(400).json({
       error: 'Invalid or no kutumLvl given',
