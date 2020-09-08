@@ -32,6 +32,12 @@ Get a list of items with upgrade cost per stat increase to help choosing which i
 
 - [Item-Upgrade](docs/itemUpgrade.md) `GET /api/item-upgrade`
 
+### Kutum Or Nouver
+
+Determine which offhand is best at your ap level.
+
+- [Kutum-Or-Nouver](docs/kutumOrNouver.md) `GET /api/kutum-or-nouver`
+
 ### Marketplace Clone
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.
@@ -45,7 +51,7 @@ Mocks the api calls for the bdo marketplace. Best to use this if you want to clo
 
 You must choose a region. Add `?region=YOURREGIONHERE` `na` for North America and `eu` for Europe region at the end of each call.
 
-ex. `https://bdo-api-helper.herokuapp.com/api/prices/cooking?region=na` will return a the prices for the cooking mat prices for the North American server
+ex. `https://bdo-api-helper.herokuapp.com/api/prices/cooking?region=na` will return a list of the prices for the cooking mat prices for the North American server
 
 ## License
 
