@@ -49,7 +49,7 @@ Mocks the api calls for the bdo marketplace. Best to use this if you want to clo
 
 ## Warning
 
-You must choose a region. Add `?region=YOURREGIONHERE` `na` for North America and `eu` for Europe region at the end of each call.
+You must choose a region for all endpoints except kutum-or-nouver. Add `?region=YOURREGIONHERE` `na` for North America and `eu` for Europe region at the end of the call.
 
 ex. `https://bdo-api-helper.herokuapp.com/api/prices/cooking?region=na` will return a list of the prices for the cooking mat prices for the North American server
 

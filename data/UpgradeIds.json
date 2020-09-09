@@ -4,35 +4,42 @@
       "mainHand": [
         {
           "name": "Kzarka Kriegsmesser",
-          "id": 11360
+          "id": 11360,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Kriegsmesser",
-          "id": 11436
+          "id": 11436,
+          "grade": 3
         },
         {
           "name": "Blackstar Kriegsmesser",
-          "id": 715016
+          "id": 715016,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Vediant",
-          "id": 14817
+          "id": 14817,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Vediant",
-          "id": 702513
+          "id": 702513,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Ornamental Knot",
-          "id": 10740
+          "id": 10740,
+          "grade": 3
         },
         {
           "name": "Nouver Ornamental Knot",
-          "id": 10738
+          "id": 10738,
+          "grade": 3
         }
       ]
     },
@@ -40,35 +47,42 @@
       "mainHand": [
         {
           "name": "Kzarka Longsword",
-          "id": 10010
+          "id": 10010,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Longsword",
-          "id": 10086
+          "id": 10086,
+          "grade": 3
         },
         {
           "name": "Blackstar Longsword",
-          "id": 715001
+          "id": 715001,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Great Sword",
-          "id": 14702
+          "id": 14702,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Great Sword",
-          "id": 702501
+          "id": 702501,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Shield",
-          "id": 10140
+          "id": 10140,
+          "grade": 3
         },
         {
           "name": "Nouver Shield",
-          "id": 10138
+          "id": 10138,
+          "grade": 3
         }
       ]
     },
@@ -76,35 +90,42 @@
       "mainHand": [
         {
           "name": "Kzarka Longsword",
-          "id": 10010
+          "id": 10010,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Longsword",
-          "id": 10086
+          "id": 10086,
+          "grade": 3
         },
         {
           "name": "Blackstar Longsword",
-          "id": 715001
+          "id": 715001,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Lancia",
-          "id": 14752
+          "id": 14752,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Lancia",
-          "id": 702506
+          "id": 702506,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Shield",
-          "id": 10140
+          "id": 10140,
+          "grade": 3
         },
         {
           "name": "Nouver Shield",
-          "id": 10138
+          "id": 10138,
+          "grade": 3
         }
       ]
     },
@@ -112,35 +133,42 @@
       "mainHand": [
         {
           "name": "Kzarka Battle Axe",
-          "id": 690513
+          "id": 690513,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Battle Axe",
-          "id": 690541
+          "id": 690541,
+          "grade": 3
         },
         {
           "name": "Blackstar Battle Axe",
-          "id": 690563
+          "id": 690563,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Jordun",
-          "id": 691503
+          "id": 691503,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Jordun",
-          "id": 702535
+          "id": 702535,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Shield",
-          "id": 10140
+          "id": 10140,
+          "grade": 3
         },
         {
           "name": "Nouver Shield",
-          "id": 10138
+          "id": 10138,
+          "grade": 3
         }
       ]
     },
@@ -148,35 +176,42 @@
       "mainHand": [
         {
           "name": "Kzarka Longbow",
-          "id": 10210
+          "id": 10210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Longbow",
-          "id": 10286
+          "id": 10286,
+          "grade": 3
         },
         {
           "name": "Blackstar Longbow",
-          "id": 715003
+          "id": 715003,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Kamasylven Sword",
-          "id": 14732
+          "id": 14732,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Kamasylven Sword",
-          "id": 702504
+          "id": 702504,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Dagger",
-          "id": 10340
+          "id": 10340,
+          "grade": 3
         },
         {
           "name": "Nouver Dagger",
-          "id": 10338
+          "id": 10338,
+          "grade": 3
         }
       ]
     },
@@ -184,35 +219,42 @@
       "mainHand": [
         {
           "name": "Kzarka Staff",
-          "id": 14410
+          "id": 14410,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Staff",
-          "id": 14486
+          "id": 14486,
+          "grade": 3
         },
         {
           "name": "Blackstar Staff",
-          "id": 715013
+          "id": 715013,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Aad Sphera",
-          "id": 14802
+          "id": 14802,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Aad Sphera",
-          "id": 702511
+          "id": 702511,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Dagger",
-          "id": 10340
+          "id": 10340,
+          "grade": 3
         },
         {
           "name": "Nouver Dagger",
-          "id": 10338
+          "id": 10338,
+          "grade": 3
         }
       ]
     },
@@ -220,35 +262,42 @@
       "mainHand": [
         {
           "name": "Kzarka Staff",
-          "id": 14410
+          "id": 14410,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Staff",
-          "id": 14486
+          "id": 14486,
+          "grade": 3
         },
         {
           "name": "Blackstar Staff",
-          "id": 715013
+          "id": 715013,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Godr Sphera",
-          "id": 14802
+          "id": 14802,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Godr Sphera",
-          "id": 702511
+          "id": 702511,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Dagger",
-          "id": 10340
+          "id": 10340,
+          "grade": 3
         },
         {
           "name": "Nouver Dagger",
-          "id": 10338
+          "id": 10338,
+          "grade": 3
         }
       ]
     },
@@ -256,35 +305,42 @@
       "mainHand": [
         {
           "name": "Kzarka Amulet",
-          "id": 10410
+          "id": 10410,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Amulet",
-          "id": 10486
+          "id": 10486,
+          "grade": 3
         },
         {
           "name": "Blackstar Amulet",
-          "id": 715005
+          "id": 715005,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Scythe",
-          "id": 14712
+          "id": 14712,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Scythe",
-          "id": 702502
+          "id": 702502,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Talisman",
-          "id": 10540
+          "id": 10540,
+          "grade": 3
         },
         {
           "name": "Nouver Talisman",
-          "id": 10538
+          "id": 10538,
+          "grade": 3
         }
       ]
     },
@@ -292,35 +348,42 @@
       "mainHand": [
         {
           "name": "Kzarka Axe",
-          "id": 10610
+          "id": 10610,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Axe",
-          "id": 10686
+          "id": 10686,
+          "grade": 3
         },
         {
           "name": "Blackstar Axe",
-          "id": 715007
+          "id": 715007,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Iron Buster",
-          "id": 14722
+          "id": 14722,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Iron Buster",
-          "id": 702503
+          "id": 702503,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Ornamental Knot",
-          "id": 10740
+          "id": 10740,
+          "grade": 3
         },
         {
           "name": "Nouver Ornamental Knot",
-          "id": 10738
+          "id": 10738,
+          "grade": 3
         }
       ]
     },
@@ -328,35 +391,42 @@
       "mainHand": [
         {
           "name": "Kzarka Shortsword",
-          "id": 13210
+          "id": 13210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Shortsword",
-          "id": 13286
+          "id": 13286,
+          "grade": 3
         },
         {
           "name": "Blackstar Shortsword",
-          "id": 715009
+          "id": 715009,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Celestial Bo Staff",
-          "id": 14742
+          "id": 14742,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Celestial Bo Staff",
-          "id": 702505
+          "id": 702505,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Trinket",
-          "id": 13040
+          "id": 13040,
+          "grade": 3
         },
         {
           "name": "Nouver Trinket",
-          "id": 13038
+          "id": 13038,
+          "grade": 3
         }
       ]
     },
@@ -364,35 +434,42 @@
       "mainHand": [
         {
           "name": "Kzarka Blade",
-          "id": 13310
+          "id": 13310,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Blade",
-          "id": 13386
+          "id": 13386,
+          "grade": 3
         },
         {
           "name": "Blackstar Blade",
-          "id": 715011
+          "id": 715011,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Crescent Blade",
-          "id": 14762
+          "id": 14762,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Crescent Blade",
-          "id": 702507
+          "id": 702507,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Horn Bow",
-          "id": 13140
+          "id": 13140,
+          "grade": 3
         },
         {
           "name": "Nouver Horn Bow",
-          "id": 13138
+          "id": 13138,
+          "grade": 3
         }
       ]
     },
@@ -400,35 +477,42 @@
       "mainHand": [
         {
           "name": "Kzarka Blade",
-          "id": 13310
+          "id": 13310,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Blade",
-          "id": 13386
+          "id": 13386,
+          "grade": 3
         },
         {
           "name": "Blackstar Blade",
-          "id": 715011
+          "id": 715011,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Kerispear",
-          "id": 14772
+          "id": 14772,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Kerispear",
-          "id": 702508
+          "id": 702508,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Horn Bow",
-          "id": 13140
+          "id": 13140,
+          "grade": 3
         },
         {
           "name": "Nouver Horn Bow",
-          "id": 13138
+          "id": 13138,
+          "grade": 3
         }
       ]
     },
@@ -436,43 +520,52 @@
       "mainHand": [
         {
           "name": "Kzarka Shortsword",
-          "id": 13210
+          "id": 13210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Shortsword",
-          "id": 13286
+          "id": 13286,
+          "grade": 3
         },
         {
           "name": "Blackstar Shortsword",
-          "id": 715009
+          "id": 715009,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Sura Katana",
-          "id": 14782
+          "id": 14782,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Sura Katana",
-          "id": 702509
+          "id": 702509,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Shuriken",
-          "id": 14640
+          "id": 14640,
+          "grade": 3
         },
         {
           "name": "Kutum Kunai",
-          "id": 14540
+          "id": 14540,
+          "grade": 3
         },
         {
           "name": " Nouver Kunai",
-          "id": 14538
+          "id": 14538,
+          "grade": 3
         },
         {
           "name": "Nouver Shuriken",
-          "id": 14638
+          "id": 14638,
+          "grade": 3
         }
       ]
     },
@@ -480,43 +573,52 @@
       "mainHand": [
         {
           "name": "Kzarka Shortsword",
-          "id": 13210
+          "id": 13210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Shortsword",
-          "id": 13286
+          "id": 13286,
+          "grade": 3
         },
         {
           "name": "Blackstar Shortsword",
-          "id": 715009
+          "id": 715009,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Sah Chakram",
-          "id": 14792
+          "id": 14792,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Sah Chakram",
-          "id": 702510
+          "id": 702510,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Shuriken",
-          "id": 14640
+          "id": 14640,
+          "grade": 3
         },
         {
           "name": "Kutum Kunai",
-          "id": 14540
+          "id": 14540,
+          "grade": 3
         },
         {
           "name": " Nouver Kunai",
-          "id": 14538
+          "id": 14538,
+          "grade": 3
         },
         {
           "name": "Nouver Shuriken",
-          "id": 14638
+          "id": 14638,
+          "grade": 3
         }
       ]
     },
@@ -524,35 +626,42 @@
       "mainHand": [
         {
           "name": "Kzarka Guantlet",
-          "id": 11210
+          "id": 11210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Guantlet",
-          "id": 11287
+          "id": 11287,
+          "grade": 3
         },
         {
           "name": "Blackstar Guantlet",
-          "id": 715017
+          "id": 715017,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Gardbrace",
-          "id": 14822
+          "id": 14822,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Gardbrace",
-          "id": 702514
+          "id": 702514,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Vambrace",
-          "id": 11340
+          "id": 11340,
+          "grade": 3
         },
         {
           "name": "Nouver Vambrace",
-          "id": 11338
+          "id": 11338,
+          "grade": 3
         }
       ]
     },
@@ -560,35 +669,42 @@
       "mainHand": [
         {
           "name": "Kzarka Guantlet",
-          "id": 11210
+          "id": 11210,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Guantlet",
-          "id": 11287
+          "id": 11287,
+          "grade": 3
         },
         {
           "name": "Blackstar Guantlet",
-          "id": 715017
+          "id": 715017,
+          "grade": 3
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Cestus",
-          "id": 14830
+          "id": 14830,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Cestus",
-          "id": 702515
+          "id": 702515,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Vambrace",
-          "id": 11340
+          "id": 11340,
+          "grade": 3
         },
         {
           "name": "Nouver Vambrace",
-          "id": 11338
+          "id": 11338,
+          "grade": 3
         }
       ]
     },
@@ -596,35 +712,42 @@
       "mainHand": [
         {
           "name": "Kzarka Pendulum",
-          "id": 13410
+          "id": 13410,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Pendulum",
-          "id": 13487
+          "id": 13487,
+          "grade": 3
         },
         {
           "name": "Blackstar Pendulum",
-          "id": 715019
+          "id": 715019,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Glaives",
-          "id": 550502
+          "id": 550502,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Glaives",
-          "id": 702516
+          "id": 702516,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Noble Sword",
-          "id": 13540
+          "id": 13540,
+          "grade": 3
         },
         {
           "name": "Nouver Noble",
-          "id": 13538
+          "id": 13538,
+          "grade": 3
         }
       ]
     },
@@ -632,35 +755,42 @@
       "mainHand": [
         {
           "name": "Kzarka Crossbow",
-          "id": 13710
+          "id": 13710,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Crossbow",
-          "id": 13786
+          "id": 13786,
+          "grade": 3
         },
         {
           "name": "Blackstar Crossbow",
-          "id": 715021
+          "id": 715021,
+          "grade": 4
         }
       ],
       "awakening": [
         {
           "name": "Dandelion Greatbow",
-          "id": 13903
+          "id": 13903,
+          "grade": 3
         },
         {
           "name": "Dragon Slayer Greatbow",
-          "id": 702533
+          "id": 702533,
+          "grade": 3
         }
       ],
       "offhand": [
         {
           "name": "Kutum Ra'ghon",
-          "id": 13840
+          "id": 13840,
+          "grade": 3
         },
         {
           "name": "Nouver Ra'ghon",
-          "id": 13838
+          "id": 13838,
+          "grade": 3
         }
       ]
     },
@@ -695,26 +825,31 @@
       "mainHand": [
         {
           "name": "Kzarka Shamshir",
-          "id": 692011
+          "id": 692011,
+          "grade": 3
         },
         {
           "name": "Offin Tett's Shamshir",
-          "id": 692039
+          "id": 692039,
+          "grade": 3
         },
         {
           "name": "Blackstar Shamshir",
-          "id": 692045
+          "id": 692045,
+          "grade": 4
         }
       ],
       "awakening": [],
       "offhand": [
         {
           "name": "Kutum Haladie",
-          "id": 692516
+          "id": 692516,
+          "grade": 3
         },
         {
           "name": "Nouver Haladie",
-          "id": 692514
+          "id": 692514,
+          "grade": 3
         }
       ]
     }
@@ -723,45 +858,54 @@
     "gloves": [
       {
         "name": "Bheg's Gloves",
-        "id": 11015
+        "id": 11015,
+        "grade": 3
       },
       {
         "name": "Leebur's Gloves",
-        "id": 11102
+        "id": 11102,
+        "grade": 3
       }
     ],
     "helm": [
       {
         "name": "Griffon's Helmet",
-        "id": 11101
+        "id": 11101,
+        "grade": 3
       },
       {
         "name": "Giath's Helmet",
-        "id": 11013
+        "id": 11013,
+        "grade": 3
       }
     ],
     "armor": [
       {
         "name": "Dim Tree Spirit's Armor",
-        "id": 11017
+        "id": 11017,
+        "grade": 3
       },
       {
         "name": "Red Nose's Armor",
-        "id": 11014
+        "id": 11014,
+        "grade": 3
       },
       {
         "name": "Blackstar Armor",
-        "id": 719902
+        "id": 719902,
+        "grade": 4
       }
     ],
     "boots": [
       {
         "name": "Muskan's Shoes",
-        "id": 11016
+        "id": 11016,
+        "grade": 3
       },
       {
         "name": "Urugon's Shoes",
-        "id": 11103
+        "id": 11103,
+        "grade": 3
       }
     ]
   },
@@ -769,89 +913,109 @@
     "ring": [
       {
         "name": "Ring of Crescent Guardian",
-        "id": 12031
+        "id": 12031,
+        "grade": 3
       },
       {
         "name": "Tungrad Ring",
-        "id": 12061
+        "id": 12061,
+        "grade": 3
       },
       {
         "name": "Ring of Cadry Guardian",
-        "id": 12032
+        "id": 12032,
+        "grade": 3
       },
       {
         "name": "Eye of the Ruins Ring",
-        "id": 12060
+        "id": 12060,
+        "grade": 3
       }
     ],
     "earring": [
       {
         "name": "Tungrad Earring",
-        "id": 11828
+        "id": 11828,
+        "grade": 3
       },
       {
         "name": "Dawn Earring",
-        "id": 11855
+        "id": 11855,
+        "grade": 3
       },
       {
         "name": "Ethereal Earrings",
-        "id": 11856
+        "id": 11856,
+        "grade": 3
       },
       {
         "name": "Black Distortion Earring",
-        "id": 11853
+        "id": 11853,
+        "grade": 3
       },
       {
         "name": "Narc Ear Accessory",
-        "id": 11834
+        "id": 11834,
+        "grade": 3
       }
     ],
     "necklace": [
       {
         "name": "Ogre Ring",
-        "id": 11607
+        "id": 11607,
+        "grade": 3
       },
       {
         "name": "Deboreka Necklace",
-        "id": 11653
+        "id": 11653,
+        "grade": 3
       },
       {
         "name": "Laytenn's Power Stone",
-        "id": 11630
+        "id": 11630,
+        "grade": 3
       },
       {
         "name": "Serap's Necklace",
-        "id": 11628
+        "id": 11628,
+        "grade": 3
       },
       {
         "name": "Sicil's Necklace",
-        "id": 11625
+        "id": 11625,
+        "grade": 3
       },
       {
         "name": "Tungrad Necklace",
-        "id": 11629
+        "id": 11629,
+        "grade": 3
       }
     ],
     "belt": [
       {
         "name": "Tungrad Belt",
-        "id": 12237
+        "id": 12237,
+        "grade": 3
       },
       {
         "name": "Valtarra Eclipsed Belt",
-        "id": 12236
+        "id": 12236,
+        "grade": 3
       },
       {
         "name": "Basilisk's Belt",
-        "id": 12230
+        "id": 12230,
+        "grade": 3
       },
       {
         "name": "Centaurus Belt",
-        "id": 12229
+        "id": 12229,
+        "grade": 3
       },
       {
         "name": "Orkinrad's Belt",
-        "id": 12251
+        "id": 12251,
+        "grade": 3
       }
     ]
   }

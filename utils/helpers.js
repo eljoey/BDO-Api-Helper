@@ -60,12 +60,11 @@ const itemUpgradeDataFormat = (data, itemArr) => {
   let dataHolder = [];
 
   for (let i = 0; i < itemArr.length; i++) {
-    const itemObj = itemArr[i];
-
     const formatedData = {
       name: itemArr[i].name,
       id: itemArr[i].mainKey,
       enhLevel: itemArr[i].subKey,
+      grade: itemArr[i].grade,
     };
 
     dataHolder.push(formatedData);
@@ -264,6 +263,7 @@ const calcCostPerStat = (currentGear, potentialGear) => {
       const apPerBillion = apDiff === 0 ? 0 : pricePerBillion / apDiff;
       const dpPerBillion = dpDiff === 0 ? 0 : pricePerBillion / dpDiff;
 
+      console.log(item);
       const newItem = {
         ...item,
         perStatCost: {
@@ -271,8 +271,14 @@ const calcCostPerStat = (currentGear, potentialGear) => {
           dp: dpPerBillion,
           total: pricePerBillion / (apDiff + dpDiff),
         },
+        statChange: {
+          ap: apDiff,
+          dp: dpDiff,
+          total: apDiff + dpDiff,
+        },
       };
 
+      // Remove items that are worse overall than the currently equipped item.
       if (
         newItem.perStatCost.total <= 0 ||
         newItem.perStatCost.total === Infinity ||

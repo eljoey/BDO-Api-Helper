@@ -226,7 +226,12 @@ exports.item_upgrade_post = (req, res, next) => {
           infoArr.push(
             ...upgradeIds[key][gearArr.characterClass.name][weaponTypes[i]].map(
               (id) => {
-                return { name: id.name, mainKey: id.id, subKey: x };
+                return {
+                  name: id.name,
+                  grade: id.grade,
+                  mainKey: id.id,
+                  subKey: x,
+                };
               }
             )
           );
@@ -242,7 +247,12 @@ exports.item_upgrade_post = (req, res, next) => {
         for (let y = 0; y <= 3; y++) {
           infoArr.push(
             ...upgradeIds[key][keyArr[y]].map((id) => {
-              return { name: id.name, mainKey: id.id, subKey: x };
+              return {
+                name: id.name,
+                grade: id.grade,
+                mainKey: id.id,
+                subKey: x,
+              };
             })
           );
         }
@@ -256,7 +266,12 @@ exports.item_upgrade_post = (req, res, next) => {
         for (let y = 0; y <= 3; y++) {
           infoArr.push(
             ...upgradeIds[key][keyArr[y]].map((id) => {
-              return { name: id.name, mainKey: id.id, subKey: x };
+              return {
+                name: id.name,
+                grade: id.grade,
+                mainKey: id.id,
+                subKey: x,
+              };
             })
           );
         }
