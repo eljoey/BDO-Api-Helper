@@ -1,6 +1,6 @@
 # Cooking Marketplace Prices
 
-Get the details of the marketplace info for the list of cooking items found [here](../../Ingredients/Cooking.json).
+Get the details of the marketplace info for the list of cooking items found [here](../../data/Cooking.json).
 
 **URL** : `/api/prices/cooking?region=YOURREGION`
 

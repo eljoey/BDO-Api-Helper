@@ -1,6 +1,6 @@
 # Alchemy Marketplace Prices
 
-Get the details of the marketplace info for the list of alchemy items found [here](../../Ingredients/Alchemy.json).
+Get the details of the marketplace info for the list of alchemy items found [here](../../data/Alchemy.json).
 
 **URL** : `/api/prices/alchemy?region=YOURREGION`
 

@@ -1,6 +1,6 @@
 # Dried Fish Marketplace Prices
 
-Get the details of the marketplace info for the list of fish items found [here](../../Ingredients/DriedFish.json).
+Get the details of the marketplace info for the list of fish items found [here](../../data/DriedFish.json).
 
 **URL** : `/api/prices/fish?region=YOURREGION`
 
