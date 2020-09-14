@@ -2,7 +2,7 @@
 
 Determine which offhand to use based of your current gear level.
 
-**URL** : `api/kutum-or-nouver?baseAp=APWITHNOOFFHAND&kutumLvl=ENHANCELEVEL&kutumCaphra=CAPHRALEVEL&nouverLvl=ENHANCELEVEL&nouverCaphra=CAPHRALEVEL&region=REGION`
+**URL** : `api/kutum-or-nouver?baseAp=APWITHNOOFFHAND&kutumLvl=ENHANCELEVEL&kutumCaphra=CAPHRALEVEL&nouverLvl=ENHANCELEVEL&nouverCaphra=CAPHRALEVEL`
 
 **URL Queries** :
 
