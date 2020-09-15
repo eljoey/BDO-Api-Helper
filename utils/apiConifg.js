@@ -1,5 +1,6 @@
 const config = require('./config');
 const request = require('request');
+const mcache = require('memory-cache');
 
 let BDOApiConfig;
 
@@ -49,9 +50,24 @@ const createConfig = (route, region, dataObj) => {
 const bdoApiCall = (route, region, dataObj, callback) => {
   createConfig(route, region, dataObj);
 
-  request(BDOApiConfig, (err, res) => {
-    callback(err, res.body);
-  });
+  // Cache Check to prevent clogging bdo's api and getting banned.  Works for all calls
+  const dataEntries = Object.entries(dataObj);
+  let cacheKey = '';
+  for (const [key, value] of dataEntries) {
+    cacheKey = cacheKey + key + value;
+  }
+
+  const cachedBody = mcache.get(cacheKey);
+
+  if (cachedBody) {
+    callback(null, cachedBody);
+  } else {
+    request(BDOApiConfig, (err, res) => {
+      cacheStorageTime = 15 * 1000;
+      mcache.put(cacheKey, res.body, cacheStorageTime);
+      callback(err, res.body);
+    });
+  }
 };
 
 module.exports = {

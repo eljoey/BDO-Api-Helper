@@ -263,7 +263,6 @@ const calcCostPerStat = (currentGear, potentialGear) => {
       const apPerBillion = apDiff === 0 ? 0 : pricePerBillion / apDiff;
       const dpPerBillion = dpDiff === 0 ? 0 : pricePerBillion / dpDiff;
 
-      console.log(item);
       const newItem = {
         ...item,
         perStatCost: {
