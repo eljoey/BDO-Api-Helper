@@ -52,7 +52,7 @@ const bdoApiCall = (route, region, dataObj, callback) => {
 
   // Cache Check to prevent clogging bdo's api and getting banned.  Works for all calls
   const dataEntries = Object.entries(dataObj);
-  let cacheKey = '';
+  let cacheKey = `${region}/`;
   for (const [key, value] of dataEntries) {
     cacheKey = cacheKey + key + value;
   }
