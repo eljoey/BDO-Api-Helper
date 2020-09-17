@@ -42,6 +42,24 @@ const caphrasNeeded = (item, enhLevel, curLevel, desiredLevel) => {
   return total;
 };
 
+const getStats = (item, enhLevel, curLevel, desiredLevel) => {
+  const currentItemStats = caphrasData[enhLevel][item][curLevel].stats;
+  const desiredItemStats = caphrasData[enhLevel][item][desiredLevel].stats;
+
+  const itemStatKeys = Object.keys(desiredItemStats);
+  const stats = {};
+
+  for (let i = 0; i < itemStatKeys.length; i++) {
+    const key = itemStatKeys[i];
+    const statDiff = desiredItemStats[key] - currentItemStats[key];
+    const formattedDiff = statDiff === 0 ? '' : `(+${statDiff})`;
+
+    stats[[key]] = `${desiredItemStats[key]} ${formattedDiff}`;
+  }
+
+  return stats;
+};
+
 const itemUpgradeParallelSetup = (itemArr, region) => {
   const itemUpgradeParallelCalls = itemArr.map((id) => {
     return (callback) =>
@@ -336,6 +354,7 @@ module.exports = {
   parallelSetup,
   formatData,
   caphrasNeeded,
+  getStats,
   itemUpgradeParallelSetup,
   itemUpgradeDataFormat,
   addStats,

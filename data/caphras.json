@@ -3,861 +3,2289 @@
     "BossMH": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 41
+        "required": 41,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 51
+        "required": 51,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 87
+        "required": 87,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 88
+        "required": 88,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 89
+        "required": 89,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 90
+        "required": 90,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 91
+        "required": 91,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 86
+        "required": 86,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 87
+        "required": 87,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 88
+        "required": 88,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 89
+        "required": 89,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 90
+        "required": 90,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 91
+        "required": 91,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 92
+        "required": 92,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 93
+        "required": 93,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 105
+        "required": 105,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BossAwak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 24
+        "required": 24,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 36
+        "required": 36,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 48
+        "required": 48,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 72
+        "required": 72,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 98
+        "required": 98,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 99
+        "required": 99,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 100
+        "required": 100,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 102
+        "required": 102,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 103
+        "required": 103,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 104
+        "required": 104,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 97
+        "required": 97,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 98
+        "required": 98,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 99
+        "required": 99,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 100
+        "required": 100,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 101
+        "required": 101,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 102
+        "required": 102,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 103
+        "required": 103,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 104
+        "required": 104,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 105
+        "required": 105,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 128
+        "required": 128,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BlueMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 16
+        "required": 16,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 19
+        "required": 19,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 38
+        "required": 38,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 53
+        "required": 53,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 54
+        "required": 54,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 55
+        "required": 55,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 56
+        "required": 56,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 58
+        "required": 58,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 59
+        "required": 59,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 56
+        "required": 56,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 58
+        "required": 58,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 60
+        "required": 60,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 62
+        "required": 62,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 64
+        "required": 64,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 66
+        "required": 66,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 68
+        "required": 68,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 70
+        "required": 70,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 72
+        "required": 72,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 114
+        "required": 114,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "GreenMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 4
+        "required": 4,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 7
+        "required": 7,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 9
+        "required": 9,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 14
+        "required": 14,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 22
+        "required": 22,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 23
+        "required": 23,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 24
+        "required": 24,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 26
+        "required": 26,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 26
+        "required": 26,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 27
+        "required": 27,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 28
+        "required": 28,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 29
+        "required": 29,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 30
+        "required": 30,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 32
+        "required": 32,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 33
+        "required": 33,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 59
+        "required": 59,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BossOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 41
+        "required": 41,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 4,
-        "required": 62
+        "required": 62,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 5,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 6,
-        "required": 87
+        "required": 87,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 88
+        "required": 88,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 89
+        "required": 89,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 90
+        "required": 90,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 10,
-        "required": 91
+        "required": 91,
+        "stats": {
+          "ap": 1,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 12,
-        "required": 86
+        "required": 86,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 13,
-        "required": 87
+        "required": 87,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 88
+        "required": 88,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 15,
-        "required": 89
+        "required": 89,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 16,
-        "required": 90
+        "required": 90,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 91
+        "required": 91,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 18,
-        "required": 92
+        "required": 92,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 19,
-        "required": 93
+        "required": 93,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 20,
-        "required": 105
+        "required": 105,
+        "stats": {
+          "ap": 2,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       }
     ],
     "GreenOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 4
+        "required": 4,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 7
+        "required": 7,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 9
+        "required": 9,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 4,
-        "required": 14
+        "required": 14,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 5,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 6,
-        "required": 22
+        "required": 22,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 23
+        "required": 23,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 24
+        "required": 24,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 10,
-        "required": 26
+        "required": 26,
+        "stats": {
+          "ap": 1,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 12,
-        "required": 26
+        "required": 26,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 13,
-        "required": 27
+        "required": 27,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 28
+        "required": 28,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 15,
-        "required": 29
+        "required": 29,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 16,
-        "required": 30
+        "required": 30,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 18,
-        "required": 32
+        "required": 32,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 19,
-        "required": 33
+        "required": 33,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 20,
-        "required": 59
+        "required": 59,
+        "stats": {
+          "ap": 2,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       }
     ],
     "BossArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 19
+        "required": 19,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 28
+        "required": 28,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 38
+        "required": 38,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 57
+        "required": 57,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 79
+        "required": 79,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 80
+        "required": 80,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 81
+        "required": 81,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 82
+        "required": 82,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 84
+        "required": 84,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 79
+        "required": 79,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 80
+        "required": 80,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 81
+        "required": 81,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 82
+        "required": 82,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 83
+        "required": 83,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 84
+        "required": 84,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 85
+        "required": 85,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 86
+        "required": 86,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 87
+        "required": 87,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 103
+        "required": 103,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "DimTree": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 22
+        "required": 22,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 33
+        "required": 33,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 44
+        "required": 44,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 67
+        "required": 67,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 92
+        "required": 92,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 93
+        "required": 93,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 94
+        "required": 94,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 95
+        "required": 95,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 97
+        "required": 97,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 98
+        "required": 98,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 91
+        "required": 91,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 92
+        "required": 92,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 93
+        "required": 93,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 94
+        "required": 94,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 95
+        "required": 95,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 96
+        "required": 96,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 97
+        "required": 97,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 98
+        "required": 98,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 99
+        "required": 99,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 116
+        "required": 116,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "BlueArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 6
+        "required": 6,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 9
+        "required": 9,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 12
+        "required": 12,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 19
+        "required": 19,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 27
+        "required": 27,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 28
+        "required": 28,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 29
+        "required": 29,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 30
+        "required": 30,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 32
+        "required": 32,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 33
+        "required": 33,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 32
+        "required": 32,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 33
+        "required": 33,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 34
+        "required": 34,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 35
+        "required": 35,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 36
+        "required": 36,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 37
+        "required": 37,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 38
+        "required": 38,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 39
+        "required": 39,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 40
+        "required": 40,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "GreenArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 3
+        "required": 3,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 4
+        "required": 4,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 6
+        "required": 6,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 9
+        "required": 9,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 14
+        "required": 14,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 15
+        "required": 15,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 16
+        "required": 16,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 17
+        "required": 17,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 19
+        "required": 19,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 19
+        "required": 19,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 20
+        "required": 20,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 21
+        "required": 21,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 22
+        "required": 22,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 23
+        "required": 23,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 24
+        "required": 24,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 25
+        "required": 25,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 26
+        "required": 26,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 27
+        "required": 27,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 30
+        "required": 30,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ]
   },
@@ -865,861 +2293,2289 @@
     "BossMH": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 124
+        "required": 124,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 208
+        "required": 208,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 332
+        "required": 332,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 582
+        "required": 582,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 795
+        "required": 795,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 810
+        "required": 810,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 825
+        "required": 825,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 840
+        "required": 840,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 856
+        "required": 856,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 871
+        "required": 871,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 833
+        "required": 833,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 848
+        "required": 848,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 863
+        "required": 863,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 878
+        "required": 878,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 893
+        "required": 893,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 908
+        "required": 908,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 923
+        "required": 923,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 938
+        "required": 938,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 953
+        "required": 953,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 1098
+        "required": 1098,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BossAwak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 144
+        "required": 144,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 240
+        "required": 240,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 384
+        "required": 384,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 672
+        "required": 672,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 917
+        "required": 917,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 934
+        "required": 934,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 951
+        "required": 951,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 968
+        "required": 968,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 985
+        "required": 985,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 1002
+        "required": 1002,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 959
+        "required": 959,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 976
+        "required": 976,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 993
+        "required": 993,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 1010
+        "required": 1010,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 1027
+        "required": 1027,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 1044
+        "required": 1044,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 1061
+        "required": 1061,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 1078
+        "required": 1078,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 1095
+        "required": 1095,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 1249
+        "required": 1249,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BlueMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 79
+        "required": 79,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 132
+        "required": 132,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 211
+        "required": 211,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 369
+        "required": 369,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 512
+        "required": 512,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 529
+        "required": 529,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 546
+        "required": 546,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 563
+        "required": 563,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 580
+        "required": 580,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 598
+        "required": 598,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 581
+        "required": 581,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 598
+        "required": 598,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 615
+        "required": 615,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 632
+        "required": 632,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 649
+        "required": 649,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 666
+        "required": 666,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 683
+        "required": 683,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 700
+        "required": 700,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 717
+        "required": 717,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 803
+        "required": 803,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "GreenMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 36
+        "required": 36,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 60
+        "required": 60,
+        "stats": {
+          "ap": 2,
+          "accuracy": 0
+        }
       },
       {
         "level": 3,
-        "required": 96
+        "required": 96,
+        "stats": {
+          "ap": 3,
+          "accuracy": 0
+        }
       },
       {
         "level": 4,
-        "required": 168
+        "required": 168,
+        "stats": {
+          "ap": 4,
+          "accuracy": 0
+        }
       },
       {
         "level": 5,
-        "required": 226
+        "required": 226,
+        "stats": {
+          "ap": 4,
+          "accuracy": 1
+        }
       },
       {
         "level": 6,
-        "required": 227
+        "required": 227,
+        "stats": {
+          "ap": 4,
+          "accuracy": 2
+        }
       },
       {
         "level": 7,
-        "required": 228
+        "required": 228,
+        "stats": {
+          "ap": 4,
+          "accuracy": 3
+        }
       },
       {
         "level": 8,
-        "required": 229
+        "required": 229,
+        "stats": {
+          "ap": 5,
+          "accuracy": 3
+        }
       },
       {
         "level": 9,
-        "required": 230
+        "required": 230,
+        "stats": {
+          "ap": 5,
+          "accuracy": 4
+        }
       },
       {
         "level": 10,
-        "required": 231
+        "required": 231,
+        "stats": {
+          "ap": 5,
+          "accuracy": 5
+        }
       },
       {
         "level": 11,
-        "required": 217
+        "required": 217,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 12,
-        "required": 218
+        "required": 218,
+        "stats": {
+          "ap": 6,
+          "accuracy": 6
+        }
       },
       {
         "level": 13,
-        "required": 219
+        "required": 219,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 14,
-        "required": 220
+        "required": 220,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 15,
-        "required": 221
+        "required": 221,
+        "stats": {
+          "ap": 6,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 222
+        "required": 222,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 17,
-        "required": 223
+        "required": 223,
+        "stats": {
+          "ap": 7,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 224
+        "required": 224,
+        "stats": {
+          "ap": 7,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 225
+        "required": 225,
+        "stats": {
+          "ap": 7,
+          "accuracy": 12
+        }
       },
       {
         "level": 20,
-        "required": 270
+        "required": 270,
+        "stats": {
+          "ap": 8,
+          "accuracy": 12
+        }
       }
     ],
     "BossOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 124
+        "required": 124,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 208
+        "required": 208,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 332
+        "required": 332,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 4,
-        "required": 582
+        "required": 582,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 5,
-        "required": 795
+        "required": 795,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 6,
-        "required": 810
+        "required": 810,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 825
+        "required": 825,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 840
+        "required": 840,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 856
+        "required": 856,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 10,
-        "required": 871
+        "required": 871,
+        "stats": {
+          "ap": 1,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 833
+        "required": 833,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 12,
-        "required": 848
+        "required": 848,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 13,
-        "required": 863
+        "required": 863,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 878
+        "required": 878,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 15,
-        "required": 893
+        "required": 893,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 16,
-        "required": 908
+        "required": 908,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 923
+        "required": 923,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 18,
-        "required": 938
+        "required": 938,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 19,
-        "required": 953
+        "required": 953,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 20,
-        "required": 960
+        "required": 960,
+        "stats": {
+          "ap": 2,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       }
     ],
     "GreenOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 36
+        "required": 36,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 60
+        "required": 60,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 96
+        "required": 96,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 4,
-        "required": 168
+        "required": 168,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 5,
-        "required": 226
+        "required": 226,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 10,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 6,
-        "required": 227
+        "required": 227,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 228
+        "required": 228,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 229
+        "required": 229,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 230
+        "required": 230,
+        "stats": {
+          "ap": 0,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 10,
-        "required": 231
+        "required": 231,
+        "stats": {
+          "ap": 1,
+          "accuracy": 5,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 217
+        "required": 217,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 12,
-        "required": 218
+        "required": 218,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 13,
-        "required": 219
+        "required": 219,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 220
+        "required": 220,
+        "stats": {
+          "ap": 1,
+          "accuracy": 6,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 15,
-        "required": 221
+        "required": 221,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 16,
-        "required": 222
+        "required": 222,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 223
+        "required": 223,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 4,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 18,
-        "required": 224
+        "required": 224,
+        "stats": {
+          "ap": 1,
+          "accuracy": 7,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 19,
-        "required": 225
+        "required": 225,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 20,
-        "required": 270
+        "required": 270,
+        "stats": {
+          "ap": 2,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 5,
+          "dr": 0,
+          "hidden dr": 2,
+          "hp": 30,
+          "mp/wp/sp": 25
+        }
       }
     ],
     "BossArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 76
+        "required": 76,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 128
+        "required": 128,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 204
+        "required": 204,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 358
+        "required": 358,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 491
+        "required": 491,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 502
+        "required": 502,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 513
+        "required": 513,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 524
+        "required": 524,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 536
+        "required": 536,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 547
+        "required": 547,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 525
+        "required": 525,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 536
+        "required": 536,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 547
+        "required": 547,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 558
+        "required": 558,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 569
+        "required": 569,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 580
+        "required": 580,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 591
+        "required": 591,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 602
+        "required": 602,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 613
+        "required": 613,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 729
+        "required": 729,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "DimTree": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 88
+        "required": 88,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 148
+        "required": 148,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 236
+        "required": 236,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 414
+        "required": 414,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 567
+        "required": 567,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 579
+        "required": 579,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 591
+        "required": 591,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 603
+        "required": 603,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 616
+        "required": 616,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 628
+        "required": 628,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 602
+        "required": 602,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 614
+        "required": 614,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 626
+        "required": 626,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 638
+        "required": 638,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 650
+        "required": 650,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 662
+        "required": 662,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 674
+        "required": 674,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 686
+        "required": 686,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 698
+        "required": 698,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 869
+        "required": 869,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "BlueArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 31
+        "required": 31,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 52
+        "required": 52,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 83
+        "required": 83,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 145
+        "required": 145,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 197
+        "required": 197,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 199
+        "required": 199,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 201
+        "required": 201,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 203
+        "required": 203,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 205
+        "required": 205,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 208
+        "required": 208,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 196
+        "required": 196,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 198
+        "required": 198,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 200
+        "required": 200,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 202
+        "required": 202,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 204
+        "required": 204,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 206
+        "required": 206,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 208
+        "required": 208,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 210
+        "required": 210,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 212
+        "required": 212,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 270
+        "required": 270,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ],
     "GreenArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 14
+        "required": 14,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 10,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 24
+        "required": 24,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 2,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 38
+        "required": 38,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 67
+        "required": 67,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 93
+        "required": 93,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 5
+        }
       },
       {
         "level": 6,
-        "required": 96
+        "required": 96,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 4,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 7,
-        "required": 99
+        "required": 99,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 0,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 8,
-        "required": 102
+        "required": 102,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 50,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 9,
-        "required": 105
+        "required": 105,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 10
+        }
       },
       {
         "level": 10,
-        "required": 109
+        "required": 109,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 15
+        }
       },
       {
         "level": 11,
-        "required": 105
+        "required": 105,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 5,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 12,
-        "required": 108
+        "required": 108,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 60,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 13,
-        "required": 111
+        "required": 111,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 20
+        }
       },
       {
         "level": 14,
-        "required": 114
+        "required": 114,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 25
+        }
       },
       {
         "level": 15,
-        "required": 117
+        "required": 117,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 16,
-        "required": 120
+        "required": 120,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 6,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 17,
-        "required": 123
+        "required": 123,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 70,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 18,
-        "required": 126
+        "required": 126,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 7,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 19,
-        "required": 129
+        "required": 129,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       },
       {
         "level": 20,
-        "required": 150
+        "required": 150,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 8,
+          "dr": 1,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 30
+        }
       }
     ]
   },
@@ -1727,861 +4583,2289 @@
     "BossMH": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 297
+        "required": 297,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 389
+        "required": 389,
+        "stats": {
+          "ap": 1,
+          "accuracy": 3
+        }
       },
       {
         "level": 3,
-        "required": 481
+        "required": 481,
+        "stats": {
+          "ap": 2,
+          "accuracy": 3
+        }
       },
       {
         "level": 4,
-        "required": 573
+        "required": 573,
+        "stats": {
+          "ap": 2,
+          "accuracy": 4
+        }
       },
       {
         "level": 5,
-        "required": 905
+        "required": 905,
+        "stats": {
+          "ap": 3,
+          "accuracy": 4
+        }
       },
       {
         "level": 6,
-        "required": 1020
+        "required": 1020,
+        "stats": {
+          "ap": 3,
+          "accuracy": 5
+        }
       },
       {
         "level": 7,
-        "required": 1135
+        "required": 1135,
+        "stats": {
+          "ap": 4,
+          "accuracy": 5
+        }
       },
       {
         "level": 8,
-        "required": 1250
+        "required": 1250,
+        "stats": {
+          "ap": 4,
+          "accuracy": 6
+        }
       },
       {
         "level": 9,
-        "required": 1365
+        "required": 1365,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 10,
-        "required": 1480
+        "required": 1480,
+        "stats": {
+          "ap": 5,
+          "accuracy": 7
+        }
       },
       {
         "level": 11,
-        "required": 1522
+        "required": 1522,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 12,
-        "required": 1637
+        "required": 1637,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 13,
-        "required": 1752
+        "required": 1752,
+        "stats": {
+          "ap": 7,
+          "accuracy": 8
+        }
       },
       {
         "level": 14,
-        "required": 1867
+        "required": 1867,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 15,
-        "required": 1982
+        "required": 1982,
+        "stats": {
+          "ap": 8,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 2097
+        "required": 2097,
+        "stats": {
+          "ap": 8,
+          "accuracy": 10
+        }
       },
       {
         "level": 17,
-        "required": 2212
+        "required": 2212,
+        "stats": {
+          "ap": 9,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 2327
+        "required": 2327,
+        "stats": {
+          "ap": 9,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 2442
+        "required": 2442,
+        "stats": {
+          "ap": 10,
+          "accuracy": 11
+        }
       },
       {
         "level": 20,
-        "required": 2670
+        "required": 2670,
+        "stats": {
+          "ap": 10,
+          "accuracy": 12
+        }
       }
     ],
     "BossAwak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 345
+        "required": 345,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 451
+        "required": 451,
+        "stats": {
+          "ap": 1,
+          "accuracy": 3
+        }
       },
       {
         "level": 3,
-        "required": 556
+        "required": 556,
+        "stats": {
+          "ap": 2,
+          "accuracy": 3
+        }
       },
       {
         "level": 4,
-        "required": 662
+        "required": 662,
+        "stats": {
+          "ap": 2,
+          "accuracy": 4
+        }
       },
       {
         "level": 5,
-        "required": 1044
+        "required": 1044,
+        "stats": {
+          "ap": 3,
+          "accuracy": 4
+        }
       },
       {
         "level": 6,
-        "required": 1176
+        "required": 1176,
+        "stats": {
+          "ap": 3,
+          "accuracy": 5
+        }
       },
       {
         "level": 7,
-        "required": 1308
+        "required": 1308,
+        "stats": {
+          "ap": 4,
+          "accuracy": 5
+        }
       },
       {
         "level": 8,
-        "required": 1440
+        "required": 1440,
+        "stats": {
+          "ap": 4,
+          "accuracy": 6
+        }
       },
       {
         "level": 9,
-        "required": 1573
+        "required": 1573,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 10,
-        "required": 1704
+        "required": 1704,
+        "stats": {
+          "ap": 5,
+          "accuracy": 7
+        }
       },
       {
         "level": 11,
-        "required": 1752
+        "required": 1752,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 12,
-        "required": 1884
+        "required": 1884,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 13,
-        "required": 2016
+        "required": 2016,
+        "stats": {
+          "ap": 7,
+          "accuracy": 8
+        }
       },
       {
         "level": 14,
-        "required": 2148
+        "required": 2148,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 15,
-        "required": 2280
+        "required": 2280,
+        "stats": {
+          "ap": 8,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 2412
+        "required": 2412,
+        "stats": {
+          "ap": 8,
+          "accuracy": 10
+        }
       },
       {
         "level": 17,
-        "required": 2544
+        "required": 2544,
+        "stats": {
+          "ap": 9,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 2676
+        "required": 2676,
+        "stats": {
+          "ap": 9,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 2808
+        "required": 2808,
+        "stats": {
+          "ap": 10,
+          "accuracy": 11
+        }
       },
       {
         "level": 20,
-        "required": 2988
+        "required": 2988,
+        "stats": {
+          "ap": 10,
+          "accuracy": 12
+        }
       }
     ],
     "BlueMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 204
+        "required": 204,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 271
+        "required": 271,
+        "stats": {
+          "ap": 1,
+          "accuracy": 3
+        }
       },
       {
         "level": 3,
-        "required": 337
+        "required": 337,
+        "stats": {
+          "ap": 2,
+          "accuracy": 3
+        }
       },
       {
         "level": 4,
-        "required": 404
+        "required": 404,
+        "stats": {
+          "ap": 2,
+          "accuracy": 4
+        }
       },
       {
         "level": 5,
-        "required": 639
+        "required": 639,
+        "stats": {
+          "ap": 3,
+          "accuracy": 4
+        }
       },
       {
         "level": 6,
-        "required": 722
+        "required": 722,
+        "stats": {
+          "ap": 3,
+          "accuracy": 5
+        }
       },
       {
         "level": 7,
-        "required": 805
+        "required": 805,
+        "stats": {
+          "ap": 4,
+          "accuracy": 5
+        }
       },
       {
         "level": 8,
-        "required": 888
+        "required": 888,
+        "stats": {
+          "ap": 4,
+          "accuracy": 6
+        }
       },
       {
         "level": 9,
-        "required": 971
+        "required": 971,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 10,
-        "required": 1054
+        "required": 1054,
+        "stats": {
+          "ap": 5,
+          "accuracy": 7
+        }
       },
       {
         "level": 11,
-        "required": 1242
+        "required": 1242,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 12,
-        "required": 1272
+        "required": 1272,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 13,
-        "required": 1302
+        "required": 1302,
+        "stats": {
+          "ap": 7,
+          "accuracy": 8
+        }
       },
       {
         "level": 14,
-        "required": 1332
+        "required": 1332,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 15,
-        "required": 1362
+        "required": 1362,
+        "stats": {
+          "ap": 8,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 1392
+        "required": 1392,
+        "stats": {
+          "ap": 8,
+          "accuracy": 10
+        }
       },
       {
         "level": 17,
-        "required": 1422
+        "required": 1422,
+        "stats": {
+          "ap": 9,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 1452
+        "required": 1452,
+        "stats": {
+          "ap": 9,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 1482
+        "required": 1482,
+        "stats": {
+          "ap": 10,
+          "accuracy": 11
+        }
       },
       {
         "level": 20,
-        "required": 1512
+        "required": 1512,
+        "stats": {
+          "ap": 10,
+          "accuracy": 12
+        }
       }
     ],
     "GreenMH/Awak": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0
+        }
       },
       {
         "level": 1,
-        "required": 80
+        "required": 80,
+        "stats": {
+          "ap": 1,
+          "accuracy": 0
+        }
       },
       {
         "level": 2,
-        "required": 112
+        "required": 112,
+        "stats": {
+          "ap": 1,
+          "accuracy": 3
+        }
       },
       {
         "level": 3,
-        "required": 144
+        "required": 144,
+        "stats": {
+          "ap": 2,
+          "accuracy": 3
+        }
       },
       {
         "level": 4,
-        "required": 176
+        "required": 176,
+        "stats": {
+          "ap": 2,
+          "accuracy": 4
+        }
       },
       {
         "level": 5,
-        "required": 281
+        "required": 281,
+        "stats": {
+          "ap": 3,
+          "accuracy": 4
+        }
       },
       {
         "level": 6,
-        "required": 321
+        "required": 321,
+        "stats": {
+          "ap": 3,
+          "accuracy": 5
+        }
       },
       {
         "level": 7,
-        "required": 361
+        "required": 361,
+        "stats": {
+          "ap": 4,
+          "accuracy": 5
+        }
       },
       {
         "level": 8,
-        "required": 401
+        "required": 401,
+        "stats": {
+          "ap": 4,
+          "accuracy": 6
+        }
       },
       {
         "level": 9,
-        "required": 442
+        "required": 442,
+        "stats": {
+          "ap": 5,
+          "accuracy": 6
+        }
       },
       {
         "level": 10,
-        "required": 482
+        "required": 482,
+        "stats": {
+          "ap": 5,
+          "accuracy": 7
+        }
       },
       {
         "level": 11,
-        "required": 540
+        "required": 540,
+        "stats": {
+          "ap": 6,
+          "accuracy": 7
+        }
       },
       {
         "level": 12,
-        "required": 570
+        "required": 570,
+        "stats": {
+          "ap": 6,
+          "accuracy": 8
+        }
       },
       {
         "level": 13,
-        "required": 600
+        "required": 600,
+        "stats": {
+          "ap": 7,
+          "accuracy": 8
+        }
       },
       {
         "level": 14,
-        "required": 630
+        "required": 630,
+        "stats": {
+          "ap": 7,
+          "accuracy": 9
+        }
       },
       {
         "level": 15,
-        "required": 660
+        "required": 660,
+        "stats": {
+          "ap": 8,
+          "accuracy": 9
+        }
       },
       {
         "level": 16,
-        "required": 690
+        "required": 690,
+        "stats": {
+          "ap": 8,
+          "accuracy": 10
+        }
       },
       {
         "level": 17,
-        "required": 720
+        "required": 720,
+        "stats": {
+          "ap": 9,
+          "accuracy": 10
+        }
       },
       {
         "level": 18,
-        "required": 750
+        "required": 750,
+        "stats": {
+          "ap": 9,
+          "accuracy": 11
+        }
       },
       {
         "level": 19,
-        "required": 780
+        "required": 780,
+        "stats": {
+          "ap": 10,
+          "accuracy": 11
+        }
       },
       {
         "level": 20,
-        "required": 810
+        "required": 810,
+        "stats": {
+          "ap": 10,
+          "accuracy": 12
+        }
       }
     ],
     "BossOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 297
+        "required": 297,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 389
+        "required": 389,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 481
+        "required": 481,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 573
+        "required": 573,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 905
+        "required": 905,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 1020
+        "required": 1020,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 1135
+        "required": 1135,
+        "stats": {
+          "ap": 1,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 1250
+        "required": 1250,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 1365
+        "required": 1365,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 1480
+        "required": 1480,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 1764
+        "required": 1764,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 1794
+        "required": 1794,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 1824
+        "required": 1824,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 1854
+        "required": 1854,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 1884
+        "required": 1884,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 1914
+        "required": 1914,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 1944
+        "required": 1944,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 1974
+        "required": 1974,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 2004
+        "required": 2004,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 3,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 2034
+        "required": 2034,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 3,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       }
     ],
     "GreenOffhand": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "ap": 0,
+          "accuracy": 0,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 80
+        "required": 80,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 112
+        "required": 112,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 144
+        "required": 144,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 176
+        "required": 176,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 0,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 281
+        "required": 281,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 321
+        "required": 321,
+        "stats": {
+          "ap": 0,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 361
+        "required": 361,
+        "stats": {
+          "ap": 1,
+          "accuracy": 4,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 401
+        "required": 401,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 442
+        "required": 442,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 482
+        "required": 482,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 540
+        "required": 540,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 1,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 570
+        "required": 570,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 600
+        "required": 600,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 630
+        "required": 630,
+        "stats": {
+          "ap": 1,
+          "accuracy": 8,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 660
+        "required": 660,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 690
+        "required": 690,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 2,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 720
+        "required": 720,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 6,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 750
+        "required": 750,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 2,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 780
+        "required": 780,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 3,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 810
+        "required": 810,
+        "stats": {
+          "ap": 2,
+          "accuracy": 12,
+          "evasion": 3,
+          "hidden evasion": 9,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       }
     ],
     "BossArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 153
+        "required": 153,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 230
+        "required": 230,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 307
+        "required": 307,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 307
+        "required": 307,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 713
+        "required": 713,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 714
+        "required": 714,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 70,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 1098
+        "required": 1098,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 1194
+        "required": 1194,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 90,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 1234
+        "required": 1234,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 100,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 1274
+        "required": 1274,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 110,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 1272
+        "required": 1272,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 1312
+        "required": 1312,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 1352
+        "required": 1352,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 6,
+          "dr": 6,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 1392
+        "required": 1392,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 6,
+          "hp": 130,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 1432
+        "required": 1432,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 1472
+        "required": 1472,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 1512
+        "required": 1512,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 7,
+          "dr": 7,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 1552
+        "required": 1552,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 8,
+          "dr": 7,
+          "hidden dr": 7,
+          "hp": 150,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 1592
+        "required": 1592,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 8,
+          "dr": 7,
+          "hidden dr": 8,
+          "hp": 160,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 1632
+        "required": 1632,
+        "stats": {
+          "evasion": 8,
+          "hidden evasion": 8,
+          "dr": 8,
+          "hidden dr": 8,
+          "hp": 160,
+          "mp/wp/sp": 0
+        }
       }
     ],
     "DimTree": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 176
+        "required": 176,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 264
+        "required": 264,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 30,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 352
+        "required": 352,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 352
+        "required": 352,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 50,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 817
+        "required": 817,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 817
+        "required": 817,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 70,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 1258
+        "required": 1258,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 1368
+        "required": 1368,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 90,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 1408
+        "required": 1408,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 100,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 1448
+        "required": 1448,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 110,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 1440
+        "required": 1440,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 1480
+        "required": 1480,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 6,
+          "dr": 5,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 1520
+        "required": 1520,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 6,
+          "dr": 6,
+          "hidden dr": 6,
+          "hp": 120,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 1560
+        "required": 1560,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 6,
+          "hp": 130,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 1600
+        "required": 1600,
+        "stats": {
+          "evasion": 6,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 1640
+        "required": 1640,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 7,
+          "dr": 6,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 1680
+        "required": 1680,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 7,
+          "dr": 7,
+          "hidden dr": 7,
+          "hp": 140,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 1720
+        "required": 1720,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 8,
+          "dr": 7,
+          "hidden dr": 7,
+          "hp": 150,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 1760
+        "required": 1760,
+        "stats": {
+          "evasion": 7,
+          "hidden evasion": 8,
+          "dr": 7,
+          "hidden dr": 8,
+          "hp": 160,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 1800
+        "required": 1800,
+        "stats": {
+          "evasion": 8,
+          "hidden evasion": 8,
+          "dr": 8,
+          "hidden dr": 8,
+          "hp": 160,
+          "mp/wp/sp": 0
+        }
       }
     ],
     "BlueArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 57
+        "required": 57,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 86
+        "required": 86,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 115
+        "required": 115,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 115
+        "required": 115,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 267
+        "required": 267,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 268
+        "required": 268,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 412
+        "required": 412,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 448
+        "required": 448,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 448
+        "required": 448,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 528
+        "required": 528,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 552
+        "required": 552,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 592
+        "required": 592,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 632
+        "required": 632,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 672
+        "required": 672,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 4,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 712
+        "required": 712,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 752
+        "required": 752,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 792
+        "required": 792,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 832
+        "required": 832,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 4,
+          "hidden dr": 5,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 872
+        "required": 872,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 912
+        "required": 912,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 100,
+          "mp/wp/sp": 0
+        }
       }
     ],
     "GreenArmor": [
       {
         "level": 0,
-        "required": 0
+        "required": 0,
+        "stats": {
+          "evasion": 0,
+          "hidden evasion": 0,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 1,
-        "required": 28
+        "required": 28,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 0,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 2,
-        "required": 43
+        "required": 43,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 0,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 3,
-        "required": 57
+        "required": 57,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 0,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 4,
-        "required": 57
+        "required": 57,
+        "stats": {
+          "evasion": 1,
+          "hidden evasion": 1,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 5,
-        "required": 134
+        "required": 134,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 1,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 6,
-        "required": 134
+        "required": 134,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 1,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 7,
-        "required": 206
+        "required": 206,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 20,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 8,
-        "required": 224
+        "required": 224,
+        "stats": {
+          "evasion": 2,
+          "hidden evasion": 2,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 9,
-        "required": 264
+        "required": 264,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 2,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 10,
-        "required": 305
+        "required": 305,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 2,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 11,
-        "required": 336
+        "required": 336,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 40,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 12,
-        "required": 376
+        "required": 376,
+        "stats": {
+          "evasion": 3,
+          "hidden evasion": 3,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 13,
-        "required": 416
+        "required": 416,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 3,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 14,
-        "required": 456
+        "required": 456,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 3,
+          "hidden dr": 4,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 15,
-        "required": 496
+        "required": 496,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 60,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 16,
-        "required": 536
+        "required": 536,
+        "stats": {
+          "evasion": 4,
+          "hidden evasion": 4,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 17,
-        "required": 576
+        "required": 576,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 4,
+          "hidden dr": 4,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 18,
-        "required": 616
+        "required": 616,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 4,
+          "hidden dr": 5,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 19,
-        "required": 656
+        "required": 656,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 80,
+          "mp/wp/sp": 0
+        }
       },
       {
         "level": 20,
-        "required": 696
+        "required": 696,
+        "stats": {
+          "evasion": 5,
+          "hidden evasion": 5,
+          "dr": 5,
+          "hidden dr": 5,
+          "hp": 100,
+          "mp/wp/sp": 0
+        }
       }
     ]
   }

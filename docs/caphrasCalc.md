@@ -24,9 +24,18 @@ Returns a list of items in the following format.
 
 ```json
 {
-  "caphrasPrice": 2770000,
-  "caphrasNeeded": 1408,
-  "totalCaphrasPrice": 3900160000
+  "caphrasPrice": 3000000,
+  "caphrasNeeded": 1560,
+  "caphrasAvailable": 0,
+  "totalCaphrasPrice": 4680000000,
+  "stats": {
+    "evasion": "6 ",
+    "hidden evasion": "7 (+1)",
+    "dr": "6 ",
+    "hidden dr": "6 ",
+    "hp": "130 (+10)",
+    "mp/wp/sp": "0 "
+  }
 }
 ```
 

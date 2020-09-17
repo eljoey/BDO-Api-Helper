@@ -129,16 +129,23 @@ exports.caphras_calc_get = (req, res, next) => {
       item,
       enhLevel,
       Number(curLevel),
-      desiredLevel
+      Number(desiredLevel)
     );
     const caphrasAvailable = results[0].detailList[0].count;
     const totalCaphrasPrice = caphrasPrice * caphrasNeeded;
+    const stats = helpers.getStats(
+      item,
+      enhLevel,
+      Number(curLevel),
+      Number(desiredLevel)
+    );
 
     res.send({
       caphrasPrice,
       caphrasNeeded,
       caphrasAvailable,
       totalCaphrasPrice,
+      stats,
     });
   });
 };
