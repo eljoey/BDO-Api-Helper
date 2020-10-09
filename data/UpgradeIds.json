@@ -930,6 +930,11 @@
         "name": "Eye of the Ruins Ring",
         "id": 12060,
         "grade": 3
+      },
+      {
+        "name": "Ominous Ring",
+        "id": 12068,
+        "grade": 3
       }
     ],
     "earring": [
@@ -1015,6 +1020,11 @@
       {
         "name": "Orkinrad's Belt",
         "id": 12251,
+        "grade": 3
+      },
+      {
+        "name": "Turo's Belt",
+        "id": 12257,
         "grade": 3
       }
     ]

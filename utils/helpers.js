@@ -403,7 +403,7 @@ const getCharacterGearPossibilities = (characterClass) => {
     if (key === 'accessories') {
       const accTypeKeys = Object.keys(upgradeIds[key]);
 
-      for (let i = accpriEnhLevel; i < accPenEnhLevel; i++) {
+      for (let i = accpriEnhLevel; i <= accPenEnhLevel; i++) {
         for (let j = 0; j < accTypeKeys.length; j++) {
           infoArr.push(
             ...upgradeIds[key][accTypeKeys[j]].map((id) => {
