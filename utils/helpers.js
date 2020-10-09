@@ -4,6 +4,7 @@ const itemStats = require('../data/ItemStats.json');
 const apBracket = require('../data/ApBracket.json');
 const offhandStats = require('../data/OffhandStats.json');
 const caphraAp = require('../data/CaphrasAp.json');
+const upgradeIds = require('../data/UpgradeIds.json');
 
 const parallelSetup = (idArr, region) => {
   const parallelCalls = idArr.map((id) => {
@@ -350,6 +351,86 @@ const getEffectiveAp = (item, itemLvl, caphrasLvl, baseAp) => {
   return itemEffectiveAp;
 };
 
+const getCharacterGearPossibilities = (characterClass) => {
+  const upgradeInfo = Object.keys(upgradeIds).map((key) => {
+    let infoArr = [];
+    const weaponTypes = ['mainHand', 'offhand', 'awakening'];
+    const priEnhLevel = 16;
+    const penEnhLevel = 20;
+    const accpriEnhLevel = 1;
+    const accPenEnhLevel = 5;
+
+    if (key === 'class') {
+      for (let i = 0; i < weaponTypes.length; i++) {
+        for (let j = priEnhLevel; j <= penEnhLevel; j++) {
+          infoArr.push(
+            ...upgradeIds[key][characterClass][weaponTypes[i]].map((id) => {
+              return {
+                name: id.name,
+                grade: id.grade,
+                mainKey: id.id,
+                subKey: j,
+              };
+            })
+          );
+        }
+      }
+
+      return infoArr;
+    }
+
+    if (key === 'armor') {
+      const armorTypeKeys = Object.keys(upgradeIds[key]);
+
+      for (let i = priEnhLevel; i <= penEnhLevel; i++) {
+        for (let j = 0; j < armorTypeKeys.length; j++) {
+          infoArr.push(
+            ...upgradeIds[key][armorTypeKeys[j]].map((id) => {
+              return {
+                name: id.name,
+                grade: id.grade,
+                mainKey: id.id,
+                subKey: i,
+              };
+            })
+          );
+        }
+      }
+
+      return infoArr;
+    }
+
+    if (key === 'accessories') {
+      const accTypeKeys = Object.keys(upgradeIds[key]);
+
+      for (let i = accpriEnhLevel; i < accPenEnhLevel; i++) {
+        for (let j = 0; j < accTypeKeys.length; j++) {
+          infoArr.push(
+            ...upgradeIds[key][accTypeKeys[j]].map((id) => {
+              return {
+                name: id.name,
+                grade: id.grade,
+                mainKey: id.id,
+                subKey: i,
+              };
+            })
+          );
+        }
+      }
+
+      return infoArr;
+    }
+  });
+
+  const formatUpgradeInfo = [
+    ...upgradeInfo[0],
+    ...upgradeInfo[1],
+    ...upgradeInfo[2],
+  ];
+
+  return formatUpgradeInfo;
+};
+
 module.exports = {
   parallelSetup,
   formatData,
@@ -361,4 +442,5 @@ module.exports = {
   addCurrentGearStats,
   calcCostPerStat,
   getEffectiveAp,
+  getCharacterGearPossibilities,
 };

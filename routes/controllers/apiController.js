@@ -189,14 +189,22 @@ exports.item_upgrade_post = (req, res, next) => {
     });
   }
 
+  // Body validation
+  const gearArrKeys = Object.keys(gearArr);
   for (let i = 0; i < validNames.length; i++) {
-    const name = validNames[i];
-
-    if (!validItems[name].includes(gearArr[name].name)) {
+    if (!validNames.includes(gearArrKeys[i])) {
       return res.status(400).json({
-        error: `Invalid or no ${name} given`,
+        error: `Invalid, missing, or misspelled key in body`,
       });
     }
+  }
+
+  // Character class validation
+  const name = validNames[0];
+  if (!validItems[name].includes(gearArr[name].name)) {
+    return res.status(400).json({
+      error: `Invalid or no ${name} given`,
+    });
   }
 
   // Weapon and Armor enhLevel validation
@@ -223,77 +231,12 @@ exports.item_upgrade_post = (req, res, next) => {
 
   const currentGearWithStats = helpers.addCurrentGearStats(gearArr);
 
-  let upgradeInfo = Object.keys(upgradeIds).map((key) => {
-    if (key === 'class') {
-      let infoArr = [];
-      const weaponTypes = ['mainHand', 'offhand', 'awakening'];
-
-      for (let i = 0; i < weaponTypes.length; i++) {
-        for (let x = 16; x <= 20; x++) {
-          infoArr.push(
-            ...upgradeIds[key][gearArr.characterClass.name][weaponTypes[i]].map(
-              (id) => {
-                return {
-                  name: id.name,
-                  grade: id.grade,
-                  mainKey: id.id,
-                  subKey: x,
-                };
-              }
-            )
-          );
-        }
-      }
-
-      return infoArr;
-    } else if (key === 'armor') {
-      let infoArr = [];
-      const keyArr = Object.keys(upgradeIds[key]);
-
-      for (let x = 16; x <= 20; x++) {
-        for (let y = 0; y <= 3; y++) {
-          infoArr.push(
-            ...upgradeIds[key][keyArr[y]].map((id) => {
-              return {
-                name: id.name,
-                grade: id.grade,
-                mainKey: id.id,
-                subKey: x,
-              };
-            })
-          );
-        }
-      }
-      return infoArr;
-    } else {
-      let infoArr = [];
-      const keyArr = Object.keys(upgradeIds[key]);
-
-      for (let x = 1; x <= 5; x++) {
-        for (let y = 0; y <= 3; y++) {
-          infoArr.push(
-            ...upgradeIds[key][keyArr[y]].map((id) => {
-              return {
-                name: id.name,
-                grade: id.grade,
-                mainKey: id.id,
-                subKey: x,
-              };
-            })
-          );
-        }
-      }
-      return infoArr;
-    }
-  });
-  let formattedUpgradeInfo = [
-    ...upgradeInfo[0],
-    ...upgradeInfo[1],
-    ...upgradeInfo[2],
-  ];
+  const possibleUpgradesInfo = helpers.getCharacterGearPossibilities(
+    gearArr.characterClass.name
+  );
 
   const parallelApiCalls = helpers.itemUpgradeParallelSetup(
-    formattedUpgradeInfo,
+    possibleUpgradesInfo,
     region
   );
 
@@ -302,7 +245,7 @@ exports.item_upgrade_post = (req, res, next) => {
       console.log(err);
     }
 
-    const data = helpers.itemUpgradeDataFormat(results, formattedUpgradeInfo);
+    const data = helpers.itemUpgradeDataFormat(results, possibleUpgradesInfo);
     const dataWithStats = helpers.addStats(data);
     const dataWithEverything = helpers.calcCostPerStat(
       currentGearWithStats,
