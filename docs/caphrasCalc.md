@@ -2,7 +2,7 @@
 
 Calculate the current price of enhancing an item using Caphras Stones to a desired level.
 
-**URL** : `/api/caphras-calc?item=ITEM&enhLevel=ENHANCELEVEL&curLevel=CURRENTCAPHRASLEVEL&desiredLevel=DESIREDCAPHRASLEVELregion=YOURREGION`
+**URL** : `/api/caphras-calc?item=ITEM&enhLevel=ENHANCELEVEL&curLevel=CURRENTCAPHRASLEVEL&desiredLevel=DESIREDCAPHRASLEVEL&region=YOURREGION`
 
 **URL Queries** :
 
