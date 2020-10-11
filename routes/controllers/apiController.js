@@ -3,15 +3,15 @@ const helpers = require('../../utils/helpers');
 const alchMatsJSON = require('../../data/Alchemy.json');
 const fishMatsJSON = require('../../data/DriedFish.json');
 const cookMatsJSON = require('../../data/Cooking.json');
-const upgradeIds = require('../../data/UpgradeIds.json');
 const validItems = require('../../utils/validItems');
+const apiConfig = require('../../utils/apiConifg');
 
 exports.prices_get = (req, res, next) => {
   const region = req.query.region;
   const category = req.params.category;
 
   const validCategories = ['cooking', 'alchemy', 'fish'];
-  const validRegions = ['na', 'eu'];
+  const validRegions = validItems.regions;
   const matInfo = {
     fish: fishMatsJSON,
     cooking: cookMatsJSON,
@@ -44,11 +44,45 @@ exports.prices_get = (req, res, next) => {
   });
 };
 
+exports.single_item_search_get = (req, res, next) => {
+  const region = req.query.region;
+  const id = req.params.id;
+  const enhLevel = Number(req.query.enhLevel) || 0;
+
+  // Validation
+  const validRegions = validItems.regions;
+  if (!id) {
+    return res.status(400).json({
+      error: 'No id given',
+    });
+  }
+  if (!validRegions.includes(region)) {
+    return res.status(400).json({
+      error: 'Invalid or no region given',
+    });
+  }
+  if (enhLevel < 0 || enhLevel > 20) {
+    return res.status(400).json({
+      error: 'Invalid enhLevel.  Only valid from 0-20',
+    });
+  }
+
+  const handleDataCallback = (err, data) => {
+    if (err) throw new Error(err);
+
+    const dataFormatted = helpers.formatData([data], enhLevel);
+
+    res.send(dataFormatted);
+  };
+
+  apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, handleDataCallback);
+};
+
 exports.search_get = (req, res, next) => {
   const region = req.query.region;
   const ids = req.body.ids;
 
-  const validRegions = ['na', 'eu'];
+  const validRegions = validItems.regions;
 
   if (!ids) {
     return res.status(400).json({
@@ -76,7 +110,7 @@ exports.search_get = (req, res, next) => {
 exports.caphras_calc_get = (req, res, next) => {
   const { item, enhLevel, curLevel, desiredLevel, region } = req.query;
 
-  const validRegions = ['na', 'eu'];
+  const validRegions = validItems.regions;
   const validItems = [
     'BossMH',
     'BossAwak',
@@ -167,7 +201,7 @@ exports.item_upgrade_post = (req, res, next) => {
     belt,
   } = req.body);
 
-  const validRegions = ['na', 'eu'];
+  const validRegions = validItems.regions;
   const validNames = [
     'characterClass',
     'mainHand',

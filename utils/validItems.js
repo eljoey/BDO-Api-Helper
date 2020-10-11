@@ -32,6 +32,7 @@ const ring = [
   'Tungrad Ring',
   'Ring of Cadry Guardian',
   'Eye of the Ruins Ring',
+  'Ominous Ring',
 ];
 const earring = [
   'Tungrad Earring',
@@ -54,7 +55,10 @@ const belt = [
   "Basilisk's Belt",
   'Centaurus Belt',
   "Orkinrad's Belt",
+  "Turo's Belt",
 ];
+
+const regions = ['na', 'eu'];
 
 module.exports = {
   characterClass,
@@ -69,4 +73,5 @@ module.exports = {
   earring,
   necklace,
   belt,
+  regions,
 };

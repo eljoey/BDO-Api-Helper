@@ -15,7 +15,7 @@ const parallelSetup = (idArr, region) => {
   return parallelCalls;
 };
 
-const formatData = (data) => {
+const formatData = (data, enhLevelDesired = undefined) => {
   let dataHolder = [];
 
   for (let i = 0; i < data.length; i++) {
@@ -24,13 +24,24 @@ const formatData = (data) => {
 
       const formatedData = {
         name: dataObj.name,
+        id: dataObj.mainKey,
         price: dataObj.pricePerOne,
         count: dataObj.count,
         enhanceGrade: dataObj.subKey,
+        totalTrades: dataObj.totalTradeCount,
       };
 
       dataHolder.push(formatedData);
     }
+  }
+
+  // Returns only the desired enhLevel wanted. Default null returns everything
+  if (enhLevelDesired >= 0) {
+    const foundItem = dataHolder.find(
+      (obj) => obj.enhanceGrade === enhLevelDesired
+    );
+
+    return foundItem;
   }
   return dataHolder;
 };

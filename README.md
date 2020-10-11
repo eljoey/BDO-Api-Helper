@@ -6,7 +6,7 @@ Api wrapper to grab marketplace data from BDO's NA marketplace
 
 - Base Url `https://bdo-api-helper.herokuapp.com`
 
-### Prices
+## Prices
 
 Grabs the current marketplace info for desired items. Routes are cached for 5min but if you are the first to request in the last 5 minutes then it will take a few seconds to get the info and respond.
 
@@ -14,31 +14,39 @@ Grabs the current marketplace info for desired items. Routes are cached for 5min
 - [Cooking](docs/prices/cooking.md) `GET /api/prices/cooking`
 - [DriedFish](docs/prices/fish.md) `GET /api/prices/fish`
 
-### Custom Search
+## Custom Searches
+
+### Single Search
+
+Search for the data on the desired item id.
+
+- [Item-Search](docs/itemSearch.md) `GET /api/item-search`
+
+### Bulk Search
 
 Allows you to create a custom search for items if you have all the item ids. Response time will grow with increased items requested.
 
 - [Search](docs/search.md) `GET /api/search`
 
-### Caphras Calculator
+## Caphras Calculator
 
 Calculate the current cost of caphras enhancing for an item.
 
 - [Caphras-Calc](docs/caphrasCalc.md) `GET /api/caphras-calc`
 
-### Item Upgrade Path
+## Item Upgrade Path
 
 Get a list of items with upgrade cost per stat increase to help choosing which item to upgrade next.
 
 - [Item-Upgrade](docs/itemUpgrade.md) `GET /api/item-upgrade`
 
-### Kutum Or Nouver
+## Kutum Or Nouver
 
 Determine which offhand is best at your ap level.
 
 - [Kutum-Or-Nouver](docs/kutumOrNouver.md) `GET /api/kutum-or-nouver`
 
-### Marketplace Clone
+## Marketplace Clone
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.
 
