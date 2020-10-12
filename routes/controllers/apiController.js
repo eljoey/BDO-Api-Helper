@@ -5,7 +5,6 @@ const fishMatsJSON = require('../../data/DriedFish.json');
 const cookMatsJSON = require('../../data/Cooking.json');
 const validItems = require('../../utils/validItems');
 const apiConfig = require('../../utils/apiConifg');
-const validItems = require('../../utils/validItems');
 
 exports.prices_get = (req, res, next) => {
   const region = req.query.region;
