@@ -8,12 +8,24 @@ const app = express();
 app.use(cors());
 app.use(bodyparser.json());
 
+//MongoDB connection
+const mongoose = require('mongoose');
+const BDO_STUFF_DB = config.BDO_STUFF_DB;
+mongoose.connect(BDO_STUFF_DB, { useNewUrlParser: true, useUnifiedTopology: true });
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
+
 //Routes
 const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
+const userRouter = require('./routes/user');
+
 
 app.use('/api', apiRouter);
 app.use('/marketplace-clone', mpCloneRouter);
+app.use('/user', userRouter);
 
 const PORT = config.PORT || '3000';
 app.listen(PORT, console.log(`Listening on port ${PORT}`));
