@@ -12,7 +12,6 @@ router.get(
 
 router.get('/item-search/:id', apiController.single_item_search_get);
 
-// TODO: Rename route to indicate bulk search.
 router.get('/search', apiController.search_get);
 
 router.get('/caphras-calc', apiController.caphras_calc_get);

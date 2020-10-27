@@ -8,7 +8,7 @@ const alertSchema = new Schema({
         type: String,
         enum: ['greater than or equal to', 'less than or equal to']
     },
-    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+    user: { type: Schema.Types.ObjectId, ref: 'User' },
     active: {
         type: Boolean,
         default: true

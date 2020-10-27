@@ -12,7 +12,8 @@ const userSchema = new Schema({
     },
     passwordHash: {
         type: String,
-        required: true
+        required: true,
+        select: false
     },
     email: {
         type: String,
@@ -20,11 +21,11 @@ const userSchema = new Schema({
         unique: true,
         uniquecaseInsensitive: true
     },
-    alerts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Alert' }],
+    alerts: [{ type: Schema.Types.ObjectId, ref: 'Alert' }],
 });
 
 userSchema.plugin(uniqueValidator);
 
 const User = mongoose.model('User', userSchema);
 
-mondule.exports = User;
+module.exports = User;

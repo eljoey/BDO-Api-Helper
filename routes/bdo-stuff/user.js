@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/:userId', userController.user_get);
 
 // route to create new user
-router.post('/:userId', userController.user_post);
+router.post('/', userController.validate('post'), userController.user_post);
 
 // route to delete user
 router.put('/:userId', userController.user_put);
