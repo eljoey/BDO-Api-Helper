@@ -4,8 +4,22 @@ const { body, validationResult } = require('express-validator');
 const config = require('../../../utils/config');
 const jwt = require('jsonwebtoken');
 
-exports.user_get = (req, res, next) => {
-    res.send('USER INFO SENT');
+exports.user_get = async (req, res, next) => {
+    const { userId } = req.params;
+    const tokenUser = req.decodedToken.id;
+
+    // Validate that token user matches id of get request 
+    if (userId !== tokenUser) return res.status(403).json({ error: 'You do not have permission to access this user' });
+
+    try {
+        const foundUser = await User.findById(userId);
+
+        res.json(foundUser);
+    } catch (err) {
+        next(err);
+    }
+
+
 };
 exports.user_post = async (req, res, next) => {
     try {

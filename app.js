@@ -4,11 +4,7 @@ const bodyparser = require('body-parser');
 const cors = require('cors');
 const middleware = require('./utils/middleware');
 
-
 const app = express();
-
-app.use(cors());
-app.use(bodyparser.json());
 
 //MongoDB connection
 const mongoose = require('mongoose');
@@ -18,6 +14,11 @@ mongoose.connect(BDO_STUFF_DB, { useNewUrlParser: true, useUnifiedTopology: true
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
+
+//Middleware
+app.use(cors());
+app.use(bodyparser.json());
+app.use(middleware.getToken);
 
 //Routes
 const apiRouter = require('./routes/api');
