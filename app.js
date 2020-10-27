@@ -2,6 +2,8 @@ const express = require('express');
 const config = require('./utils/config');
 const bodyparser = require('body-parser');
 const cors = require('cors');
+const middleware = require('./utils/middleware');
+
 
 const app = express();
 
@@ -22,7 +24,6 @@ const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
 const userRouter = require('./routes/bdo-stuff/user');
 const loginRouter = require('./routes/bdo-stuff/login');
-const middleware = require('./utils/middleware');
 
 
 app.use('/api', apiRouter);

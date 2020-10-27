@@ -59,9 +59,9 @@ exports.validate = (method) => {
     switch (method) {
         case 'post':
             return [
-                body('username', 'Username must be 5 characters or longer').trim().isLength({ min: 5 }),
-                body('password', 'Password must be 7 characters or longer').trim().isLength({ min: 7 }),
-                body('email', 'Invalid email').exists().isEmail()
+                body('username', 'Username must be 5 characters or longer').trim().isLength({ min: 5 }).escape(),
+                body('password', 'Password must be 7 characters or longer').trim().isLength({ min: 7 }).escape(),
+                body('email', 'Invalid email').exists().isEmail().normalizeEmail()
             ];
 
         default:
