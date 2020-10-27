@@ -5,14 +5,12 @@ const config = require('../../../utils/config');
 const jwt = require('jsonwebtoken');
 
 exports.user_get = async (req, res, next) => {
-    const { userId } = req.params;
-    const tokenUser = req.decodedToken.id;
-
-    // Validate that token user matches id of get request 
-    if (userId !== tokenUser) return res.status(403).json({ error: 'You do not have permission to access this user' });
+    const tokenUserId = req.decodedToken.id;
 
     try {
-        const foundUser = await User.findById(userId);
+        const foundUser = await User.findById(tokenUserId);
+
+        if (!foundUser) return res.status(404).json({ error: 'user not found' });
 
         res.json(foundUser);
     } catch (err) {
@@ -65,7 +63,22 @@ exports.user_post = async (req, res, next) => {
 exports.user_put = (req, res, next) => {
     res.send('USER INFO UPDATED');
 };
-exports.user_delete = (req, res, next) => {
+exports.user_delete = async (req, res, next) => {
+    const tokenUserId = req.decodedToken.id;
+
+    try {
+        const userToDelete = await User.findById(tokenUserId);
+
+        if (!userToDelete) return res.status(404).json({ error: 'user not found' });
+
+        // TODO: Remove alerts as well.  Will do after alert implementation
+        await User.findByIdAndRemove(tokenUserId);
+
+        res.status(204).end();
+
+    } catch (err) {
+        next(err);
+    }
     res.send('USER DELETED');
 };
 
