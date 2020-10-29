@@ -25,12 +25,14 @@ const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
 const userRouter = require('./routes/bdo-stuff/user');
 const loginRouter = require('./routes/bdo-stuff/login');
+const alertRouter = require('./routes/bdo-stuff/alert');
 
 
 app.use('/api', apiRouter);
 app.use('/marketplace-clone', mpCloneRouter);
 app.use('/bdo-stuff/user', userRouter);
 app.use('/bdo-stuff/login', loginRouter);
+app.use('/bdo-stuff/alert', alertRouter);
 
 //error handling
 app.use(middleware.unknownEndpoint);

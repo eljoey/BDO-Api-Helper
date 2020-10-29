@@ -6,7 +6,7 @@ const alertSchema = new Schema({
     price: Number,
     direction: {
         type: String,
-        enum: ['greater than or equal to', 'less than or equal to']
+        enum: ['greater than or equal to', 'less than or equal to'],
     },
     user: { type: Schema.Types.ObjectId, ref: 'User' },
     active: {

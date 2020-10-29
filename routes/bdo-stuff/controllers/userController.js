@@ -1,5 +1,6 @@
 const bcrypt = require('bcrypt');
 const User = require('../../../models/user');
+const Alert = require('../../../models/alert');
 const { body, validationResult } = require('express-validator');
 const config = require('../../../utils/config');
 const jwt = require('jsonwebtoken');
@@ -71,7 +72,14 @@ exports.user_delete = async (req, res, next) => {
 
         if (!userToDelete) return res.status(404).json({ error: 'user not found' });
 
-        // TODO: Remove alerts as well.  Will do after alert implementation
+        // removes all users alerts followed by the
+        await Alert.deleteMany({
+            _id: {
+                $in: [
+                    ...userToDelete.alerts
+                ]
+            }
+        });
         await User.findByIdAndRemove(tokenUserId);
 
         res.status(204).end();
@@ -79,7 +87,6 @@ exports.user_delete = async (req, res, next) => {
     } catch (err) {
         next(err);
     }
-    res.send('USER DELETED');
 };
 
 exports.validate = (method) => {

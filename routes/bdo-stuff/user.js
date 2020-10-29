@@ -4,7 +4,6 @@ const userController = require('./controllers/userController');
 
 const router = express.Router();
 
-
 // route to get user
 router.get('/', middleware.validateToken, userController.user_get);
 
