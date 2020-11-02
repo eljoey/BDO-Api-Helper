@@ -33,7 +33,7 @@ exports.alert_get = async (req, res, next) => {
 
 exports.alert_create = async (req, res, next) => {
     const userId = req.decodedToken.id;
-    const { itemId, price, direction } = req.body;
+    const { itemId, region, price, direction } = req.body;
 
     try {
         const user = await User.findById(userId);
@@ -43,6 +43,7 @@ exports.alert_create = async (req, res, next) => {
         // create and save new alert
         const alert = new Alert({
             itemId,
+            region,
             price,
             direction,
             user: user._id
@@ -71,8 +72,6 @@ exports.alert_update = async (req, res, next) => {
         active
     };
 
-    console.log(alert);
-
     try {
         const userInfo = await User.findById(userId);
         const alertInfo = await Alert.findById(alertId);
@@ -99,7 +98,7 @@ exports.alert_delete = async (req, res, next) => {
         if (!alert) return res.status(404).json({ error: 'Alert not found' });
         if (alert.user.toString() !== userId) return res.status(403).json({ error: 'Access denied' });
 
-        // remove alert from user alert arr
+        // remove alert from user alert array
         const filteredAlerts = user.alerts.filter(alert => alert.toString() !== alertId);
         user.alerts = filteredAlerts;
         await user.save();

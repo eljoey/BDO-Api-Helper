@@ -2,13 +2,29 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const alertSchema = new Schema({
-    itemId: Number,
-    price: Number,
+    itemId: {
+        type: Number,
+        required: true
+    },
+    region: {
+        type: String,
+        enum: ['na', 'eu'],
+        required: true
+    },
+    price: {
+        type: Number,
+        required: true
+    },
     direction: {
         type: String,
         enum: ['greater than or equal to', 'less than or equal to'],
+        required: true
     },
-    user: { type: Schema.Types.ObjectId, ref: 'User' },
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
+    },
     active: {
         type: Boolean,
         default: true

@@ -3,6 +3,7 @@ const config = require('./utils/config');
 const bodyparser = require('body-parser');
 const cors = require('cors');
 const middleware = require('./utils/middleware');
+const alertChecker = require('./utils/alertChecker');
 
 const app = express();
 
@@ -19,6 +20,10 @@ db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
 app.use(cors());
 app.use(bodyparser.json());
 app.use(middleware.getToken);
+
+//Alert checker for Bdo-Stuff 
+alertChecker();
+
 
 //Routes
 const apiRouter = require('./routes/api');
