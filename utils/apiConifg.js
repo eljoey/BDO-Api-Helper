@@ -63,7 +63,7 @@ const bdoApiCall = (route, region, dataObj, callback) => {
     callback(null, cachedBody);
   } else {
     request(BDOApiConfig, (err, res) => {
-      cacheStorageTime = 15 * 1000;
+      cacheStorageTime = 60 * 1000;
       mcache.put(cacheKey, res.body, cacheStorageTime);
       callback(err, res.body);
     });
