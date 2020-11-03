@@ -3,42 +3,40 @@ const config = require('./utils/config');
 const bodyparser = require('body-parser');
 const cors = require('cors');
 const middleware = require('./utils/middleware');
-// const alertChecker = require('./utils/alertChecker');
+const alertChecker = require('./utils/alertChecker');
 
 const app = express();
 
-//MongoDB connection NOT ACTIVE YET
-// const mongoose = require('mongoose');
-// const BDO_STUFF_DB = config.BDO_STUFF_DB;
-// mongoose.connect(BDO_STUFF_DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
+// MongoDB connection
+const mongoose = require('mongoose');
+const BDO_STUFF_DB = config.BDO_STUFF_DB;
+mongoose.connect(BDO_STUFF_DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 
-// const db = mongoose.connection;
-// db.on('error', console.error.bind(console, 'connection error:'));
-// db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
 
 //Middleware
 app.use(cors());
 app.use(bodyparser.json());
-// app.use(middleware.getToken);
+app.use(middleware.getToken);
 
-//Alert checker for Bdo-Stuff (NOT ACTIVE YET)
-// alertChecker();
+//Alert checker for Bdo-Stuff
+alertChecker();
 
 
 //Routes
 const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
-// const userRouter = require('./routes/bdo-stuff/user');
-// const loginRouter = require('./routes/bdo-stuff/login');
-// const alertRouter = require('./routes/bdo-stuff/alert');
-
+const userRouter = require('./routes/bdo-stuff/user');
+const loginRouter = require('./routes/bdo-stuff/login');
+const alertRouter = require('./routes/bdo-stuff/alert');
 
 app.use('/api', apiRouter);
 app.use('/marketplace-clone', mpCloneRouter);
-// NOT ACTIVE YET
-// app.use('/bdo-stuff/user', userRouter);
-// app.use('/bdo-stuff/login', loginRouter);
-// app.use('/bdo-stuff/alert', alertRouter);
+app.use('/bdo-stuff/user', userRouter);
+app.use('/bdo-stuff/login', loginRouter);
+app.use('/bdo-stuff/alert', alertRouter);
 
 //error handling
 app.use(middleware.unknownEndpoint);

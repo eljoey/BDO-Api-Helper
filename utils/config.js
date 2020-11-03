@@ -7,6 +7,9 @@ const EU_COOKIE = process.env.EU_COOKIE;
 const EU_TOKEN = process.env.EU_TOKEN;
 const BDO_STUFF_DB = process.env.MONGODB_URI;
 const SECRET = process.env.SECRET;
+const EMAIL = process.env.EMAIL;
+const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD;
+const MAIN_URL = process.env.MAIN_URL;
 
 module.exports = {
   PORT,
@@ -15,5 +18,8 @@ module.exports = {
   EU_COOKIE,
   EU_TOKEN,
   BDO_STUFF_DB,
-  SECRET
+  SECRET,
+  EMAIL,
+  EMAIL_PASSWORD,
+  MAIN_URL
 };
