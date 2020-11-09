@@ -1,6 +1,7 @@
 const express = require('express');
 const config = require('./utils/config');
 const bodyparser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const middleware = require('./utils/middleware');
 const alertChecker = require('./utils/alertChecker');
@@ -19,6 +20,7 @@ db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
 //Middleware
 app.use(cors());
 app.use(bodyparser.json());
+app.use(cookieParser());
 app.use(middleware.getToken);
 
 //Alert checker for Bdo-Stuff
@@ -28,15 +30,11 @@ alertChecker();
 //Routes
 const apiRouter = require('./routes/api');
 const mpCloneRouter = require('./routes/mpClone');
-const userRouter = require('./routes/bdo-stuff/user');
-const loginRouter = require('./routes/bdo-stuff/login');
-const alertRouter = require('./routes/bdo-stuff/alert');
+const bdoStuffRouter = require('./routes/bdo-stuff');
 
 app.use('/api', apiRouter);
 app.use('/marketplace-clone', mpCloneRouter);
-app.use('/bdo-stuff/user', userRouter);
-app.use('/bdo-stuff/login', loginRouter);
-app.use('/bdo-stuff/alert', alertRouter);
+app.use('/bdo-stuff/', bdoStuffRouter);
 
 //error handling
 app.use(middleware.unknownEndpoint);

@@ -48,7 +48,7 @@ const getToken = (req, res, next) => {
 
 const validateToken = (req, res, next) => {
   try {
-    const decodedToken = jwt.verify(req.token, config.SECRET);
+    const decodedToken = jwt.verify(req.token, config.ACCESS_TOKEN_SECRET);
 
     req.decodedToken = decodedToken;
   } catch (err) {

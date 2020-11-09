@@ -22,6 +22,10 @@ const userSchema = new Schema({
         uniquecaseInsensitive: true
     },
     alerts: [{ type: Schema.Types.ObjectId, ref: 'Alert' }],
+    refreshToken: {
+        type: String,
+        select: false
+    }
 });
 
 userSchema.plugin(uniqueValidator);

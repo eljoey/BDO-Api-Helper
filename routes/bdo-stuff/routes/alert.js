@@ -1,6 +1,6 @@
 const express = require('express');
-const alertController = require('./controllers/alertController');
-const middleware = require('../../utils/middleware');
+const alertController = require('../controllers/alertController');
+const middleware = require('../../../utils/middleware');
 
 const router = express.Router();
 
