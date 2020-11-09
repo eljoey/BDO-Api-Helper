@@ -37,17 +37,25 @@ exports.user_post = async (req, res, next) => {
             email,
             alerts: []
         });
+
+        // Create refresh token, add to user and save to db
+        const userTokenObj = {
+            username: newUser.username,
+            id: newUser._id
+        };
+        const refreshToken = jwt.sign(userTokenObj, config.REFRESH_TOKEN_SECRET);
+        newUser.refreshToken = refreshToken;
+
         const savedUser = await newUser.save();
 
-        // Issue a token
-        const userTokenObj = {
-            username: savedUser.username,
-            id: savedUser._id
-        };
-        const token = jwt.sign(userTokenObj, config.SECRET);
+        // Issue an access token
+        const token = jwt.sign(userTokenObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '30m' });
+        const tokenExpires = new Date();
+        tokenExpires.setMinutes(tokenExpires.getMinutes() + 30);
 
         const userWithToken = {
             token,
+            tokenExpires,
             id: newUser._id,
             username: newUser.username,
             email: newUser.email,
