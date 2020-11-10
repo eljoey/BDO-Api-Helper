@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(middleware.getToken);
 
 //Alert checker for Bdo-Stuff
-alertChecker();
+// alertChecker();
 
 
 //Routes

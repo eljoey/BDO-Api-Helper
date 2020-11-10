@@ -41,7 +41,7 @@ router.post('/', async (req, res, next) => {
         .status(200)
         .send({
             token,
-            tokenExpires,
+            tokenExpires: tokenExpires.toUTCString(),
             id: user._id,
             username: user.username,
             email: user.email,

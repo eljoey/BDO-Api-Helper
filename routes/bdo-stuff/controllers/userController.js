@@ -55,7 +55,7 @@ exports.user_post = async (req, res, next) => {
 
         const userWithToken = {
             token,
-            tokenExpires,
+            tokenExpires: tokenExpires.toUTCString(),
             id: newUser._id,
             username: newUser.username,
             email: newUser.email,
