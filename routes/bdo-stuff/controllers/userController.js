@@ -62,7 +62,10 @@ exports.user_post = async (req, res, next) => {
             alerts: []
         };
 
-        res.send(userWithToken);
+
+        res.cookie('refresh_token', refreshToken, { httpOnly: true })
+            .status(200)
+            .send(userWithToken);
 
     } catch (err) {
         next(err);

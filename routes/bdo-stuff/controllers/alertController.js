@@ -5,7 +5,7 @@ exports.alerts_get = async (req, res, next) => {
     const userId = req.decodedToken.id;
 
     try {
-        const user = await User.findById(userId);
+        const user = await User.findById(userId).populate('alerts');
 
         if (!user) return res.status(404).json({ error: 'User not found' });
 
