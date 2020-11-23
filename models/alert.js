@@ -6,6 +6,10 @@ const alertSchema = new Schema({
         type: Number,
         required: true
     },
+    name: {
+        type: String,
+        required: true
+    },
     region: {
         type: String,
         enum: ['na', 'eu'],
