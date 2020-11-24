@@ -28,7 +28,7 @@ router.post('/', async (req, res) => {
     const tokenExpires = new Date();
     tokenExpires.setMinutes(tokenExpires.getMinutes() + 30);
 
-    res.send({ token, tokenExpires });
+    res.send({ token, tokenExpires: tokenExpires.toUTCString() });
 });
 
 module.exports = router;
