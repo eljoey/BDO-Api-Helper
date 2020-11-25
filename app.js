@@ -18,7 +18,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => { console.log('Connected to BDO-Stuff Database'); });
 
 //Middleware
-app.use(cors({ credentials: true, origin: ['http://localhost:3001', 'http://bdo-stuff.netlify.app/', 'http://bdo-api-helper.herokuapp.com'] }));
+app.use(cors({ credentials: true, origin: ['http://localhost:3001', 'http://localhost:3001', 'http://bdo-stuff.netlify.app/', 'http://bdo-api-helper.herokuapp.com'] }));
 app.use(bodyparser.json());
 app.use(cookieParser());
 app.use(middleware.getToken);

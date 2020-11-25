@@ -31,7 +31,7 @@ router.post('/', async (req, res, next) => {
     await User.findByIdAndUpdate(user._id, updatedUser);
 
 
-    // Create access token (30 minute expiration)
+    // Create access token (1 minute expiration)
     const token = jwt.sign(tokenUserObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '1m' });
     const tokenExpires = new Date();
     tokenExpires.setMinutes(tokenExpires.getMinutes() + 1);
