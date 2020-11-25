@@ -4,12 +4,16 @@ const async = require('async');
 const mailer = require('./mailer');
 
 const alertChecker = async () => {
+    console.log('Starting Alert Check...');
     try {
         // Only grab active alerts
         const alerts = await Alert.find({ active: true });
 
         // If no alerts exit
-        if (!alerts.length) return;
+        if (!alerts.length) {
+            console.log('No Alerts Exiting...');
+            return;
+        };
 
         // Split for each region
         const alertByRegion = { 'na': [], 'eu': [] };
@@ -33,6 +37,7 @@ const alertChecker = async () => {
             alertHandling(euNoDupes, 'eu');
         }
 
+        console.log('Finished Checking Alerts. Exiting...');
     } catch (err) {
         console.log(err);
     }
