@@ -34,7 +34,7 @@ const alertChecker = async () => {
             console.log('Checking NA alerts');
             alertHandling(naNoDupes, 'na');
         }
-        if (!euNoDupes.length !== 0) {
+        if (euNoDupes.length !== 0) {
             console.log('Checking EU alerts');
             alertHandling(euNoDupes, 'eu');
         }
