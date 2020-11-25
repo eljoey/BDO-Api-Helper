@@ -49,9 +49,9 @@ exports.user_post = async (req, res, next) => {
         const savedUser = await newUser.save();
 
         // Issue an access token
-        const token = jwt.sign(userTokenObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '30m' });
+        const token = jwt.sign(userTokenObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '1m' });
         const tokenExpires = new Date();
-        tokenExpires.setMinutes(tokenExpires.getMinutes() + 30);
+        tokenExpires.setMinutes(tokenExpires.getMinutes() + 1);
 
         const userWithToken = {
             token,
@@ -63,7 +63,7 @@ exports.user_post = async (req, res, next) => {
         };
 
 
-        res.cookie('refresh_token', refreshToken, { httpOnly: true })
+        res.cookie('refresh_token', refreshToken, { httpOnly: true, sameSite: 'lax' })
             .status(200)
             .send(userWithToken);
 

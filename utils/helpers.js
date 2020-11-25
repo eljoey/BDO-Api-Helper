@@ -120,8 +120,6 @@ const addStats = (data) => {
     const itemBaseName = item.name.split(' ')[0];
     const itemTypeName = item.name.split(' ')[1];
 
-    // TODO: Clean this up.
-
     //Mainhand Weapon
     if (mainhandNames.includes(itemBaseName) && itemTypeName !== 'Armor') {
       const itemWithStats = {

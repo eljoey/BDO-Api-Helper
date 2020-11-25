@@ -32,12 +32,12 @@ router.post('/', async (req, res, next) => {
 
 
     // Create access token (30 minute expiration)
-    const token = jwt.sign(tokenUserObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '30m' });
+    const token = jwt.sign(tokenUserObj, config.ACCESS_TOKEN_SECRET, { expiresIn: '1m' });
     const tokenExpires = new Date();
-    tokenExpires.setMinutes(tokenExpires.getMinutes() + 30);
+    tokenExpires.setMinutes(tokenExpires.getMinutes() + 1);
 
     // Set cookie header to refresh token and send info
-    res.cookie('refresh_token', refreshToken, { httpOnly: true })
+    res.cookie('refresh_token', refreshToken, { httpOnly: true, sameSite: "lax" })
         .status(200)
         .send({
             token,
