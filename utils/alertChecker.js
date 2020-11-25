@@ -84,7 +84,7 @@ const alertHandling = (idArr, region) => {
             if (sendAlert) {
                 console.log('SENDING EMAIL...');
                 const username = checkedAlert.user.username;
-                const userEmail = checkedAlert.user.userEmail;
+                const userEmail = checkedAlert.user.email;
                 const alert = `${checkedAlert.direction} ${checkedAlert.price}`;
                 const itemName = foundItem.name;
                 mailer.sendAlert(username, userEmail, alert, itemName);
@@ -103,7 +103,7 @@ const alertHandling = (idArr, region) => {
 
 
 // 30m interval
-const timeInterval = 30 * 60 * 1000;
+const timeInterval = 60 * 1000;
 
 const alertCheckerInterval = () => {
     setInterval(alertChecker, timeInterval);
