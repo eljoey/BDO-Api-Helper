@@ -37,7 +37,7 @@ router.post('/', async (req, res, next) => {
     tokenExpires.setMinutes(tokenExpires.getMinutes() + 1);
 
     // Set cookie header to refresh token and send info
-    res.cookie('refresh_token', refreshToken, { httpOnly: true, sameSite: "lax" })
+    res.cookie('refresh_token', refreshToken, { httpOnly: true, sameSite: "none" })
         .status(200)
         .send({
             token,
