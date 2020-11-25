@@ -100,7 +100,7 @@ const alertHandling = (idArr, region) => {
 
 
 // 30m interval
-const timeInterval = 60 * 1000;
+const timeInterval = 30 * 60 * 1000;
 
 const alertCheckerInterval = () => {
     setInterval(alertChecker, timeInterval);
