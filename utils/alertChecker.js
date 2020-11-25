@@ -31,9 +31,11 @@ const alertChecker = async () => {
 
         // Check alerts & email if necessary
         if (!naNoDupes.length) {
+            console.log('Checking NA alerts');
             alertHandling(naNoDupes, 'na');
         }
         if (!euNoDupes.length) {
+            console.log('Checking EU alerts');
             alertHandling(euNoDupes, 'eu');
         }
 
@@ -80,6 +82,7 @@ const alertHandling = (idArr, region) => {
 
             // Alert is triggered, send email
             if (sendAlert) {
+                console.log('SENDING EMAIL...');
                 const username = checkedAlert.user.username;
                 const userEmail = checkedAlert.user.userEmail;
                 const alert = `${checkedAlert.direction} ${checkedAlert.price}`;
