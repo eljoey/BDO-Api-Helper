@@ -26,8 +26,12 @@ const alertChecker = async () => {
         const euNoDupes = removeDuplicateAlertsByItemId(alertByRegion.eu);
 
         // Check alerts & email if necessary
-        alertHandling(naNoDupes, 'na');
-        alertHandling(euNoDupes, 'eu');
+        if (!naNoDupes.length) {
+            alertHandling(naNoDupes, 'na');
+        }
+        if (!euNoDupes.length) {
+            alertHandling(euNoDupes, 'eu');
+        }
 
     } catch (err) {
         console.log(err);
