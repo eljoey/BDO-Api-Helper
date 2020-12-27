@@ -839,7 +839,19 @@
           "grade": 4
         }
       ],
-      "awakening": [],
+      "awakening": [
+        {
+          "name": "Dandelion Dual Glaives",
+          "id": 692802,
+          "grade": 3
+        },
+        {
+          "name": "Dragon Slayer Dual Glaives",
+          "id": 692812,
+          "grade": 3
+        }
+
+      ],
       "offhand": [
         {
           "name": "Kutum Haladie",
@@ -849,6 +861,38 @@
         {
           "name": "Nouver Haladie",
           "id": 692514,
+          "grade": 3
+        }
+      ]
+    },
+    "nova": {
+      "mainHand": [
+        {
+          "name": "Kzarka Morning Star",
+          "id": 730511,
+          "grade": 3
+        },
+        {
+          "name": "Offin Tett's Morning Star",
+          "id": 730539,
+          "grade": 3
+        },
+        {
+          "name": "Blackstar Morning Star",
+          "id": 730564,
+          "grade": 4
+        }
+      ],
+      "awakening": [],
+      "offhand": [
+        {
+          "name": "Kutum Quoratum",
+          "id": 730716,
+          "grade": 3
+        },
+        {
+          "name": "Nouver Quoratum",
+          "id": 730714,
           "grade": 3
         }
       ]
