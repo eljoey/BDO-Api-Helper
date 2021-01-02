@@ -29,7 +29,6 @@ exports.prices_get = (req, res, next) => {
     });
   }
 
-  // Split into two searches because EU doesnt work after 100 calls.
   let ids = matInfo[category].map((item) => item.id);
 
   const parallelApiCalls = helpers.parallelSetup(ids, region);

@@ -4,11 +4,23 @@ const middleware = require('../utils/middleware');
 
 const router = express.Router();
 
+router.get('/prices', (req, res) => {
+  res.status(400).json({
+    error: 'Categories are cooking, alchemy, and fish'
+  });
+});
+
 router.get(
   '/prices/:category/',
   middleware.cache(300),
   apiController.prices_get
 );
+
+router.get('/item-search', (req, res) => {
+  res.status(400).json({
+    error: 'Need a item id'
+  });
+});
 
 router.get('/item-search/:id', apiController.single_item_search_get);
 
