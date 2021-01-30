@@ -23,6 +23,12 @@ app.use(bodyparser.json());
 app.use(cookieParser());
 app.use(middleware.getToken);
 
+//Block annoying bots
+const ipfilter = require('express-ipfilter').IpFilter;
+const blockedIps = ['198.23.249.229', "96.227.114.108"];
+app.use(ipfilter(blockedIps));
+
+
 //Alert checker for Bdo-Stuff
 alertChecker();
 
