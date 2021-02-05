@@ -24,19 +24,15 @@ app.use(cookieParser());
 app.use(middleware.getToken);
 
 //Block annoying bots
-const ipfilter = require('express-ipfilter').IpFilter;
-const blockedIps = ['198.23.249.229', "96.227.114.108", '72.192.88.134'];
-app.use(ipfilter(blockedIps));
+const blockedIps = ['198.23.249.229', "96.227.114.108"];
 
 app.use((req, res, next) => {
     const ip2 = req.headers['x-forwarded-for'];
 
     if (blockedIps.includes(ip2)) {
-        console.log('------THIS BLOCK WORKED------');
         return res.status(403).json({ error: 'restricted access' });
     }
 
-    console.log('IP --2-- =======', ip2);
     next();
 });
 
