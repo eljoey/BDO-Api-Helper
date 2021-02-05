@@ -25,7 +25,7 @@ app.use(middleware.getToken);
 
 //Block annoying bots
 const ipfilter = require('express-ipfilter').IpFilter;
-const blockedIps = ['198.23.249.229', "96.227.114.108"];
+const blockedIps = ['198.23.249.229', "96.227.114.108", '72.192.88.134'];
 app.use(ipfilter(blockedIps));
 
 app.use((req, res, next) => {
