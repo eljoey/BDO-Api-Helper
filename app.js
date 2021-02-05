@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 
     if (blockedIps.includes(ip2)) {
         console.log('------THIS BLOCK WORKED------');
-        res.status(403).json({ error: 'restricted access' });
+        return res.status(403).json({ error: 'restricted access' });
     }
 
     console.log('IP --2-- =======', ip2);
