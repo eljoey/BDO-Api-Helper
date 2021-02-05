@@ -28,6 +28,14 @@ const ipfilter = require('express-ipfilter').IpFilter;
 const blockedIps = ['198.23.249.229', "96.227.114.108"];
 app.use(ipfilter(blockedIps));
 
+app.use((req, res, next) => {
+    const ip = req.ip;
+    const ip2 = req.headers['x-forwarded-for'];
+
+    console.log('IP --1-- =======', ip);
+    console.log('IP --2-- =======', ip2);
+    next();
+});
 
 //Alert checker for Bdo-Stuff
 alertChecker();
