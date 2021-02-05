@@ -31,7 +31,7 @@ app.use(ipfilter(blockedIps));
 app.use((req, res, next) => {
     const ip2 = req.headers['x-forwarded-for'];
 
-    if (blockedIps.contains(ip2)) {
+    if (blockedIps.includes(ip2)) {
         console.log('------THIS BLOCK WORKED------');
         res.status(403).json({ error: 'restricted access' });
     }
