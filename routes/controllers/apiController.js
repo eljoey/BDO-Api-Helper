@@ -46,7 +46,7 @@ exports.prices_get = (req, res, next) => {
 exports.single_item_search_get = (req, res, next) => {
   const region = req.query.region;
   const id = req.params.id;
-  const enhLevel = Number(req.query.enhLevel) || 0;
+  const enhLevel = req.query.enhLevel || 0;
 
   // Validation
   const validRegions = validItems.regions;
@@ -55,9 +55,19 @@ exports.single_item_search_get = (req, res, next) => {
       error: 'No id given',
     });
   }
+  if (isNaN(Number(id))) {
+    return res.status(400).json({
+      error: 'Invalid id given'
+    });
+  }
   if (!validRegions.includes(region)) {
     return res.status(400).json({
       error: 'Invalid or no region given',
+    });
+  }
+  if (isNaN(Number(enhLevel))) {
+    return res.status(400).json({
+      error: 'Invalid enhLevel given'
     });
   }
   if (enhLevel < 0 || enhLevel > 20) {
@@ -83,9 +93,15 @@ exports.search_get = (req, res, next) => {
 
   const validRegions = validItems.regions;
 
+  // Validation
   if (!ids) {
     return res.status(400).json({
       error: 'No Ids given',
+    });
+  }
+  if (isNaN(Number(id))) {
+    return res.status(400).json({
+      error: 'Invalid id given'
     });
   }
   if (!validRegions.includes(region)) {
