@@ -99,11 +99,6 @@ exports.search_get = (req, res, next) => {
       error: 'No Ids given',
     });
   }
-  if (isNaN(Number(id))) {
-    return res.status(400).json({
-      error: 'Invalid id given'
-    });
-  }
   if (!validRegions.includes(region)) {
     return res.status(400).json({
       error: 'Invalid or no region given',
