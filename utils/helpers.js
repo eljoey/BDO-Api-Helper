@@ -56,7 +56,7 @@ const formatData = (data, enhLevelDesired = undefined) => {
         foundItem = dataHolder.find(obj => obj.enhanceGrade === 11);
       }
       if (enhLevelDesired > 13 && enhLevelDesired < 16) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 0);
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 13);
       }
     }
 
