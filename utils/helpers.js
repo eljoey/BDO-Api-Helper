@@ -37,9 +37,36 @@ const formatData = (data, enhLevelDesired = undefined) => {
 
   // Returns only the desired enhLevel wanted. Default null returns everything
   if (enhLevelDesired >= 0) {
-    const foundItem = dataHolder.find(
-      (obj) => obj.enhanceGrade === enhLevelDesired
+    let isAccessory = dataHolder.length === 6 ? true : false;
+
+    let foundItem = dataHolder.find(
+      (obj) => obj.enhanceGrade == enhLevelDesired
     );
+
+
+    // if not found and is a weap/armor, it will choose the previous available tier that has a price (0, 8, 11, 13, 16, 17, 18, 19, 20). 
+    if (!foundItem && !isAccessory) {
+      if (enhLevelDesired > 0 && enhLevelDesired < 8) {
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 0);
+      }
+      if (enhLevelDesired > 8 && enhLevelDesired < 1) {
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 8);
+      }
+      if (enhLevelDesired > 11 && enhLevelDesired < 13) {
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 11);
+      }
+      if (enhLevelDesired > 13 && enhLevelDesired < 16) {
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 0);
+      }
+    }
+
+    //TODO: Handle possibility of being given an invalid enhLevel for accessories on route.
+    // defaults accessory enhLevel to 5 when given a valid input from 6-20
+    if (!foundItem && isAccessory) {
+      if (enhLevelDesired > 5 && enhLevelDesired <= 20) {
+        foundItem = dataHolder.find(obj => obj.enhanceGrade === 5);
+      }
+    }
 
     return foundItem;
   }
