@@ -5,7 +5,7 @@ const mcache = require('memory-cache');
 let BDOApiConfig;
 
 const getUrl = (route, region) => {
-  const baseURL = `https://marketweb-${region}.blackdesertonline.com/Home`;
+  const baseURL = `https://${region}-trade.naeu.playblackdesert.com/Home`;
   const routeEndpoint = {
     ItemList: 'GetWorldMarketList',
     ItemInfo: 'GetWorldMarketSubList',
