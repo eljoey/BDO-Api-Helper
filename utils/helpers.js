@@ -5,6 +5,7 @@ const apBracket = require('../data/ApBracket.json');
 const offhandStats = require('../data/OffhandStats.json');
 const caphraAp = require('../data/CaphrasAp.json');
 const upgradeIds = require('../data/UpgradeIds.json');
+const fs = require('fs');
 
 const parallelSetup = (idArr, region) => {
   const parallelCalls = idArr.map((id) => {
@@ -13,64 +14,6 @@ const parallelSetup = (idArr, region) => {
   });
 
   return parallelCalls;
-};
-
-const formatData = (data, enhLevelDesired = undefined) => {
-  let dataHolder = [];
-
-  for (let i = 0; i < data.length; i++) {
-    for (let j = 0; j < data[i].detailList.length; j++) {
-      const dataObj = data[i].detailList[j];
-
-      const formatedData = {
-        name: dataObj.name,
-        id: dataObj.mainKey,
-        price: dataObj.pricePerOne,
-        count: dataObj.count,
-        enhanceGrade: dataObj.subKey,
-        totalTrades: dataObj.totalTradeCount,
-      };
-
-      dataHolder.push(formatedData);
-    }
-  }
-
-  // Returns only the desired enhLevel wanted. Default null returns everything
-  if (enhLevelDesired >= 0) {
-    let isAccessory = dataHolder.length === 6 ? true : false;
-
-    let foundItem = dataHolder.find(
-      (obj) => obj.enhanceGrade == enhLevelDesired
-    );
-
-
-    // if not found and is a weap/armor, it will choose the previous available tier that has a price (0, 8, 11, 13, 16, 17, 18, 19, 20). 
-    if (!foundItem && !isAccessory) {
-      if (enhLevelDesired > 0 && enhLevelDesired < 8) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 0);
-      }
-      if (enhLevelDesired > 8 && enhLevelDesired < 1) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 8);
-      }
-      if (enhLevelDesired > 11 && enhLevelDesired < 13) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 11);
-      }
-      if (enhLevelDesired > 13 && enhLevelDesired < 16) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 13);
-      }
-    }
-
-    //TODO: Handle possibility of being given an invalid enhLevel for accessories on route.
-    // defaults accessory enhLevel to 5 when given a valid input from 6-20
-    if (!foundItem && isAccessory) {
-      if (enhLevelDesired > 5 && enhLevelDesired <= 20) {
-        foundItem = dataHolder.find(obj => obj.enhanceGrade === 5);
-      }
-    }
-
-    return foundItem;
-  }
-  return dataHolder;
 };
 
 const caphrasNeeded = (item, enhLevel, curLevel, desiredLevel) => {
@@ -97,41 +40,6 @@ const getStats = (item, enhLevel, curLevel, desiredLevel) => {
   }
 
   return stats;
-};
-
-const itemUpgradeParallelSetup = (itemArr, region) => {
-  const itemUpgradeParallelCalls = itemArr.map((id) => {
-    return (callback) =>
-      apiConfig.bdoApiCall(
-        'ItemPricing',
-        region,
-        { mainKey: id.mainKey, subKey: id.subKey, keyType: '0', isUp: 'True' },
-        callback
-      );
-  });
-
-  return itemUpgradeParallelCalls;
-};
-
-const itemUpgradeDataFormat = (data, itemArr) => {
-  let dataHolder = [];
-
-  for (let i = 0; i < itemArr.length; i++) {
-    const formatedData = {
-      name: itemArr[i].name,
-      id: itemArr[i].mainKey,
-      enhLevel: itemArr[i].subKey,
-      grade: itemArr[i].grade,
-    };
-
-    dataHolder.push(formatedData);
-  }
-
-  for (let i = 0; i < data.length; i++) {
-    dataHolder[i].price = data[i].basePrice;
-  }
-
-  return dataHolder;
 };
 
 const addStats = (data) => {
@@ -391,25 +299,10 @@ const getCharacterGearPossibilities = (characterClass) => {
   const upgradeInfo = Object.keys(upgradeIds).map((key) => {
     let infoArr = [];
     const weaponTypes = ['mainHand', 'offhand', 'awakening'];
-    const priEnhLevel = 16;
-    const penEnhLevel = 20;
-    const accpriEnhLevel = 1;
-    const accPenEnhLevel = 5;
 
     if (key === 'class') {
       for (let i = 0; i < weaponTypes.length; i++) {
-        for (let j = priEnhLevel; j <= penEnhLevel; j++) {
-          infoArr.push(
-            ...upgradeIds[key][characterClass][weaponTypes[i]].map((id) => {
-              return {
-                name: id.name,
-                grade: id.grade,
-                mainKey: id.id,
-                subKey: j,
-              };
-            })
-          );
-        }
+        infoArr.push(...upgradeIds[key][characterClass][weaponTypes[i]].map((id) => id.id));
       }
 
       return infoArr;
@@ -418,19 +311,8 @@ const getCharacterGearPossibilities = (characterClass) => {
     if (key === 'armor') {
       const armorTypeKeys = Object.keys(upgradeIds[key]);
 
-      for (let i = priEnhLevel; i <= penEnhLevel; i++) {
-        for (let j = 0; j < armorTypeKeys.length; j++) {
-          infoArr.push(
-            ...upgradeIds[key][armorTypeKeys[j]].map((id) => {
-              return {
-                name: id.name,
-                grade: id.grade,
-                mainKey: id.id,
-                subKey: i,
-              };
-            })
-          );
-        }
+      for (let j = 0; j < armorTypeKeys.length; j++) {
+        infoArr.push(...upgradeIds[key][armorTypeKeys[j]].map((id) => id.id));
       }
 
       return infoArr;
@@ -439,19 +321,8 @@ const getCharacterGearPossibilities = (characterClass) => {
     if (key === 'accessories') {
       const accTypeKeys = Object.keys(upgradeIds[key]);
 
-      for (let i = accpriEnhLevel; i <= accPenEnhLevel; i++) {
-        for (let j = 0; j < accTypeKeys.length; j++) {
-          infoArr.push(
-            ...upgradeIds[key][accTypeKeys[j]].map((id) => {
-              return {
-                name: id.name,
-                grade: id.grade,
-                mainKey: id.id,
-                subKey: i,
-              };
-            })
-          );
-        }
+      for (let j = 0; j < accTypeKeys.length; j++) {
+        infoArr.push(...upgradeIds[key][accTypeKeys[j]].map((id) => id.id));
       }
 
       return infoArr;
@@ -469,11 +340,8 @@ const getCharacterGearPossibilities = (characterClass) => {
 
 module.exports = {
   parallelSetup,
-  formatData,
   caphrasNeeded,
   getStats,
-  itemUpgradeParallelSetup,
-  itemUpgradeDataFormat,
   addStats,
   addCurrentGearStats,
   calcCostPerStat,

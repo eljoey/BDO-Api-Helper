@@ -18,10 +18,13 @@ Returns a list of items in the following format
 
 ```json
 {
+  "id": 8501,
   "name": "Dried Mudskipper",
   "price": 3420,
   "count": 0,
-  "enhanceGrade": 0
+  "enhLevel": 0,
+  "totalTradeCount": 961839,
+  "grade": 0
 }
 ```
 

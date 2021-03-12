@@ -431,17 +431,12 @@
   },
   {
     "name": "Cheetah Dragon Meat",
-    "id": 79151,
+    "id": 7915,
     "group": "Reptile Meat"
   },
   {
     "name": "Llama Meat",
     "id": 7956,
-    "group": ""
-  },
-  {
-    "name": "Lobster",
-    "id": 6511,
     "group": ""
   },
   {
@@ -678,56 +673,6 @@
     "name": "Special Drieghanese",
     "id": 9637,
     "group": ""
-  },
-  {
-    "name": "Cuttlefish",
-    "id": 8334,
-    "group": "Seafood"
-  },
-  {
-    "name": "Squid",
-    "id": 8211,
-    "group": "Seafood"
-  },
-  {
-    "name": "Terrapin",
-    "id": 8244,
-    "group": "Seafood"
-  },
-  {
-    "name": "Jellyfish",
-    "id": 8214,
-    "group": "Seafood"
-  },
-  {
-    "name": "Crawfish",
-    "id": 8246,
-    "group": "Seafood"
-  },
-  {
-    "name": "Crab",
-    "id": 8213,
-    "group": "Seafood"
-  },
-  {
-    "name": "Octopus",
-    "id": 8212,
-    "group": "Seafood"
-  },
-  {
-    "name": "Starfish",
-    "id": 8233,
-    "group": "Seafood"
-  },
-  {
-    "name": "Shellfish",
-    "id": 8215,
-    "group": "Seafood"
-  },
-  {
-    "name": "Seahorse",
-    "id": 8232,
-    "group": "Seafood"
   },
   {
     "name": "Star Anise",

@@ -2,6 +2,10 @@
 
 Api wrapper to grab marketplace data from BDO's NA marketplace
 
+## Updates
+
+DATE HERE - I've changed the api to use a db and update the prices every 30 minutes.
+
 ## Routes
 
 - Base Url `https://bdo-api-helper.herokuapp.com`
@@ -38,7 +42,7 @@ Calculate the current cost of caphras enhancing for an item.
 
 Get a list of items with upgrade cost per stat increase to help choosing which item to upgrade next.
 
-- [Item-Upgrade](docs/itemUpgrade.md) `GET /api/item-upgrade`
+- [Item-Upgrade](docs/itemUpgrade.md) `POST /api/item-upgrade`
 
 ## Kutum Or Nouver
 

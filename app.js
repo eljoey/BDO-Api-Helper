@@ -4,14 +4,13 @@ const bodyparser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const middleware = require('./utils/middleware');
-const alertChecker = require('./utils/alertChecker');
 
 const app = express();
 
 // MongoDB connection
 const mongoose = require('mongoose');
-const BDO_STUFF_DB = config.BDO_STUFF_DB;
-mongoose.connect(BDO_STUFF_DB, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
+const MONGODB_URI = config.MONGODB_URI;
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -37,8 +36,12 @@ app.use((req, res, next) => {
 });
 
 //Alert checker for Bdo-Stuff
-alertChecker();
+const alertChecker = require('./utils/alertChecker');
+// alertChecker();
 
+//Get Prices of NA & EU Items
+// const priceFetcher = require('./utils/getPrices');
+// priceFetcher();
 
 //Routes
 const apiRouter = require('./routes/api');
@@ -53,5 +56,5 @@ app.use('/bdo-stuff/', bdoStuffRouter);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
 
-const PORT = config.PORT || '3000';
-app.listen(PORT, console.log(`Listening on port ${PORT}`));
+module.exports = app;
+//TODO: UPDATE ALL DOCS

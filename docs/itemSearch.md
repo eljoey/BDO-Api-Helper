@@ -21,12 +21,13 @@ Returns an object in the following format.
 
 ```json
 {
+  "id": 715009,
   "name": "Blackstar Shortsword",
-  "itemId": 715009,
-  "price": 1780000000,
-  "count": 3,
-  "enhanceGrade": 16,
-  "totalTrades": 319
+  "price": 630000000,
+  "count": 0,
+  "enhLevel": 0,
+  "totalTradeCount": 278,
+  "grade": 4
 }
 ```
 
@@ -36,6 +37,8 @@ Returns an object in the following format.
 
 - Count is the amount of items currently available on the marketplace.
 
-- Enchance grade is 0 for base and goes up to 20 for PEN.
+- Enchance grade is 0 for base and goes up to 20 for Armor/Weapons and 5 for Accessories.
 
 - Total trades is the total amount of trades done for the item at the enhLevel.
+
+- Grade is the quality of of the item.

@@ -1,22 +1,32 @@
-const async = require('async');
 const helpers = require('../../utils/helpers');
 const alchMatsJSON = require('../../data/Alchemy.json');
 const fishMatsJSON = require('../../data/DriedFish.json');
 const cookMatsJSON = require('../../data/Cooking.json');
+const alchMatsJSONTest = require('../../data/alchemyTestId.json');
+const fishMatsJSONTest = require('../../data/driedFishTestId.json');
+const cookMatsJSONTest = require('../../data/cookingTestId.json');
 const validItems = require('../../utils/validItems');
-const apiConfig = require('../../utils/apiConifg');
+const NaItem = require('../../models/NaItem');
+const EuItem = require('../../models/EuItem');
 
-exports.prices_get = (req, res, next) => {
+exports.prices_get = async (req, res, next) => {
   const region = req.query.region;
   const category = req.params.category;
 
   const validCategories = ['cooking', 'alchemy', 'fish'];
   const validRegions = validItems.regions;
-  const matInfo = {
+  const matInfoLive = {
     fish: fishMatsJSON,
     cooking: cookMatsJSON,
     alchemy: alchMatsJSON,
   };
+  const matInfoTest = {
+    fish: fishMatsJSONTest,
+    cooking: cookMatsJSONTest,
+    alchemy: alchMatsJSONTest,
+  };
+  // TODO: check if this is bad practice for tests.
+  const matInfo = process.env.NODE_ENV === 'test' ? matInfoTest : matInfoLive;
 
   if (!validCategories.includes(category)) {
     return res.status(400).json({
@@ -29,21 +39,22 @@ exports.prices_get = (req, res, next) => {
     });
   }
 
+  let regionItem = region === 'na' ? NaItem : EuItem;
   let ids = matInfo[category].map((item) => item.id);
+  let results = [];
 
-  const parallelApiCalls = helpers.parallelSetup(ids, region);
-  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
-    if (err) {
-      console.log(err);
-    }
+  for (let i = 0; i < ids.length; i++) {
+    let id = ids[i];
+    const item = await regionItem.findOne({ itemId: id });
+    const info = item.getEnhLevel(0);
 
-    let data = helpers.formatData(results);
+    results.push(info);
+  }
 
-    res.send(data);
-  });
+  res.send(results);
 };
 
-exports.single_item_search_get = (req, res, next) => {
+exports.single_item_search_get = async (req, res, next) => {
   const region = req.query.region;
   const id = req.params.id;
   const enhLevel = req.query.enhLevel || 0;
@@ -70,24 +81,23 @@ exports.single_item_search_get = (req, res, next) => {
       error: 'Invalid enhLevel given'
     });
   }
-  if (enhLevel < 0 || enhLevel > 20) {
+
+  // Gets Item depending on region
+  let regionItem = region === 'na' ? NaItem : EuItem;
+  let foundItem = await regionItem.findOne({ itemId: id });
+  let desiredData = foundItem.getEnhLevel(enhLevel);
+
+  // Sends error for invalid enhLevel
+  if (!desiredData) {
     return res.status(400).json({
-      error: 'Invalid enhLevel.  Only valid from 0-20',
+      error: `Invalid enhLevel: ${enhLevel} given for id: ${id}.  Accessories use 0-5.  Armor and Weapons use 0, 8, 11, 13, 16-20. Any other item uses 0`
     });
   }
 
-  const handleDataCallback = (err, data) => {
-    if (err) throw new Error(err);
-
-    const dataFormatted = helpers.formatData([data], enhLevel);
-
-    res.send(dataFormatted);
-  };
-
-  apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, handleDataCallback);
+  res.send(desiredData);
 };
 
-exports.search_get = (req, res, next) => {
+exports.search_get = async (req, res, next) => {
   const region = req.query.region;
   const ids = req.body.ids;
 
@@ -105,19 +115,29 @@ exports.search_get = (req, res, next) => {
     });
   }
 
-  const parallelApiCalls = helpers.parallelSetup(ids, region);
+  let results = [];
+  let regionItem = region === 'na' ? NaItem : EuItem;
+  let itemIdCache = {};
 
-  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
-    if (err) {
-      console.log(err);
+  for (let i = 0; i < ids.length; i++) {
+    let id = ids[i];
+
+    // Don't add info for id that is already been added
+    if (itemIdCache[id]) {
+      continue;
+    } else {
+      itemIdCache[id] = true;
     }
 
-    let data = helpers.formatData(results);
-    res.send(data);
-  });
+    let foundItem = await regionItem.findOne({ itemId: id });
+    let info = foundItem.formatAllPrices;
+
+    results = [...results, ...info];
+  }
+  res.send(results);
 };
 
-exports.caphras_calc_get = (req, res, next) => {
+exports.caphras_calc_get = async (req, res, next) => {
   const { item, enhLevel, curLevel, desiredLevel, region } = req.query;
 
   const validRegions = validItems.regions;
@@ -150,12 +170,12 @@ exports.caphras_calc_get = (req, res, next) => {
       error: 'Invalid or no enhLevel given',
     });
   }
-  if (0 > Number(curLevel) || Number(curLevel) > 19) {
+  if (0 > Number(curLevel) || Number(curLevel) > 19 || isNaN(Number(curLevel))) {
     return res.status(400).json({
       error: 'Invalid or no curLevel given. A number 0-19 is needed',
     });
   }
-  if (1 > Number(desiredLevel) || Number(desiredLevel) > 20) {
+  if (1 > Number(desiredLevel) || Number(desiredLevel) > 20 || isNaN(Number(desiredLevel))) {
     return res.status(400).json({
       error: 'Invalid or no desiredLevel given. A number 1-20 is needed',
     });
@@ -166,35 +186,35 @@ exports.caphras_calc_get = (req, res, next) => {
     });
   }
 
-  const getCaphrasPrice = helpers.parallelSetup([721003], region);
-  async.parallel(getCaphrasPrice, (err, results) => {
-    const caphrasPrice = helpers.formatData(results)[0].price;
-    const caphrasNeeded = helpers.caphrasNeeded(
-      item,
-      enhLevel,
-      Number(curLevel),
-      Number(desiredLevel)
-    );
-    const caphrasAvailable = results[0].detailList[0].count;
-    const totalCaphrasPrice = caphrasPrice * caphrasNeeded;
-    const stats = helpers.getStats(
-      item,
-      enhLevel,
-      Number(curLevel),
-      Number(desiredLevel)
-    );
+  const caphrasId = 721003;
+  const regionItem = region === 'na' ? NaItem : EuItem;
+  const caphrasDB = await regionItem.findOne({ itemId: caphrasId });
+  const caphrasInfo = caphrasDB.getEnhLevel(0);
+  const caphrasNeeded = helpers.caphrasNeeded(
+    item,
+    enhLevel,
+    Number(curLevel),
+    Number(desiredLevel)
+  );
+  const totalCaphrasPrice = caphrasInfo.price * caphrasNeeded;
+  const stats = helpers.getStats(
+    item,
+    enhLevel,
+    Number(curLevel),
+    Number(desiredLevel)
+  );
 
-    res.send({
-      caphrasPrice,
-      caphrasNeeded,
-      caphrasAvailable,
-      totalCaphrasPrice,
-      stats,
-    });
+  res.send({
+    caphrasPrice: caphrasInfo.price,
+    caphrasNeeded,
+    caphrasAvailable: caphrasInfo.count,
+    totalCaphrasPrice,
+    stats
   });
+
 };
 
-exports.item_upgrade_post = (req, res, next) => {
+exports.item_upgrade_post = async (req, res, next) => {
   const region = req.query.region;
   const gearArr = ({
     characterClass,
@@ -254,8 +274,7 @@ exports.item_upgrade_post = (req, res, next) => {
   // Weapon and Armor enhLevel validation
   for (let i = 1; i < 7; i++) {
     const enhLvlInput = gearArr[validNames[i]].enhLevel;
-
-    if (enhLvlInput < 16 || enhLvlInput > 20) {
+    if (enhLvlInput < 16 || enhLvlInput > 20 || enhLvlInput === undefined) {
       return res.status(400).json({
         error: `Invalid or no ${validNames[i]} enhLevel given`,
       });
@@ -266,7 +285,7 @@ exports.item_upgrade_post = (req, res, next) => {
   for (let i = 8; i < 11; i++) {
     const enhLvlInput = gearArr[validNames[i]].enhLevel;
 
-    if (enhLvlInput < 1 || enhLvlInput > 5) {
+    if (enhLvlInput < 1 || enhLvlInput > 5 || enhLvlInput === undefined) {
       return res.status(400).json({
         error: `Invalid or no ${validNames[i]} enhLevel given`,
       });
@@ -275,32 +294,34 @@ exports.item_upgrade_post = (req, res, next) => {
 
   const currentGearWithStats = helpers.addCurrentGearStats(gearArr);
 
-  const possibleUpgradesInfo = helpers.getCharacterGearPossibilities(
+  const possibleUpgradeIds = helpers.getCharacterGearPossibilities(
     gearArr.characterClass.name
   );
 
-  const parallelApiCalls = helpers.itemUpgradeParallelSetup(
-    possibleUpgradesInfo,
-    region
-  );
+  let gearInfo = [];
+  let regionItem = region === 'na' ? NaItem : EuItem;
 
-  async.parallelLimit(parallelApiCalls, 50, (err, results) => {
-    if (err) {
-      console.log(err);
-    }
+  for (let i = 0; i < possibleUpgradeIds.length; i++) {
+    let id = possibleUpgradeIds[i];
+    let item = await regionItem.findOne({ itemId: id });
+    let itemInfo = item.formatAllPrices;
 
-    const data = helpers.itemUpgradeDataFormat(results, possibleUpgradesInfo);
-    const dataWithStats = helpers.addStats(data);
-    const dataWithEverything = helpers.calcCostPerStat(
-      currentGearWithStats,
-      dataWithStats
-    );
+    // 11 length === Armor/Weapon, 6 length === Accessory
+    let itemType = itemInfo.length === 6 ? 'accessories' : 'weapAndArmor';
+    let enhLevelsWanted = {
+      accessories: [1, 2, 3, 4, 5],
+      weapAndArmor: [16, 17, 18, 19, 20]
+    };
 
-    res.send(dataWithEverything);
+    let filteredGear = itemInfo.filter(item => enhLevelsWanted[itemType].includes(item.enhLevel));
 
-    // TODO: Swap to better quicker calling using item info and parse the data
-    //        to sort out the unwanted items. Less calls to bdo, but need to figure out how to determine btwn types.
-  });
+    gearInfo = [...gearInfo, ...filteredGear];
+  }
+
+  const gearWithStats = helpers.addStats(gearInfo);
+  const gearWithUpgradeCost = helpers.calcCostPerStat(currentGearWithStats, gearWithStats);
+
+  res.send(gearWithUpgradeCost);
 };
 
 exports.kutum_or_nouver_get = (req, res, next) => {
@@ -328,7 +349,7 @@ exports.kutum_or_nouver_get = (req, res, next) => {
     !caphraRegex.test(kutumCaphra)
   ) {
     return res.status(400).json({
-      error: 'Invalid or no kutumCaphra given',
+      error: 'Invalid kutumCaphra given',
     });
   }
   if (
@@ -337,7 +358,7 @@ exports.kutum_or_nouver_get = (req, res, next) => {
     !caphraRegex.test(nouverCaphra)
   ) {
     return res.status(400).json({
-      error: 'Invalid or no nouverCaphra given',
+      error: 'Invalid nouverCaphra given',
     });
   }
   if (baseAp < 200 || baseAp > 300) {

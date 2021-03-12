@@ -126,19 +126,27 @@ Returns an array of items in the following format.
 
 ```json
 {
-  "name": "Blackstar Amulet",
-  "id": 715005,
-  "enhLevel": 19,
-  "price": 16400000000,
+  "id": 11360,
+  "name": "Kzarka Kriegsmesser",
+  "price": 15700000000,
+  "count": 2,
+  "enhLevel": 20,
+  "totalTradeCount": 201,
+  "grade": 3,
   "type": "mainHand",
   "stats": {
-    "ap": 125,
+    "ap": 124,
     "dp": 0
   },
   "perStatCost": {
-    "ap": 16.4, // Cost in billions for 1 ap
-    "dp": 0, // Cost in billions for 1 dp
-    "total": 16.4 // Cost in billions for 1 ap or dp
+    "ap": 1.9625,
+    "dp": 0,
+    "total": 1.9625
+  },
+  "statChange": {
+    "ap": 8,
+    "dp": 0,
+    "total": 8
   }
 }
 ```

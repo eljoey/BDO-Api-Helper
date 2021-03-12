@@ -33,22 +33,30 @@ Get the details of the marketplace info for the list of items sent in the body o
 Returns a list of items in the following format.
 
 ```json
-{
-    "name": "Caphras Stone",
-    "price": 2800000,
-    "count": 84613,
-    "enhanceGrade": 0
+({
+  "id": 721003,
+  "name": "Caphras Stone",
+  "price": 2550000,
+  "count": 57087,
+  "enhLevel": 0,
+  "totalTradeCount": 116757366
 },
 ...
 {
-    "name": "Kzarka Longsword",
-    "price": 14900000000,
-    "count": 2,
-    "enhanceGrade": 20
-}
+  "id": 10010,
+  "name": "Kzarka Longsword",
+  "price": 109000000,
+  "count": 4,
+  "enhLevel": 0,
+  "totalTradeCount": 13725
+})
 ```
 
 ## Notes
+
+- Automatically removes duplicate ids.
+
+- Will return all enhancement levels for each item id.
 
 - Ids must be sent in the body of the request. Will accept any ammount of ids but the longer the list of ids the longer a request will take.
 

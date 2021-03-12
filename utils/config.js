@@ -5,12 +5,16 @@ const NA_COOKIE = process.env.NA_COOKIE;
 const NA_TOKEN = process.env.NA_TOKEN;
 const EU_COOKIE = process.env.EU_COOKIE;
 const EU_TOKEN = process.env.EU_TOKEN;
-const BDO_STUFF_DB = process.env.MONGODB_URI;
+let MONGODB_URI = process.env.MONGODB_URI;
 const REFRESH_TOKEN_SECRET = process.env.REFRESH_TOKEN_SECRET;
 const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
 const EMAIL = process.env.EMAIL;
 const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD;
 const MAIN_URL = process.env.MAIN_URL;
+
+if (process.env.NODE_ENV === 'test') {
+  MONGODB_URI = process.env.TEST_MONGODB_URI;
+}
 
 module.exports = {
   PORT,
@@ -18,7 +22,7 @@ module.exports = {
   NA_TOKEN,
   EU_COOKIE,
   EU_TOKEN,
-  BDO_STUFF_DB,
+  MONGODB_URI,
   REFRESH_TOKEN_SECRET,
   ACCESS_TOKEN_SECRET,
   EMAIL,
