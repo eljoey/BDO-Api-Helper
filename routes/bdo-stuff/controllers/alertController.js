@@ -33,7 +33,7 @@ exports.alert_get = async (req, res, next) => {
 
 exports.alert_create = async (req, res, next) => {
     const userId = req.decodedToken.id;
-    const { itemId, name, region, price, direction } = req.body;
+    const { itemId, name, region, price, direction, enhLevel } = req.body;
 
     try {
         const user = await User.findById(userId);
@@ -45,6 +45,7 @@ exports.alert_create = async (req, res, next) => {
             itemId,
             name,
             region,
+            enhLevel,
             price,
             direction,
             user: user._id

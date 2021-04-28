@@ -6,6 +6,10 @@ const alertSchema = new Schema({
         type: Number,
         required: true
     },
+    enhLevel: {
+        type: String,
+        required: true
+    },
     name: {
         type: String,
         required: true

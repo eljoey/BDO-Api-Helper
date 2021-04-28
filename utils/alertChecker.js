@@ -8,7 +8,6 @@ const alertChecker = async () => {
     try {
         // Only grab active alerts
         const alerts = await Alert.find({ active: true });
-
         // If no alerts exit
         if (!alerts.length) {
             console.log('No Alerts Exiting...');
@@ -24,11 +23,9 @@ const alertChecker = async () => {
                 alertByRegion.eu = [...alertByRegion.eu, alert];
             }
         });
-
         // Remove duplicate ItemIds to remove possiblity of calling BDO's api a lot of times for same itemId.
         const naNoDupes = removeDuplicateAlertsByItemId(alertByRegion.na);
         const euNoDupes = removeDuplicateAlertsByItemId(alertByRegion.eu);
-
         // Check alerts & email if necessary
         if (naNoDupes.length !== 0) {
             console.log('Checking NA alerts');
@@ -69,14 +66,14 @@ const alertHandling = (idArr, region) => {
         if (err) { console.log(err); }
 
         let data = helpers.formatData(results);
-
         // Get all alerts for the region
         const regionAlerts = await Alert.find({ region, active: true }).populate({ path: 'user', select: ['email', 'username'], });
 
         // check if alert is supposed to go
         for (let i = 0; i < regionAlerts.length; i++) {
             const checkedAlert = regionAlerts[i];
-            const foundItem = data.find(item => item.id === checkedAlert.itemId);
+            const foundItem = data.find(item => item.id === checkedAlert.itemId && item.enhanceGrade == checkedAlert.enhLevel);
+            console.log(foundItem, checkedAlert);
             // true if triggered
             const sendAlert = isAlertFired(checkedAlert, foundItem.price);
 
@@ -106,7 +103,8 @@ const alertHandling = (idArr, region) => {
 const timeInterval = 30 * 60 * 1000;
 
 const alertCheckerInterval = () => {
-    setInterval(alertChecker, timeInterval);
+    // setInterval(alertChecker, timeInterval);
+    alertChecker();
 };
 
 module.exports = alertCheckerInterval;
