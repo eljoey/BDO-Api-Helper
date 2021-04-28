@@ -103,8 +103,7 @@ const alertHandling = (idArr, region) => {
 const timeInterval = 30 * 60 * 1000;
 
 const alertCheckerInterval = () => {
-    // setInterval(alertChecker, timeInterval);
-    alertChecker();
+    setInterval(alertChecker, timeInterval);
 };
 
 module.exports = alertCheckerInterval;
