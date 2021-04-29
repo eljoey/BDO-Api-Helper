@@ -73,7 +73,6 @@ const alertHandling = (idArr, region) => {
         for (let i = 0; i < regionAlerts.length; i++) {
             const checkedAlert = regionAlerts[i];
             const foundItem = data.find(item => item.id === checkedAlert.itemId && item.enhanceGrade == checkedAlert.enhLevel);
-            console.log(foundItem, checkedAlert);
             // true if triggered
             const sendAlert = isAlertFired(checkedAlert, foundItem.price);
 
