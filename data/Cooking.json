@@ -803,5 +803,15 @@
     "name": "White Sauce",
     "id": 9003,
     "group": ""
+  },
+  {
+    "name": "Borscht",
+    "id": 9408,
+    "group": ""
+  },
+  {
+    "name": "Fragrant Borcht",
+    "id": 9452,
+    "group": ""
   }
 ]
