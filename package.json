@@ -35,7 +35,7 @@
     "memory-cache": "^0.2.0",
     "mongoose": "^5.10.10",
     "mongoose-unique-validator": "^2.0.3",
-    "nodemailer": "^6.4.14",
+    "nodemailer": "^6.4.16",
     "request": "^2.88.2"
   },
   "devDependencies": {
