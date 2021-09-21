@@ -883,7 +883,18 @@
           "grade": 4
         }
       ],
-      "awakening": [],
+      "awakening": [
+        {
+          "name": "Dandelion Sting",
+          "id": 730903,
+          "grade": 3
+        },
+        {
+          "name": "Dragon Slayer Sting",
+          "id": 730913,
+          "grade": 3
+        }
+      ],
       "offhand": [
         {
           "name": "Kutum Quoratum",
@@ -896,8 +907,96 @@
           "grade": 3
         }
       ]
+    },
+    "sage": {
+      "mainHand": [
+        {
+          "name": "Kzarka Kyve",
+          "id": 732260,
+          "grade": 3
+        },
+        {
+          "name": "Offin Tett's Kyve",
+          "id": 732288,
+          "grade": 3
+        },
+        {
+          "name": "Blackstar Kyve",
+          "id": 732313,
+          "grade": 4
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Kibelius",
+          "id": 732652,
+          "grade": 3
+        },
+        {
+          "name": "Dragon Slayer Kibelius",
+          "id": 732662,
+          "grade": 3
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Talisman",
+          "id": 10540,
+          "grade": 3
+        },
+        {
+          "name": "Nouver Talisman",
+          "id": 10538,
+          "grade": 3
+        }
+      ]
+    },
+    "corsair": {
+      "mainHand": [
+        {
+          "name": "Kzarka Serenaca",
+          "id": 733010,
+          "grade": 3
+        },
+        {
+          "name": "Offin Tett's Serenaca",
+          "id": 733038,
+          "grade": 3
+        },
+        {
+          "name": "Blackstar Serenaca",
+          "id": 733063,
+          "grade": 4
+        }
+      ],
+      "awakening": [
+        {
+          "name": "Dandelion Patraca",
+          "id": 733402,
+          "grade": 3
+        },
+        {
+          "name": "Dragon Slayer Patraca",
+          "id": 733412,
+          "grade": 3
+        }
+      ],
+      "offhand": [
+        {
+          "name": "Kutum Mareca",
+          "id": 733215,
+          "grade": 3
+        },
+        {
+          "name": "Nouver Mareca",
+          "id": 733213,
+          "grade": 3
+        }
+      ]
     }
+  
   },
+  
   "armor": {
     "gloves": [
       {
