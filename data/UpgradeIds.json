@@ -28,6 +28,11 @@
           "name": "Dragon Slayer Vediant",
           "id": 702513,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Vediant",
+          "id": 731113,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -71,6 +76,11 @@
           "name": "Dragon Slayer Great Sword",
           "id": 702501,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Great Sword",
+          "id": 731101,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -114,6 +124,11 @@
           "name": "Dragon Slayer Lancia",
           "id": 702506,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Lancia",
+          "id": 731106,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -157,6 +172,11 @@
           "name": "Dragon Slayer Jordun",
           "id": 702535,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Jordun",
+          "id": 731118,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -200,6 +220,11 @@
           "name": "Dragon Slayer Kamasylven Sword",
           "id": 702504,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Kamasylven Sword",
+          "id": 731104,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -243,6 +268,11 @@
           "name": "Dragon Slayer Aad Sphera",
           "id": 702511,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Aad Sphera",
+          "id": 731111,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -286,6 +316,11 @@
           "name": "Dragon Slayer Godr Sphera",
           "id": 702511,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Godr Sphera",
+          "id": 731112,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -329,6 +364,11 @@
           "name": "Dragon Slayer Scythe",
           "id": 702502,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Scythe",
+          "id": 731102,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -372,6 +412,11 @@
           "name": "Dragon Slayer Iron Buster",
           "id": 702503,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Iron Buster",
+          "id": 731103,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -415,6 +460,11 @@
           "name": "Dragon Slayer Celestial Bo Staff",
           "id": 702505,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Celestial Bo Staff",
+          "id": 731105,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -458,6 +508,11 @@
           "name": "Dragon Slayer Crescent Blade",
           "id": 702507,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Crescent Blade",
+          "id": 731107,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -501,6 +556,11 @@
           "name": "Dragon Slayer Kerispear",
           "id": 702508,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Kerispear",
+          "id": 731108,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -544,6 +604,11 @@
           "name": "Dragon Slayer Sura Katana",
           "id": 702509,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Sura Katana",
+          "id": 731109,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -597,6 +662,11 @@
           "name": "Dragon Slayer Sah Chakram",
           "id": 702510,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Sah Chakram",
+          "id": 731110,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -650,6 +720,11 @@
           "name": "Dragon Slayer Gardbrace",
           "id": 702514,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Gardbrace",
+          "id": 731114,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -693,6 +768,11 @@
           "name": "Dragon Slayer Cestus",
           "id": 702515,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Cestus",
+          "id": 731115,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -728,14 +808,19 @@
       ],
       "awakening": [
         {
-          "name": "Dandelion Glaives",
+          "name": "Dandelion Crimson Glaives",
           "id": 550502,
           "grade": 3
         },
         {
-          "name": "Dragon Slayer Glaives",
+          "name": "Dragon Slayer Crimson Glaives",
           "id": 702516,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Crimson Glaives",
+          "id": 731117,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -779,6 +864,11 @@
           "name": "Dragon Slayer Greatbow",
           "id": 702533,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Greatbow",
+          "id": 731116,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -849,8 +939,12 @@
           "name": "Dragon Slayer Dual Glaives",
           "id": 692812,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Dual Glaives",
+          "id": 731119,
+          "grade": 4
         }
-
       ],
       "offhand": [
         {
@@ -893,6 +987,11 @@
           "name": "Dragon Slayer Sting",
           "id": 730913,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Sting",
+          "id": 731120,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -936,6 +1035,11 @@
           "name": "Dragon Slayer Kibelius",
           "id": 732662,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Kibelius",
+          "id": 731121,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -979,6 +1083,11 @@
           "name": "Dragon Slayer Patraca",
           "id": 733412,
           "grade": 3
+        },
+        {
+          "name": "Blackstar Patraca",
+          "id": 731122,
+          "grade": 4
         }
       ],
       "offhand": [
@@ -996,7 +1105,6 @@
     }
   
   },
-  
   "armor": {
     "gloves": [
       {
@@ -1008,6 +1116,11 @@
         "name": "Leebur's Gloves",
         "id": 11102,
         "grade": 3
+      },
+      {
+        "name": "Blackstar Gloves",
+        "id": 719903,
+        "grade": 4
       }
     ],
     "helm": [
@@ -1020,6 +1133,11 @@
         "name": "Giath's Helmet",
         "id": 11013,
         "grade": 3
+      },
+      {
+        "name": "Blackstar Helmet",
+        "id": 719901,
+        "grade": 4
       }
     ],
     "armor": [
@@ -1037,6 +1155,11 @@
         "name": "Blackstar Armor",
         "id": 719902,
         "grade": 4
+      },
+      {
+        "name": "Fallen God's Armor",
+        "id": 719898,
+        "grade": 4
       }
     ],
     "boots": [
@@ -1049,6 +1172,11 @@
         "name": "Urugon's Shoes",
         "id": 11103,
         "grade": 3
+      },
+      {
+        "name": "Blackstar Shoes",
+        "id": 719904,
+        "grade": 4
       }
     ]
   },
@@ -1104,6 +1232,11 @@
       {
         "name": "Narc Ear Accessory",
         "id": 11834,
+        "grade": 3
+      },
+      {
+        "name": "Vaha's Dawn",
+        "id": 11875,
         "grade": 3
       }
     ],
