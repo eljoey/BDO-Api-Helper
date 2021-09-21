@@ -308,6 +308,7 @@ const addStats = (data) => {
 const calcCostPerStat = (currentGear, potentialGear) => {
   const addCostPerStat = potentialGear
     .map((item) => {
+      console.log(item);
       const currentGearAp = currentGear[item.type].stats.ap;
       const currentGearDp = currentGear[item.type].stats.dp;
       const potentialGearAp = item.stats.ap;
