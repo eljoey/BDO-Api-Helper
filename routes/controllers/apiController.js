@@ -408,7 +408,6 @@ exports.get_order = (req, res, next) => {
   const handleData = (err, data) => {
     if (err) throw new Error(err);
     const parsed = data.marketConditionList.filter(d => d.sellCount != 0 || d.buyCount != 0);
-    console.log(data.marketConditionList);
     let parsedToString = '';
     for (let i = 0; i < parsed.length; i++) {
       const info = `${parsed[i].pricePerOne}-${parsed[i].sellCount}-${parsed[i].buyCount}|`;
