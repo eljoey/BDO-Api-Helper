@@ -384,14 +384,26 @@ exports.kutum_or_nouver_get = (req, res, next) => {
 
 exports.get_order = (req, res, next) => {
   const id = req.query.id;
-  const enhLevel = req.query.enhLevel || 0;
+  const enhLevel = req.query.sid || 0;
   const region = req.query.region;
+  const validRegions = validItems.regions;
   const formData = {
     mainKey: id,
     subKey: enhLevel,
     keyType: '0',
     isUp: 'True',
   };
+
+  if (!validRegions.includes(region)) {
+    return res.status(400).json({
+      error: 'Invalid or no region given',
+    });
+  }
+  if (!id) {
+    return res.status(400).json({
+      error: 'No id given'
+    });
+  }
 
   const handleData = (err, data) => {
     if (err) throw new Error(err);
