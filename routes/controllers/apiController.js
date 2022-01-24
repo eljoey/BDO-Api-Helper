@@ -418,7 +418,10 @@ exports.get_order = (req, res, next) => {
       parsedToString = 'no buy or sell orders';
     }
 
-    res.json(parsedToString);
+    res.json({
+      'resultCode': 0,
+      'resultMsg': parsedToString
+    });
   };
 
   apiConfig.bdoApiCall('ItemPricing', region, formData, handleData);
