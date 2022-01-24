@@ -46,6 +46,12 @@ Determine which offhand is best at your ap level.
 
 - [Kutum-Or-Nouver](docs/kutumOrNouver.md) `GET /api/kutum-or-nouver`
 
+## Order Count
+
+Get the current buy and sell orders up for an item
+
+- [Order Count](docs/order.md) `GET /api/order`
+
 ## Marketplace Clone
 
 Mocks the api calls for the bdo marketplace. Best to use this if you want to clone the marketplace on a frontend.
