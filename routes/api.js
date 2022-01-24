@@ -32,4 +32,6 @@ router.post('/item-upgrade', apiController.item_upgrade_post);
 
 router.get('/kutum-or-nouver', apiController.kutum_or_nouver_get);
 
+router.get('/orders', apiController.get_order);
+
 module.exports = router;

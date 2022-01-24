@@ -381,3 +381,30 @@ exports.kutum_or_nouver_get = (req, res, next) => {
     });
   }
 };
+
+exports.get_order = (req, res, next) => {
+  const id = req.query.id;
+  const enhLevel = req.query.enhLevel || 0;
+  const region = req.query.region;
+  const formData = {
+    mainKey: id,
+    subKey: enhLevel,
+    keyType: '0',
+    isUp: 'True',
+  };
+
+  const handleData = (err, data) => {
+    if (err) throw new Error(err);
+    const parsed = data.marketConditionList.filter(d => d.sellCount != 0 || d.buyCount != 0);
+
+    let parsedToString = '';
+    for (let i = 0; i < parsed.length; i++) {
+      const info = `${parsed[i].pricePerOne}-${parsed[i].sellCount}-${parsed[i].buyCount}|`;
+      parsedToString += info;
+    }
+
+    res.send(parsedToString);
+  };
+
+  apiConfig.bdoApiCall('ItemPricing', region, formData, handleData);
+};
