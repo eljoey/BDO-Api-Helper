@@ -384,7 +384,7 @@ exports.kutum_or_nouver_get = (req, res, next) => {
 
 exports.get_order = (req, res, next) => {
   const id = req.query.id;
-  const enhLevel = req.query.sid || 0;
+  const enhLevel = req.query.enhLevel || 0;
   const region = req.query.region;
   const validRegions = validItems.regions;
   const formData = {
