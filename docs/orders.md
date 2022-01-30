@@ -2,7 +2,7 @@
 
 Get the current buy and sell orders up for an item
 
-**URL** : `/api/order?id=YOURID&region=YOURREGION&enhLevel`
+**URL** : `/api/orders?id=YOURID&region=YOURREGION&enhLevel=ENHLEVEL`
 
 **URL Queries** :
 

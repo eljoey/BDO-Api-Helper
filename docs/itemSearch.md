@@ -26,7 +26,8 @@ Returns an object in the following format.
   "price": 1780000000,
   "count": 3,
   "enhanceGrade": 16,
-  "totalTrades": 319
+  "totalTrades": 319,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/715009.png"
 }
 ```
 

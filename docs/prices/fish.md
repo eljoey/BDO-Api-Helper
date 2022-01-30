@@ -19,9 +19,12 @@ Returns a list of items in the following format
 ```json
 {
   "name": "Dried Mudskipper",
-  "price": 3420,
+  "id": 8501,
+  "price": 3190,
   "count": 0,
-  "enhanceGrade": 0
+  "enhanceGrade": 0,
+  "totalTrades": 1183249,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/8501.png"
 }
 ```
 

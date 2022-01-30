@@ -19,9 +19,12 @@ Returns a list of items in the following format
 ```json
 {
   "name": "Amanita Mushroom",
-  "price": 2820,
+  "id": 5419,
+  "price": 2630,
   "count": 0,
-  "enhanceGrade": 0
+  "enhanceGrade": 0,
+  "totalTrades": 1171642,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/5419.png"
 }
 ```
 

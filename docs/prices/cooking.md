@@ -19,9 +19,12 @@ Returns a list of items in the following format
 ```json
 {
   "name": "Aloe",
-  "price": 1530,
-  "count": 24233,
-  "enhanceGrade": 0
+  "id": 7347,
+  "price": 408,
+  "count": 143810,
+  "enhanceGrade": 0,
+  "totalTrades": 151107239,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/7347.png"
 }
 ```
 

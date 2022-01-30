@@ -34,17 +34,32 @@ Returns a list of items in the following format.
 
 ```json
 {
-    "name": "Caphras Stone",
-    "price": 2800000,
-    "count": 84613,
-    "enhanceGrade": 0
+  "name": "Caphras Stone",
+  "id": 721003,
+  "price": 2800000,
+  "count": 0,
+  "enhanceGrade": 0,
+  "totalTrades": 269054051,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/721003.png"
+},
+{
+  "name": "Kzarka Longsword",
+  "id": 10010,
+  "price": 220000000,
+  "count": 1,
+  "enhanceGrade": 0,
+  "totalTrades": 17433,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/10010.png"
 },
 ...
 {
-    "name": "Kzarka Longsword",
-    "price": 14900000000,
-    "count": 2,
-    "enhanceGrade": 20
+  "name": "Kzarka Longsword",
+  "id": 10010,
+  "price": 8050000000,
+  "count": 2,
+  "enhanceGrade": 20,
+  "totalTrades": 631,
+  "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/10010.png"
 }
 ```
 
