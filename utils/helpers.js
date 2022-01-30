@@ -29,6 +29,7 @@ const formatData = (data, enhLevelDesired = undefined) => {
         count: dataObj.count,
         enhanceGrade: dataObj.subKey,
         totalTrades: dataObj.totalTradeCount,
+        icon: `https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/${dataObj.mainKey}.png`
       };
 
       dataHolder.push(formatedData);
