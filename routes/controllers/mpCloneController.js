@@ -92,6 +92,13 @@ exports.itemSearch_get = (req, res, next) => {
   const handleData = (err, data) => {
     if (err) throw new Error(err);
 
+    // go through each item in list and add icon link
+    let listLen = data.list.length;
+    for (let i = 0; i < listLen; i++) {
+      let itemId = data.list[i].mainKey;
+      data.list[i].icon = `https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/${itemId}.png`;
+    }
+
     res.send(data);
   };
 

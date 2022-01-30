@@ -26,7 +26,8 @@ Returns json in the following format.
       "sumCount": 74281,
       "totalSumCount": 2870000,
       "name": "Caphras Stone",
-      "grade": 2
+      "grade": 2,
+      "icon": "https://s1.pearlcdn.com/NAEU/TradeMarket/Common/img/BDO/item/721003.png"
     }
   ],
   "resultCode": 0,
