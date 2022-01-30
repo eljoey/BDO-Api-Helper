@@ -21,7 +21,6 @@ const formatData = (data, enhLevelDesired = undefined) => {
   for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data[i].detailList.length; j++) {
       const dataObj = data[i].detailList[j];
-      console.log(dataObj);
       const formatedData = {
         name: dataObj.name,
         id: dataObj.mainKey,
