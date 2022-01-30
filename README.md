@@ -50,7 +50,7 @@ Determine which offhand is best at your ap level.
 
 Get the current buy and sell orders up for an item
 
-- [Order Count](docs/order.md) `GET /api/order`
+- [Order Count](docs/orders.md) `GET /api/orders`
 
 ## Marketplace Clone
 
