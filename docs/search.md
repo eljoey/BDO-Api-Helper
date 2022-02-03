@@ -6,7 +6,7 @@ Get the details of the marketplace info for the list of items sent in the body o
 
 **URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
 
-**Method** : `GET`
+**Method** : `POST`
 
 **Data constraints**
 

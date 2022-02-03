@@ -26,7 +26,7 @@ Search for the data on the desired item id.
 
 Allows you to create a custom search for items if you have all the item ids. Response time will grow with increased items requested.
 
-- [Search](docs/search.md) `GET /api/search`
+- [Search](docs/search.md) `POST /api/search`
 
 ## Caphras Calculator
 
