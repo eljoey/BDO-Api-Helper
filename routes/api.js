@@ -24,7 +24,7 @@ router.get('/item-search', (req, res) => {
 
 router.get('/item-search/:id', apiController.single_item_search_get);
 
-router.get('/search', apiController.search_get);
+router.post('/search', apiController.search_post);
 
 router.get('/caphras-calc', apiController.caphras_calc_get);
 

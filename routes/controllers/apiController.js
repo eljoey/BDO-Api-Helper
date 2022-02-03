@@ -87,7 +87,7 @@ exports.single_item_search_get = (req, res, next) => {
   apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, handleDataCallback);
 };
 
-exports.search_get = (req, res, next) => {
+exports.search_post = (req, res, next) => {
   const region = req.query.region;
   const ids = req.body.ids;
 
