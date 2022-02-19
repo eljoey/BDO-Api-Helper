@@ -9,6 +9,7 @@ const apiConfig = require('../../utils/apiConifg');
 exports.prices_get = (req, res, next) => {
   const region = req.query.region;
   const category = req.params.category;
+  const lang = req.query.lang || 'en';
 
   const validCategories = ['cooking', 'alchemy', 'fish'];
   const validRegions = validItems.regions;
@@ -31,7 +32,7 @@ exports.prices_get = (req, res, next) => {
 
   let ids = matInfo[category].map((item) => item.id);
 
-  const parallelApiCalls = helpers.parallelSetup(ids, region);
+  const parallelApiCalls = helpers.parallelSetup(ids, region, lang);
   async.parallelLimit(parallelApiCalls, 50, (err, results) => {
     if (err) {
       console.log(err);
@@ -47,6 +48,7 @@ exports.single_item_search_get = (req, res, next) => {
   const region = req.query.region;
   const id = req.params.id;
   const enhLevel = req.query.enhLevel || 0;
+  const lang = req.query.lang || 'en';
 
   // Validation
   const validRegions = validItems.regions;
@@ -84,12 +86,13 @@ exports.single_item_search_get = (req, res, next) => {
     res.send(dataFormatted);
   };
 
-  apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, handleDataCallback);
+  apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, handleDataCallback, lang);
 };
 
 exports.search_post = (req, res, next) => {
   const region = req.query.region;
   const ids = req.body.ids;
+  const lang = req.query.lang || 'en';
 
   const validRegions = validItems.regions;
 
@@ -105,7 +108,7 @@ exports.search_post = (req, res, next) => {
     });
   }
 
-  const parallelApiCalls = helpers.parallelSetup(ids, region);
+  const parallelApiCalls = helpers.parallelSetup(ids, region, lang);
 
   async.parallelLimit(parallelApiCalls, 50, (err, results) => {
     if (err) {
@@ -166,7 +169,7 @@ exports.caphras_calc_get = (req, res, next) => {
     });
   }
 
-  const getCaphrasPrice = helpers.parallelSetup([721003], region);
+  const getCaphrasPrice = helpers.parallelSetup([721003], region, lang);
   async.parallel(getCaphrasPrice, (err, results) => {
     const caphrasPrice = helpers.formatData(results)[0].price;
     const caphrasNeeded = helpers.caphrasNeeded(

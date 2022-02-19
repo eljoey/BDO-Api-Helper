@@ -17,7 +17,7 @@ const getUrl = (route, region) => {
   return url;
 };
 
-const createConfig = (route, region, dataObj) => {
+const createConfig = (route, region, dataObj, lang = 'en') => {
   regionConfigs = {
     cookie: {
       na: config.NA_COOKIE,
@@ -28,12 +28,18 @@ const createConfig = (route, region, dataObj) => {
       eu: config.EU_TOKEN,
     },
   };
+  const language = {
+    'de': 'de-DE',
+    'en': 'en-US',
+    'fr': 'fr-FR',
+    'es': 'es-US'
+  };
 
   const apiConfig = {
     method: 'POST',
     url: getUrl(route, region),
     headers: {
-      Cookie: regionConfigs.cookie[region],
+      Cookie: `lang=${language[lang]}; ${regionConfigs.cookie[region]}`,
       'User-Agent':
         'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
     },
@@ -43,16 +49,15 @@ const createConfig = (route, region, dataObj) => {
     },
     json: true,
   };
-
   BDOApiConfig = apiConfig;
 };
 
-const bdoApiCall = (route, region, dataObj, callback) => {
-  createConfig(route, region, dataObj);
+const bdoApiCall = (route, region, dataObj, callback, lang) => {
+  createConfig(route, region, dataObj, lang);
 
   // Cache Check to prevent clogging bdo's api and getting banned.  Works for all calls
   const dataEntries = Object.entries(dataObj);
-  let cacheKey = `${region}/`;
+  let cacheKey = `${region}&${lang}/`;
   for (const [key, value] of dataEntries) {
     cacheKey = cacheKey + key + value;
   }

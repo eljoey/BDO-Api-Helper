@@ -6,10 +6,10 @@ const offhandStats = require('../data/OffhandStats.json');
 const caphraAp = require('../data/CaphrasAp.json');
 const upgradeIds = require('../data/UpgradeIds.json');
 
-const parallelSetup = (idArr, region) => {
+const parallelSetup = (idArr, region, lang) => {
   const parallelCalls = idArr.map((id) => {
     return (callback) =>
-      apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, callback);
+      apiConfig.bdoApiCall('ItemInfo', region, { mainKey: id }, callback, lang);
   });
 
   return parallelCalls;

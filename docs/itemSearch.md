@@ -2,12 +2,13 @@
 
 Get the details of the marketplace info for the desired item
 
-**URL** : `/api/item-search/:id?enhLevel=ENHANCELEVEL&region=YOURREGION`
+**URL** : `/api/item-search/:id?enhLevel=ENHANCELEVEL&region=YOURREGION&lang=YOURLANG`
 
 **URL Queries** :
 
 - `region` where `region` is either na or eu (case sensitive, must be lowercase). This is `required`.
 - `enhLevel` where `enhLevel` is the enhancement level of the desired item. `Optional`, defaults to 0.
+- `lang` where `lang` is either en (english), es (spanish), de (german) or fr (french). This is optional, default is en
 
 **Method** : `GET`
 

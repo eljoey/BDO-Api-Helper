@@ -4,7 +4,10 @@ Get the details of the marketplace info for the list of items sent in the body o
 
 **URL** : `/api/search?region=YOURREGION`
 
-**URL Queries** : `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
+**URL Queries** :
+
+- `region` where `region` is either na or eu (case sensitive, must be lowercase). This is required.
+- `lang` where `lang` is either en (english), es (spanish), de (german) or fr (french). This is optional, default is en
 
 **Method** : `POST`
 
