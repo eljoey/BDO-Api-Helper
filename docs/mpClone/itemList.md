@@ -32,6 +32,7 @@ For some reason BDO makes it go as following:
 | Ship                | 70   | (1 - 9)  |
 | Wagon               | 75   | (1 - 6)  |
 | Furniture           | 80   | (1 - 9)  |
+| Lightstone          | 85   | (1 - 5)  |
 
 **Method** : `GET`
 
