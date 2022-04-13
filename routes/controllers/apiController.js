@@ -121,7 +121,7 @@ exports.search_post = (req, res, next) => {
 };
 
 exports.caphras_calc_get = (req, res, next) => {
-  const { item, enhLevel, curLevel, desiredLevel, region } = req.query;
+  const { item, enhLevel, curLevel, desiredLevel, region, lang } = req.query;
 
   const validRegions = validItems.regions;
   const validItemEntry = [
