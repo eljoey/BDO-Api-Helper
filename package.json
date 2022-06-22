@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/eljoey/BDO-Api-Helper#readme",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
