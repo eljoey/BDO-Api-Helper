@@ -30,7 +30,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mailgen": "^2.0.14",
     "memory-cache": "^0.2.0",
     "mongoose": "^5.10.10",
